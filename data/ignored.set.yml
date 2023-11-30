@@ -1,0 +1,17 @@
+# Symbol codes used in our "set" catalogue which are expected to not exist on Scryfall
+
+ignored:
+- .extras
+- XDUELS
+- ARENA
+- PLEAF
+- CONF
+- MTGA
+- MTGO
+- PMTG
+- XBOX
+- DCI
+- Y22
+- Y23
+- Y24
+- IDW
