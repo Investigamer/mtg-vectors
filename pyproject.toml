@@ -14,12 +14,73 @@ pyyaml = "^6.0.1"
 commitizen = "^3.12.0"
 
 [tool.commitizen]
-name = "mtg-vectors"
+name = "cz_customize"
+version = "0.1.0"
 tag_format = "v$version"
 update_changelog_on_bump = true
 version_files = [
     "pyproject.toml:version"
 ]
+
+[tool.commitizen.customize]
+message_template = "{{change_type}}({{scope}}):{% if show_message %} {{message}}{% endif %}"
+example = 'edit: Modified a symbol or multiple symbols.'
+schema = "<type>: <body>"
+schema_pattern = "(edit|add|delete|routing|docs|style|test|refactor|fix|feat):(\\s.*)"
+bump_pattern = "^(edit|add|delete|routing|docs|style|test|refactor|fix|feat)"
+commit_parser = "^(?P<change_type>edit|add|delete|routing|docs|style|test|refactor|fix|feat):\\s(?P<message>.*)?"
+changelog_pattern = "^(edit|add|delete|routing|docs|style|test|refactor|fix|feat)?(!)?"
+change_type_map = { edit = "Edit", add = "Add", delete = "Delete", routing = "Routing", docs = "Docs", style = "Style", test = "Test", refactor = "Refactor", fix = "Fix", feat = "Feat" }
+bump_map = { edit = "PATCH", add = "MINOR", delete = "MINOR", routing = "MAJOR", docs = "PATCH", style = "PATCH", test = "PATCH", refactor = "PATCH", fix = "PATCH", feat = "MINOR" }
+change_type_order = ["BREAKING CHANGE", "feat", "fix", 'add', 'edit', 'delete', 'routing', "refactor", 'docs', 'style', 'test']
+
+[[tool.commitizen.customize.questions]]
+type = "list"
+name = "change_type"
+choices = [
+   { value = "edit", name = 'edit: Modified a symbol or multiple symbols.' },
+   { value = "add", name = 'add: Added a symbol or multiple symbols.' },
+   { value = "delete", name = 'delete: Deleted a symbol or multiple symbols.' },
+   { value = "routing", name = 'routing: Updated the routing or naming conventions used for an existing symbol or symbols.' },
+   { value = "docs", name = 'docs: Updated repository documentation, comments, or notes.' },
+   { value = "style", name = 'style: Made changes that do not affect the meaning of code or any SVG files.' },
+   { value = "test", name = 'test: Added or modified existing tests.' },
+   { value = "refactor", name = 'refactor: Made code changes that are neither a bug-fix or a new feature.' },
+   { value = "fix", name = 'fix: Fixed a code bug or fixed an incorrect route or data file.' },
+   { value = "feat", name = 'feat: Introduced a new code related feature or a new category of vectors.' }
+]
+message = "Select the type of change you are committing"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "scope"
+message = "Scope (optional):"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "subject"
+message = "Write a short, imperative, one-sentence description of the change:"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "body"
+message = "Provide a longer description of the change (optional). Use '|' to break new lines:"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "footer"
+message = "Footer (optional). Information about Breaking Changes and reference issues that this commit closes:"
+
+[[tool.commitizen.customize.questions]]
+type = "confirm"
+name = "is_breaking_change"
+message = "Does this commit introduce a breaking change?"
+default = false
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "breaking_change_description"
+message = "If yes, please describe the breaking change:"
 
 [build-system]
 requires = ["poetry-core"]
