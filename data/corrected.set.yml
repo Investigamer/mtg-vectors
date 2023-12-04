@@ -1,0 +1,6 @@
+# Sets defined as incorrect symbol in Scryfall data
+PDP10: DPA
+PDP12: DPA
+PARL: DEFAULT
+PSDC: M14
+PS14: M15

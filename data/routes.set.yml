@@ -4,78 +4,77 @@
 # ------------------------------
 # * Base Definitions
 # ------------------------------
-# A R E N A used in PAL01 is ARENA
-# M with Circle is PMTG
-# Secret Lair is SLD
+# A R E N A used in PAL01 is PARL2
+# M with Circle is DEFAULT
+# Secret Lair is STAR
 # MTG Online is MTGO
-# Judge Gift is J20
+# Judge Gift is ARCHIE
 # MTG Arena is MTGA
 # Cube is PZ1
-GAME: XBOX
-MTG: PZ1
+# Xbox Remove is PXBOX
 
 # ------------------------------
 # * Gift Pack
 # ------------------------------
-G17: SLD
+G17: STAR
 G18: M19
 
 # ------------------------------
 # * Oversized Promos
 # ------------------------------
-O90P: SLD
-OLEP: SLD
+O90P: STAR
+OLEP: STAR
 
 # ------------------------------
 # * Love Your LGS
 # ------------------------------
-PLG20: SLD
-PLG21: SLD
-PLG22: SLD
+PLG20: STAR
+PLG21: STAR
+PLG22: STAR
 
 # ------------------------------
 # * Resale Promos
 # ------------------------------
-PRES: SLD
+PRES: STAR
 
 # ------------------------------
 # * Standard Showdown
 # ------------------------------
 PSS1: BFZ
-PSS2: SLD
-PSS3: SLD
+PSS2: STAR
+PSS3: STAR
 
 # ------------------------------
 # * Summer Vacation Promos
 # ------------------------------
-PSVC: SLD
+SUM: PSUM
+PSVC: STAR
 
 # ------------------------------
 # * Pioneer Challenger Decks
 # ------------------------------
-Q06: SLD
-Q07: SLD
+Q06: STAR
+Q07: STAR
 
 # ------------------------------
 # * 15th Anniversary
 # ------------------------------
-# TODO: Has two different symbols
 P15A: DCI
 
 # ------------------------------
 # * 30th Anniversary
 # ------------------------------
-P30A: SLD
-P30H: SLD
-P30M: SLD
-P30T: SLD
+P30A: STAR
+P30H: STAR
+P30M: STAR
+P30T: STAR
 
 # ------------------------------
 # * Clash Pack
 # ------------------------------
-CP1: SLD
-CP2: SLD
-CP3: SLD
+CP1: STAR
+CP2: STAR
+CP3: STAR
 
 # -----------------------------
 # * Duels of the Planeswalkers
@@ -85,26 +84,19 @@ PDP12: DPA
 PDP13: M13
 PDP14: M14
 PDP15: M15
-PDTP: XBOX
-
-# -----------------------------
-# * IDW Comics
-# -----------------------------
-PIDW: IDW
-PI13: IDW
-PI14: IDW
+PDTP: PXBOX
 
 # ------------------------------
 # * Magic Encyclopedia (Salvat)
 # ------------------------------
-PSALVAT05: PSAL
-PSALVAT11: PS11
-PHUK: PSAL
+PSAL: PHUK
+PS11: PSAL
 
 # ------------------------------
 # * Magic Premiere Shop
 # ------------------------------
-PMPS06: PMTG
+PMPS: RAV
+PMPS06: DEFAULT
 PMPS07: PMPS
 PMPS08: PMPS
 PMPS09: PMPS
@@ -120,17 +112,6 @@ ITP: X2PS
 # * Book Promos / HarperPrism
 # ------------------------------
 PHPR: PBOOK
-
-# ------------------------------
-# * Sega Dreamcast Cards
-# ------------------------------
-PSDG: PSEGA
-
-# ------------------------------
-# * Collectors' Edition
-# ------------------------------
-CED: XCLE
-CEI: XICE
 
 # ------------------------------
 # * Vanguard Series
@@ -150,16 +131,9 @@ PMIC: PAST
 MGB: VIS
 
 # ------------------------------
-# * Renaissance
-# ------------------------------
-REN: XREN
-RIN: XRIN
-
-# ------------------------------
 # * Media Inserts
 # ------------------------------
-# TODO: Different symbols for different years
-PMEI: SLD
+PMEI: STAR
 
 # ------------------------------
 # * Land Programs (Euro / APAC)
@@ -170,12 +144,12 @@ PELP: PEURO
 # ------------------------------
 # * Celebration Cards
 # ------------------------------
-PCEL: SLD
+PCEL: STAR
 
 # ------------------------------
 # * Happy Holidays
 # ------------------------------
-HHO: SLD
+HHO: STAR
 
 # ------------------------------
 # * Planechase
@@ -187,40 +161,39 @@ PHOP: DCI
 # ------------------------------
 
 # Vintage Championship
-# TODO: OVNT uses a mix of symbols
-OVNT: SLD
+OVNT: STAR
 
 # Legacy Championship
-OLGC: SLD
+OLGC: STAR
 
 # World Cup Magic Qualifiers
-WMC: SLD
+WMC: STAR
 
 # Store Championship
-SCH: SLD
+SCH: STAR
 
 # 2023 Regionals
-PRCQ: SLD
-PR23: SLD
+PRCQ: STAR
+PR23: STAR
 
 # Grand Prix
-PGPX: SLD
+PGPX: STAR
 
 # Two-Headed Giant
 P2HG: DCI
 
 # 2018 Nationals
-PNAT: SLD
+PNAT: STAR
 
 # Pro Tour
-PPRO: SLD
-PTC: PMTG
+PPRO: STAR
+PTC: DEFAULT
 
 # Planeswalker Championship
-PWCS: SLD
+PWCS: STAR
 
 # Game Day
-GDY: SLD
+GDY: STAR
 
 # Gateway Promos
 PGTW: DCI
@@ -228,10 +201,10 @@ PG07: DCI
 PG08: DCI
 
 # Chinese Zodiac Promos
-PL21: SLD
-PL22: SLD
-PL23: SLD
-PLNY: SLD
+PL21: STAR
+PL22: STAR
+PL23: STAR
+PLNY: STAR
 
 # Junior Super Series
 PSUS: DCI
@@ -240,54 +213,51 @@ PJJT: DCI
 PJSE: DCI
 
 # Eternal Weekend
-PEWK: SLD
+PEWK: STAR
 
 # Magic x Duel Masters Promos
-PMDA: SLD
+PMDA: STAR
 
 # World Championship decks
-# TODO: Some are weird tokens, some are cards with varying symbols
-WC04: PMTG
-WC03: PMTG
-WC02: PMTG
-WC01: PMTG
-WC00: PMTG
-WC99: PMTG
-WC98: PMTG
-WC97: PMTG
+WC04: DEFAULT
+WC03: DEFAULT
+WC02: DEFAULT
+WC01: DEFAULT
+WC00: DEFAULT
+WC99: DEFAULT
+WC98: DEFAULT
+WC97: DEFAULT
 
 # World Championship Promos
-# TODO: Uses different symbols
-PWOR: SLD
+PWOR: STAR
 
 # Champs and States
-# TODO: No symbol
-PCMP: PMTG
+PCMP: DEFAULT
 
 # Hobby Japan Promos
-# TODO: Different symbols for each
-PHJ: PMTG
+PHJ: DEFAULT
 
 # Redemption Program
-# TODO: No symbol
-PRED: PMTG
+PRED: DEFAULT
 
 # ------------------------------
 # * Secret Lair
 # ------------------------------
-SLX: SLD
-SLC: SLD
-SLU: SLD
-SLP: SLD
-HED: SLD
-# TODO: PHED -> PCTB Each has different symbols
-PHED: SLD
-PAGL: SLD
-PCTB: SLD
+SLD: STAR
+SLX: STAR
+SLC: STAR
+SLU: STAR
+SLP: STAR
+HED: STAR
+# Secret Lair Promo Decks
+PHED: STAR
+PAGL: STAR
+PCTB: STAR
 
 # ------------------------------
 # * Friday Night Magic
 # ------------------------------
+FNM: DCI
 F01: DCI
 F02: DCI
 F03: DCI
@@ -298,21 +268,19 @@ F07: DCI
 F08: DCI
 F09: DCI
 F10: DCI
-F11: SLD
-F12: SLD
-F13: SLD
-F14: SLD
-F15: SLD
-F16: SLD
-F17: SLD
-F18: SLD
+F11: STAR
+F12: STAR
+F13: STAR
+F14: STAR
+F15: STAR
+F16: STAR
+F17: STAR
+F18: STAR
 
 # ------------------------------
 # Judge Gift Program
 # ------------------------------
-# TODO: JGP uses a mix of symbols
 JGP: DCI
-# TODO: G99 is one card with 6ED common as rare
 G99: 6ED
 G00: DCI
 G01: DCI
@@ -325,21 +293,19 @@ G07: DCI
 G08: DCI
 G09: DCI
 G10: DCI
-# TODO: G11 uses a mix of symbols
 G11: DCI
-J12: SLD
-# TODO: J13 uses a mix of symbols
-J13: SLD
-J14: SLD
-J15: SLD
-J16: SLD
-# TODO: J17 uses a mix of symbols
-J17: SLD
-J18: SLD
-J19: SLD
-PJ21: J20
-P22: J20
-P23: J20
+J12: STAR
+J13: STAR
+J14: STAR
+J15: STAR
+J16: STAR
+J17: STAR
+J18: STAR
+J19: STAR
+J20: ARCHIE
+PJ21: ARCHIE
+P22: ARCHIE
+P23: ARCHIE
 
 # ------------------------------
 # * Magic Player Rewards
@@ -350,24 +316,23 @@ P03: DCI
 P04: DCI
 P05: DCI
 P06: DCI
-# TODO: P07-P11 have no official symbol or use previous print symbol
-P07: PMTG
-P08: PMTG
-P09: PMTG
-P10: PMTG
-P11: PMTG
+P07: DEFAULT
+P08: DEFAULT
+P09: DEFAULT
+P10: DEFAULT
+P11: DEFAULT
 
 # ------------------------------
 # * Heroes of the Realm
 # ------------------------------
-HTR: SLD
-HTR17: SLD
-PHTR: SLD
-PH17: SLD
-PH18: SLD
-PH19: SLD
-PH20: SLD
-PH21: SLD
+HTR: STAR
+HTR17: STAR
+PHTR: STAR
+PH17: STAR
+PH18: STAR
+PH19: STAR
+PH20: STAR
+PH21: STAR
 
 # ------------------------------
 # * Modern Horizons
@@ -382,49 +347,46 @@ H1R: MH1
 PSDC: M14
 PS14: M15
 PS15: ORI
-# TODO: PS16-PS18 have multiple symbols
-PS16: SLD
-PS17: SLD
-PS18: SLD
+PS16: STAR
+PS17: STAR
+PS18: STAR
 PS19: WAR
 
 # URL Convention Promo
-PURL: SLD
+PURL: STAR
 
 # Magic Fest
-PF19: SLD
-PF20: SLD
-PF21: SLD
-PF23: SLD
+PF19: STAR
+PF20: STAR
+PF21: STAR
+PF23: STAR
+PF24: STAR
 
 # ------------------------------
 # * DCI / Wizards Play Network
 # ------------------------------
-# TODO: PDCI uses a mix of symbols
 PDCI: DCI
-PW11: SLD
-PW12: SLD
-PW21: SLD
-PW22: SLD
-PW23: SLD
-PW24: SLD
+PW11: STAR
+PW12: STAR
+PW21: STAR
+PW22: STAR
+PW23: STAR
+PW24: STAR
 
 # Wizards of the Coast Online Store
-PWOS: PMTG
+PWOS: DEFAULT
 
 # DCI Legend Membership
-PLGM: PMTG
+PLGM: DEFAULT
 
 # ------------------------------
 # * Arena League
 # ------------------------------
-PARL: PMTG
+PARL: DEFAULT
 PAL99: USG
-# TODO: PAL00 Uses different symbols for each card
-PAL00: ARENA
-PAL01: ARENA
-# TODO: PAL02 Uses a mix of symbols
-PAL02: ARENA
+PAL00: PARL2
+PAL01: PARL2
+PAL02: DCI
 PAL03: DCI
 PAL04: DCI
 PAL05: DCI
@@ -435,7 +397,6 @@ PAL06: DCI
 # ------------------------------
 
 # MTGO PROMOS
-# TODO: PRM has a mix of symbols
 PRM: MTGO
 
 # MTGO AVATARS
@@ -446,7 +407,6 @@ PMOA: MTGO
 # ------------------------------
 
 # Arena New Player Experience
-# TODO: ANA has a mix of symbols
 ANA: MTGA
 OANA: MTGA
 XANA: MTGA
@@ -463,7 +423,6 @@ EA2: MTGA
 EA3: MTGA
 
 # MTGA Historic Anthology
-# TODO: All of these use different symbols, also needs rarities filled out
 HA2: HA1
 HA3: HA1
 HA4: HA1
@@ -509,9 +468,8 @@ FBB: 3ED
 4BB: 4ED
 # M15 Promo Pack
 PPC1: M15
-ORI: 
 # M20 Promo Pack
-PPP1: SLD
+PPP1: STAR
 
 # ------------------------------
 # * Expansions
@@ -521,7 +479,6 @@ PPP1: SLD
 CST: CSP
 
 # Anthologies
-# TODO: ATH Different symbol each card
 
 # Time Spiral Block
 TSB: TSP
@@ -542,17 +499,16 @@ PTKDF: DTK
 PXTC: XLN
 
 # Guilds of Ravnica
-# TODO: Symbols based on guild
 PRWK: GRN
 GK1: GRN
 PRW2: RNA
 GK2: RNA
 
 # Innistrad MID / VOW
-DBL: SLD
+DBL: STAR
 
 # Dominaria United
-WDMU: SLD
+WDMU: STAR
 
 # ------------------------------
 # * Sets with bad Windows names
@@ -561,18 +517,12 @@ CON: CONF
 PCON: CONF
 
 # ------------------------------
-# * Sets with no Symbol - SLD
+# * Sets with no official symbol / mixed symbols
 # ------------------------------
-# TODO: These sets don't have a symbol or use their original symbols
-MB1: SLD
-CMB1: SLD
-CMB2: SLD
-FMB1: SLD
-PLIST: SLD
-UPLIST: SLD
-
-# ------------------------------
-# * Sets with no Symbol - PMTG
-# ------------------------------
-# TODO: Sets don't have a symbol, using default (M)
-RQS: PMTG
+MB1: DEFAULT
+CMB1: DEFAULT
+CMB2: DEFAULT
+FMB1: DEFAULT
+PLIST: DEFAULT
+UPLIST: DEFAULT
+RQS: DEFAULT

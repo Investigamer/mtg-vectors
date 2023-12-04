@@ -1,0 +1,76 @@
+# MTG sets that contain a mix of symbols
+
+mixed:
+  - P15A
+  - PMEI
+  - # Vintage World Championship
+  - OVNT
+  # World championship
+  - WC04
+  - WC03
+  - WC02
+  - WC01
+  - WC00
+  - WC99
+  - WC98
+  - WC97
+  # World Championship Promos
+  - PWOR
+  - PHJ
+  # Secret Lair Promo Decks
+  - PHED
+  - PAGL
+  - PCTB
+  # Judge Promos
+  - JGP
+  - G99
+  - G11
+  - J13
+  - J17
+  # Magic Player Rewards
+  # No official symbol or previous print
+  - P09
+  - P10
+  - P11
+  # San Diego Comicon
+  - PS16
+  - PS17
+  - PS18
+  # DCI / Wizards Play Network
+  - PDCI
+  # Arena League
+  - PAL00
+  - PAL02
+  # Magic Online Promos
+  - PRM
+  # Arena New Player Experience
+  - ANA
+  # MTGA Historic Anthology
+  # Uses different symbols, needs rarities filled
+  - HA1
+  - HA2
+  - HA3
+  - HA4
+  - HA5
+  - HA6
+  - HA7
+  # Anthologies
+  - ATH
+  # Guilds of Ravnica
+  # Symbols based on guilds
+  - PRWK
+  - GK1
+  - PRW2
+  - GK2
+  # Misc sets with no official symbol
+  # OR reprint using original symbol
+  - MB1
+  - CMB1
+  - CMB2
+  - FMB1
+  - PLIST
+  - UPLIST
+  # Celebration Cards
+  - PCEL
+  # Friday Night Magic
+  - FNM
