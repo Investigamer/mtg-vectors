@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mtg-vectors"
-version = "0.2.0"
+version = "0.3.0"
 description = "A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols."
 authors = ["Investigamer <freethoughtleft@gmail.com>"]
 license = "MPL-2.0"
@@ -14,7 +14,7 @@ pyyaml = "^6.0.1"
 commitizen = "^3.12.0"
 
 [tool.commitizen]
-version = "0.2.0"
+version = "0.3.0"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
 update_changelog_on_bump = true
