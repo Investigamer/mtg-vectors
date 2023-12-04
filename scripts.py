@@ -6,25 +6,21 @@
 import os
 from pathlib import Path
 from pprint import pprint
-from typing import Union, Optional, TypedDict
+from typing import Optional, TypedDict
+from datetime import datetime
 
 # Third Party Imports
 import requests
-import yaml
 import yarl
 
-# Empty data objects
-CORRECTED_SET = {}
-EMPTY_SET = []
-IGNORED_SET = []
-MISSING_SET = []
-MIXED_SET = []
-ROUTES_SET = {}
+# Local Imports
+from utils import load_data_file, dump_data_file
 
 # Paths
 PATH_ROOT = Path(os.getcwd())
 PATH_SET = PATH_ROOT / 'svg' / 'set'
 PATH_DATA = PATH_ROOT / 'data'
+PATH_PROJECT = PATH_ROOT / 'pyproject.toml'
 PATH_ALIAS_SET = PATH_DATA / 'alias.set.yml'
 PATH_CORRECTED_SET = PATH_DATA / 'corrected.set.yml'
 PATH_EMPTY_SET = PATH_DATA / 'empty.set.yml'
@@ -32,6 +28,23 @@ PATH_IGNORED_SET = PATH_DATA / 'ignored.set.yml'
 PATH_MISSING_SET = PATH_DATA / 'missing.set.yml'
 PATH_MIXED_SET = PATH_DATA / 'mixed.set.yml'
 PATH_ROUTES_SET = PATH_DATA / 'routes.set.yml'
+PATH_MANIFEST_SET = PATH_DATA / 'manifest.set.json'
+
+# Empty data objects
+ALIAS_SET = load_data_file(PATH_ALIAS_SET)
+CORRECTED_SET = load_data_file(PATH_CORRECTED_SET)
+EMPTY_SET = load_data_file(PATH_EMPTY_SET).get('empty', [])
+IGNORED_SET = load_data_file(PATH_IGNORED_SET).get('ignored', [])
+MISSING_SET = load_data_file(PATH_MISSING_SET)
+MIXED_SET = load_data_file(PATH_MIXED_SET).get('mixed', [])
+ROUTES_SET = dict(sorted(load_data_file(PATH_ROUTES_SET).items()))
+
+# Project data
+__DATE__ = datetime.now()
+__DATE_NOW__ = __DATE__.strftime('%Y-%m-%d')
+__PROJECT__ = load_data_file(PATH_PROJECT)
+__VERSION_RAW__ = __PROJECT__.get('tool', {}).get('poetry', {}).get('version', '1.0.0')
+__VERSION__ = f'{__VERSION_RAW__}+{__DATE__.strftime("%Y%m%d")}'
 
 
 class SetDetails(TypedDict):
@@ -43,22 +56,17 @@ class SetDetails(TypedDict):
     name: str
 
 
-"""
-* UTIL Funcs
-"""
+class SetManifestMeta(TypedDict):
+    """Set manifest metadata details."""
+    date: str
+    version: str
+    routes: dict[str, str]
 
 
-def load_data_file(path: Path) -> Union[list, dict]:
-    """Return a loaded object from a given data file.
-
-    Args:
-        path: Path to the data file (YAML only).
-
-    Returns:
-        Loaded object (a list or a dict).
-    """
-    with open(path, 'r', encoding='utf-8') as f:
-        return yaml.load(f, Loader=yaml.Loader)
+class SetManifest(TypedDict):
+    """Set manifest details."""
+    meta: SetManifestMeta
+    symbols: dict[str, list[str]]
 
 
 """
@@ -83,15 +91,17 @@ def get_all_sets() -> list[SetDetails]:
 
 
 def get_defined_sets() -> tuple[list[str], dict[str, str]]:
-    """Get a list of all defined sets and a list of replacement sets."""
+    """Get a list of all defined sets and a list of replacement sets.
+
+    Returns:
+        Tuple containing a list of all set codes and a reverse dictionary of known set routes
+    """
     return [
         # All set codes
         n.lower() for n in list(ROUTES_SET.keys())
     ], {
         # All sets to replace with a parent code
-        k.lower(): v.lower() for k, v
-        in ROUTES_SET.items()
-        if isinstance(v, str) and len(v) > 1
+        k.lower(): v.lower() for k, v in ROUTES_SET.items()
     }
 
 
@@ -289,6 +299,33 @@ def compare_sets_and_symbols() -> list[tuple[str, Optional[str], str]]:
     return results
 
 
+def generate_manifest() -> None:
+    """Generates a manifest of all symbols in the repository."""
+    manifest: SetManifest = {
+        'meta': {
+            'date': __DATE_NOW__,
+            'version': __VERSION__,
+            'routes': ROUTES_SET.copy()
+        },
+        'symbols': {}
+    }
+    ignored = ['.alt', '.extras']
+    approved = ['c.svg', 'u.svg', 'r.svg', 'm.svg', '80.svg', 'wm.svg', 't.svg', 'b.svg', 's.svg', 'h.svg']
+    svg_path = Path(os.getcwd(), 'svg', 'set')
+    for folder in os.listdir(svg_path):
+        if folder in ignored:
+            continue
+        svg_dir = Path(svg_path, folder)
+        rarities: list[str] = []
+        for svg in os.listdir(svg_dir):
+            if svg.lower() not in approved:
+                continue
+            rarities.append(Path(svg).stem)
+        manifest['symbols'][folder] = rarities.copy()
+    manifest['symbols'] = dict(sorted(manifest['symbols'].items())).copy()
+    dump_data_file(manifest, PATH_MANIFEST_SET, config={'sort_keys': False})
+
+
 """
 * Launch Script
 """
@@ -296,25 +333,4 @@ def compare_sets_and_symbols() -> list[tuple[str, Optional[str], str]]:
 if __name__ == '__main__':
 
     # Load our data
-    ALIAS_SET = load_data_file(PATH_ALIAS_SET)
-    CORRECTED_SET = load_data_file(PATH_CORRECTED_SET)
-    EMPTY_SET = load_data_file(PATH_EMPTY_SET).get('empty', [])
-    IGNORED_SET = load_data_file(PATH_IGNORED_SET).get('ignored', [])
-    MISSING_SET = load_data_file(PATH_MISSING_SET)
-    MIXED_SET = load_data_file(PATH_MIXED_SET).get('mixed', [])
-    ROUTES_SET = load_data_file(PATH_ROUTES_SET)
-
-    # Check misnamed symbol codes
-    print("MISNAMED SYMBOLS:")
-    print("=" * 120)
-    pprint(compare_sets_and_symbols())
-    print("=" * 120)
-
-    # Get unused set symbols
-    print("UNUSED SYMBOLS:")
-    print("=" * 120)
-    pprint(get_unused_vectors_set())
-    print("=" * 120)
-
-    # Analyze missing sets
-    analyze_missing_vectors_set()
+    generate_manifest()
