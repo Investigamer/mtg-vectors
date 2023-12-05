@@ -1,7 +1,8 @@
 {
   "meta": {
     "date": "2023-12-04",
-    "version": "0.2.0+20231204",
+    "version": "0.3.0+20231204",
+    "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package/set.zip",
     "routes": {
       "4BB": "4ED",
       "ANA": "MTGA",

@@ -14,12 +14,13 @@ import requests
 import yarl
 
 # Local Imports
-from utils import load_data_file, dump_data_file
+from utils import load_data_file, dump_data_file, create_zip
 
 # Paths
 PATH_ROOT = Path(os.getcwd())
 PATH_SET = PATH_ROOT / 'svg' / 'set'
 PATH_DATA = PATH_ROOT / 'data'
+PATH_PACKAGE = PATH_ROOT / 'package'
 PATH_PROJECT = PATH_ROOT / 'pyproject.toml'
 PATH_ALIAS_SET = PATH_DATA / 'alias.set.yml'
 PATH_CORRECTED_SET = PATH_DATA / 'corrected.set.yml'
@@ -46,6 +47,9 @@ __PROJECT__ = load_data_file(PATH_PROJECT)
 __VERSION_RAW__ = __PROJECT__.get('tool', {}).get('poetry', {}).get('version', '1.0.0')
 __VERSION__ = f'{__VERSION_RAW__}+{__DATE__.strftime("%Y%m%d")}'
 
+# URI's
+PACKAGE_SET_URI = 'https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package/set.zip'
+
 
 class SetDetails(TypedDict):
     """Set details dictionary."""
@@ -60,6 +64,7 @@ class SetManifestMeta(TypedDict):
     """Set manifest metadata details."""
     date: str
     version: str
+    uri: type[PACKAGE_SET_URI]
     routes: dict[str, str]
 
 
@@ -305,6 +310,7 @@ def generate_manifest() -> None:
         'meta': {
             'date': __DATE_NOW__,
             'version': __VERSION__,
+            'uri': PACKAGE_SET_URI,
             'routes': ROUTES_SET.copy()
         },
         'symbols': {}
@@ -324,6 +330,7 @@ def generate_manifest() -> None:
         manifest['symbols'][folder] = rarities.copy()
     manifest['symbols'] = dict(sorted(manifest['symbols'].items())).copy()
     dump_data_file(manifest, PATH_MANIFEST_SET, config={'sort_keys': False})
+    create_zip(PATH_SET, Path(PATH_PACKAGE, 'set.zip'))
 
 
 """
