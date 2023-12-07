@@ -1,0 +1,13 @@
+# List of all accepted rarities
+
+rarities:
+  - '80'
+  - 'B'
+  - 'C'
+  - 'H'
+  - 'M'
+  - 'R'
+  - 'S'
+  - 'T'
+  - 'U'
+  - 'WM'

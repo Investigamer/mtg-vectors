@@ -2,10 +2,10 @@
 A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols.
 
 # Python Scripts
-This repository includes configuration for a small Python project, the scope of which is contained 
-within the `scripts.py` file. These Python scripts are purely for checking our existing symbols against 
-a variety of Magic the Gathering data sources to detect when new symbols exist that haven't been catalogued 
-in this repository.
+This repository includes configuration for a small Python project, the scope of which is mostly contained 
+within the `src` directory and executed via the `scripts.py` file. These Python scripts provide utilities 
+to check our existing symbol catalogue against a variety of Magic the Gathering data sources to detect when 
+new symbols emerge that haven't been catalogued in this repository.
 
 # Python Setup (Poetry)
 1. Install poetry if you don't have it. The favorite method for installing poetry is using pipx to install poetry

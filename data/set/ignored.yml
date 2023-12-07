@@ -1,8 +1,8 @@
 # Symbol codes used in our "Set" catalogue which are expected to not exist on Scryfall
 
 ignored:
-- .extras
-- .alt
-- CONF
-- PCEL
-- OVNT
+  - '.extras'
+  - '.alt'
+  - 'CONF'
+  - 'PCEL'
+  - 'OVNT'
