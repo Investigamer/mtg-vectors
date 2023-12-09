@@ -4,7 +4,6 @@
 # Standard Library Imports
 import os
 import json
-import tarfile
 import zipfile
 from pathlib import Path
 from typing import Optional, TypedDict, Callable, Union

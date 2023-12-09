@@ -8,46 +8,23 @@ from pathlib import Path
 from pprint import pprint
 
 # Local Imports
-from src.symbols_set import get_all_sets, check_code_recognized
-from src.types import SetManifest
-from src.utils import dump_data_file, create_zip
 from src.constants import Constants, Paths, SetPath, SetData, URI
+from src.symbols_set import get_missing_symbols_set
+from src.symbols_wm import get_missing_symbols_watermark, get_local_watermarks
+from src.types import Manifest
+from src.utils import dump_data_file, create_zip
+
 
 """
 * Analysis Scripts
 """
 
 
-def get_missing_symbols_set() -> dict[str, list[str]]:
-    """Get a tuple containing all the child and parent sets known to Scryfall that don't have a matching vector
-    symbol catalogued in this repository."""
-    all_sets, missing = get_all_sets(), {}
-
-    # Iterate through each set in the JSON data
-    for code, n in all_sets.items():
-
-        # Check if the set code is accounted for
-        check, _ = check_code_recognized(code)
-        if check:
-            continue
-
-        # Check if the set icon is accounted for
-        check, _ = check_code_recognized(n['icon'])
-        if check:
-            continue
-
-        # Add missing set
-        missing.setdefault(n['icon'].upper(), []).append(code)
-
-    # Return missing
-    return missing
-
-
 def analyze_missing_symbols_set() -> None:
     """Analyze any sets that don't have a matching vector symbol found in this repository.
 
     Notes:
-        Provides printed user feedback on top of the functionality of 'get_missing_vectors_set'.
+        Provides printed user feedback on top of the functionality of 'get_missing_symbols_set'.
     """
     # Get any missing sets
     missing = get_missing_symbols_set()
@@ -66,6 +43,51 @@ def analyze_missing_symbols_set() -> None:
     print("=" * 50)
 
 
+def analyze_missing_symbols_watermark() -> None:
+    """Analyze any watermarks that don't have a matching vector symbol found in this repository.
+
+    Notes:
+        Provides printed user feedback on top of the functionality of 'get_missing_symbols_watermark'.
+    """
+    # Get any missing sets
+    missing = get_missing_symbols_watermark()
+
+    # Missing parent sets
+    if missing:
+        print("=" * 50)
+        print("Missing Symbols and Matching Sets:")
+        print("=" * 50)
+        pprint(missing, width=50)
+        return
+
+    # All good
+    print("=" * 50)
+    print("NO SETS MISSING!")
+    print("=" * 50)
+
+
+def generate_markdown_missing() -> None:
+    """Generates the 'MISSING.md' file used in this repository."""
+    missing_set = [(k.upper(), v[0].lower()) for k, v in get_missing_symbols_set().items()]
+    missing_wm = get_missing_symbols_watermark()
+
+    # Add to MD file
+    with open(Paths.MD_MISSING, 'w', encoding='utf-8') as file:
+        file.write('# Missing Set Symbols\n')
+        file.write('| Symbol Code   | Links         |\n')
+        file.write('| ------------- | ------------- |\n')
+        for symbol, code in missing_set:
+            file.write(f'| {symbol.upper()} |'
+                       f'[SVG](https://svgs.scryfall.io/sets/{symbol.lower()}.svg), '
+                       f'[Cards](https://scryfall.com/sets/{code.lower()}) |\n')
+        file.write('\n# Missing Watermarks\n')
+        file.write('| Symbol Name   | Links         |\n')
+        file.write('| ------------- | ------------- |\n')
+        for wm in missing_wm:
+            file.write(f'| {wm.title()} |'
+                       f'[Cards](https://scryfall.com/search?q=watermark%3A{wm.lower()}) |\n')
+
+
 """
 * Build Scripts
 """
@@ -73,14 +95,20 @@ def analyze_missing_symbols_set() -> None:
 
 def generate_manifest() -> None:
     """Generates a manifest of all symbols in the repository."""
-    manifest: SetManifest = {
+    manifest: Manifest = {
         'meta': {
             'date': Constants.DATE_NOW,
             'version': Constants.VERSION_FULL,
-            'uri': URI.PKG_SET,
-            'routes': SetData.ROUTES.copy()
+            'uri': URI.PACKAGE
         },
-        'symbols': {}
+        'set': {
+            'routes': SetData.ROUTES.copy(),
+            'symbols': {}
+        },
+        'watermark': {
+            'routes': {},
+            'symbols': []
+        }
     }
 
     # Determine the supported rarities in each symbol directory
@@ -89,17 +117,22 @@ def generate_manifest() -> None:
         if folder in ['.alt', '.extras']:
             continue
         # Add rarities to manifest
-        manifest['symbols'][folder] = [
+        manifest['set']['symbols'][folder] = [
             Path(svg).stem for svg in
             os.listdir(Path(Paths.SET, folder))
             if svg.upper().strip('.svg') not in SetData.RARITIES]
 
-    # Sort manifest symbols and dump data file
-    manifest['symbols'] = dict(sorted(manifest['symbols'].items())).copy()
-    dump_data_file(manifest, SetPath.MANIFEST, config={'sort_keys': False})
+    # Sort Set Symbols
+    manifest['set']['symbols'] = dict(sorted(manifest['set']['symbols'].items())).copy()
 
-    # Create a zip ofd all symbols
-    create_zip(Paths.SET, Path(Paths.PKG, 'set.zip'))
+    # Create a sorted list of watermarks
+    manifest['watermark']['symbols'] = sorted(get_local_watermarks())
+
+    # Dump manifest file
+    dump_data_file(manifest, Paths.MANIFEST, config={'sort_keys': False})
+
+    # Create a zip of all symbols
+    create_zip(Paths.SVG, Paths.PACKAGE)
 
 
 """
@@ -109,4 +142,5 @@ def generate_manifest() -> None:
 if __name__ == '__main__':
 
     # Load our data
-    analyze_missing_symbols_set()
+    generate_markdown_missing()
+    generate_manifest()

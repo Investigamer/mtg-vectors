@@ -1,7 +1,6 @@
 """
 * Utils for Fetching and Processing 'Set' Data
 """
-
 # Local Imports
 import os
 from functools import cache
@@ -82,7 +81,7 @@ def check_code_recognized(code: str) -> tuple[bool, str]:
 """
 
 
-def get_unused_vectors_set() -> set[str]:
+def get_unused_symbols_set() -> set[str]:
     """Get a set (non-repeating list) of symbols in the repository not used by any known Scryfall 'Set' object."""
     return {
         # Get all icon directories not present in Scryfall icon list
@@ -93,3 +92,32 @@ def get_unused_vectors_set() -> set[str]:
             for code, n in get_all_sets().items()]
         ) and n not in SetData.IGNORED
     }
+
+
+def get_missing_symbols_set() -> dict[str, list[str]]:
+    """Get a dictionary of unrecognized SVG icons and their corresponding set codes.
+
+    Returns:
+        A dictionary where keys are unrecognized SVG icons and the values are a list of set codes
+            corresponding to the icon.
+    """
+    all_sets, missing = get_all_sets(), {}
+
+    # Iterate through each set in the JSON data
+    for code, n in all_sets.items():
+
+        # Check if the set code is accounted for
+        check, _ = check_code_recognized(code)
+        if check:
+            continue
+
+        # Check if the set icon is accounted for
+        check, _ = check_code_recognized(n['icon'])
+        if check:
+            continue
+
+        # Add missing set
+        missing.setdefault(n['icon'].upper(), []).append(code)
+
+    # Return missing
+    return missing

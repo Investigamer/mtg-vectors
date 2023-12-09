@@ -1,5 +1,7 @@
 # Magic the Gathering Vectors
-A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols.
+A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols. If you wish to 
+contribute to this repository, please check our [missing vectors list](/MISSING.md). This list is generated automatically every week 
+to ensure the repository remains updated as new symbols are released.
 
 # Python Scripts
 This repository includes configuration for a small Python project, the scope of which is mostly contained 

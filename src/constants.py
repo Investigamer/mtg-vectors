@@ -13,15 +13,25 @@ from src.utils import load_data_file
 class Paths:
     """Global project paths."""
     ROOT: Path = Path(__file__).parent.parent
-    SET: Path = ROOT / 'svg' / 'set'
     DATA: Path = ROOT / 'data'
-    PKG: Path = ROOT / 'package'
+
+    # SVG Assets
+    SVG: Path = ROOT / 'svg'
+    SET: Path = ROOT / 'svg' / 'set'
+    WATERMARK: Path = ROOT / 'svg' / 'watermark'
+
+    # Project files
+    PACKAGE: Path = ROOT / 'package.zip'
     CONFIG: Path = ROOT / 'pyproject.toml'
+    MANIFEST: Path = ROOT / 'manifest.json'
+
+    # Markdown files
+    MD_MISSING = ROOT / 'MISSING.md'
 
 
 class URI:
     """Live hosted resource URLs."""
-    PKG_SET: str = 'https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package/set.zip'
+    PACKAGE: str = 'https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip'
 
 
 class Constants:
@@ -48,7 +58,6 @@ class SetPath:
     MIXED: Path = Paths.DATA / 'set' / 'mixed.yml'
     ROUTES: Path = Paths.DATA / 'set' / 'routes.yml'
     RARITIES: Path = Paths.DATA / 'set' / 'rarities.yml'
-    MANIFEST: Path = Paths.DATA / 'manifest.set.json'
 
 
 class SetData:

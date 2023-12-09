@@ -23,19 +23,31 @@ class SetDetails(TypedDict):
 
 
 """
-* Types: Set Symbols
+* Types: Manifest
 """
 
 
-class SetManifestMeta(TypedDict):
-    """Set manifest metadata details."""
+class ManifestMeta(TypedDict):
+    """Manifest metadata."""
     date: str
     version: str
-    uri: type[URI.PKG_SET]
+    uri: type[URI.PACKAGE]
+
+
+class ManifestSet(TypedDict):
+    """Set Manifest dict."""
     routes: dict[str, str]
-
-
-class SetManifest(TypedDict):
-    """Set manifest details."""
-    meta: SetManifestMeta
     symbols: dict[str, list[str]]
+
+
+class ManifestWatermark(TypedDict):
+    """Watermark Manifest dict."""
+    routes: dict[str, str]
+    symbols: list[str]
+
+
+class Manifest(TypedDict):
+    """Full Manifest dict."""
+    meta: ManifestMeta
+    set: ManifestSet
+    watermark: ManifestWatermark
