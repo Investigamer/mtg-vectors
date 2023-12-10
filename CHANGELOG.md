@@ -1,3 +1,15 @@
+## v0.4.0 (2023-12-10)
+
+### Feat
+
+- **scripts**: Add a symbols rarity check to the MISSING.md generator
+- **scripts**: Add function for auto-generating a "MISSING.md" record that tracks missing vector symbols
+- **python**: Rewrote the python subproject and implemented a better mechanism for discovering uncaptured symbols
+
+### Refactor
+
+- **package**: Remove unneeeded package subdir
+
 ## v0.3.0 (2023-12-04)
 
 ### Feat
