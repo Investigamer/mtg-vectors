@@ -8,8 +8,8 @@ from pathlib import Path
 from pprint import pprint
 
 # Local Imports
-from src.constants import Constants, Paths, SetPath, SetData, URI
-from src.symbols_set import get_missing_symbols_set
+from src.constants import Constants, Paths, SetData, URI, SetRarities
+from src.symbols_set import get_missing_symbols_set, get_missing_symbols_set_rarities
 from src.symbols_wm import get_missing_symbols_watermark, get_local_watermarks
 from src.types import Manifest
 from src.utils import dump_data_file, create_zip
@@ -69,6 +69,7 @@ def analyze_missing_symbols_watermark() -> None:
 def generate_markdown_missing() -> None:
     """Generates the 'MISSING.md' file used in this repository."""
     missing_set = [(k.upper(), v[0].lower()) for k, v in get_missing_symbols_set().items()]
+    missing_rarities = get_missing_symbols_set_rarities()
     missing_wm = get_missing_symbols_watermark()
 
     # Add to MD file
@@ -86,6 +87,14 @@ def generate_markdown_missing() -> None:
         for wm in missing_wm:
             file.write(f'| {wm.title()} |'
                        f'[Cards](https://scryfall.com/search?q=watermark%3A{wm.lower()}) |\n')
+        file.write('\n# Missing Set Symbol Rarities\n')
+        file.write('| Symbol Name   | Rarities Missing | Links |\n')
+        file.write('| ------------- | ---------------- | ----- |\n')
+        for symbol, missing in missing_rarities:
+            file.write(f'| {symbol.upper()} '
+                       f'| {missing} |'
+                       f'[SVG](https://svgs.scryfall.io/sets/{symbol.lower()}.svg), '
+                       f'[Cards](https://scryfall.com/sets/{code.lower()}) |\n')
 
 
 """
@@ -103,6 +112,7 @@ def generate_manifest() -> None:
         },
         'set': {
             'routes': SetData.ROUTES.copy(),
+            'rarities': SetRarities.copy(),
             'symbols': {}
         },
         'watermark': {
@@ -143,4 +153,3 @@ if __name__ == '__main__':
 
     # Load our data
     generate_markdown_missing()
-    generate_manifest()

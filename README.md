@@ -6,7 +6,7 @@ to ensure the repository remains updated as new symbols are released.
 # Python Scripts
 This repository includes configuration for a small Python project, the scope of which is mostly contained 
 within the `src` directory and executed via the `scripts.py` file. These Python scripts provide utilities 
-to check our existing symbol catalogue against a variety of Magic the Gathering data sources to detect when 
+to check our existing symbol catalog against a variety of Magic the Gathering data sources to detect when 
 new symbols emerge that haven't been catalogued in this repository.
 
 # Python Setup (Poetry)

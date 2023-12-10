@@ -37,6 +37,7 @@ class ManifestMeta(TypedDict):
 class ManifestSet(TypedDict):
     """Set Manifest dict."""
     routes: dict[str, str]
+    rarities: dict[str, str]
     symbols: dict[str, list[str]]
 
 

@@ -70,3 +70,18 @@ class SetData:
     MIXED: list[str] = load_data_file(SetPath.MIXED).get('mixed', [])
     RARITIES: list[str] = load_data_file(SetPath.RARITIES).get('rarities', [])
     ROUTES: dict[str, str] = dict(sorted(load_data_file(SetPath.ROUTES).items()))
+
+
+"""Define recognized rarities for set symbols."""
+SetRarities = {
+    'WM': 'Watermark',
+    'C': 'Common',
+    'U': 'Uncommon',
+    'R': 'Rare',
+    'M': 'Mythic',
+    'S': 'Special',
+    'T': 'Timeshifted',
+    'B': 'Bonus',
+    '80': '80',
+    'H': 'Half'
+}

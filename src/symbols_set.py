@@ -121,3 +121,17 @@ def get_missing_symbols_set() -> dict[str, list[str]]:
 
     # Return missing
     return missing
+
+
+def get_missing_symbols_set_rarities() -> list[tuple[str, str]]:
+    """Return a list of symbol codes that are missing some rarities."""
+    missing = []
+    rarities = {'C', 'U', 'R', 'M', 'T', 'WM'}
+    for code in os.listdir(Paths.SET):
+        if code in ['.extras', '.alt']:
+            continue
+        not_found = {p[0].upper() for p in os.listdir(Path(Paths.SET, code))}
+        not_found = ', '.join(sorted(list(rarities - not_found)))
+        missing.append((code.upper(), not_found))
+    return sorted(missing, key=lambda t: t[1].count(','), reverse=True)
+
