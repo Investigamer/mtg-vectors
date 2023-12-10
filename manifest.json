@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2023-12-09",
-    "version": "0.3.0+20231209",
+    "date": "2023-12-10",
+    "version": "0.4.0+20231210",
     "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip"
   },
   "set": {
@@ -254,6 +254,18 @@
       "YONE": "Y23",
       "YSNC": "Y22",
       "YWOE": "Y24"
+    },
+    "rarities": {
+      "WM": "Watermark",
+      "C": "Common",
+      "U": "Uncommon",
+      "R": "Rare",
+      "M": "Mythic",
+      "S": "Special",
+      "T": "Timeshifted",
+      "B": "Bonus",
+      "80": "80",
+      "H": "Half"
     },
     "symbols": {
       "10E": [

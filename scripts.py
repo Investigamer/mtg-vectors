@@ -153,3 +153,4 @@ if __name__ == '__main__':
 
     # Load our data
     generate_markdown_missing()
+    generate_manifest()
