@@ -44,7 +44,7 @@ class Constants:
 
 
 """
-* 'Set' Symbol Specific Constants
+* Path Constants
 """
 
 
@@ -60,6 +60,17 @@ class SetPath:
     RARITIES: Path = Paths.DATA / 'set' / 'rarities.yml'
 
 
+class WMPath:
+    """Define paths for 'Watermark' symbol data files."""
+    IGNORED: Path = Paths.DATA / 'watermark' / 'ignored.yml'
+    MIXED: Path = Paths.DATA / 'watermark' / 'mixed.yml'
+
+
+"""
+* Data Constants
+"""
+
+
 class SetData:
     """Loaded data for 'Set' symbols."""
     ALIAS: dict[str, list[str]] = load_data_file(SetPath.ALIAS)
@@ -70,6 +81,12 @@ class SetData:
     MIXED: list[str] = load_data_file(SetPath.MIXED).get('mixed', [])
     RARITIES: list[str] = load_data_file(SetPath.RARITIES).get('rarities', [])
     ROUTES: dict[str, str] = dict(sorted(load_data_file(SetPath.ROUTES).items()))
+
+
+class WMData:
+    """Loaded data for 'Watermark' symbols."""
+    IGNORED: list[str] = load_data_file(WMPath.IGNORED).get('ignored', [])
+    MIXED: list[str] = load_data_file(WMPath.MIXED).get('mixed', [])
 
 
 """Define recognized rarities for set symbols."""
