@@ -9,7 +9,7 @@ from functools import cache
 import requests
 
 # Local Imports
-from src.constants import Paths
+from src.constants import Paths, WMData
 
 """
 * Scryfall Data Utils
@@ -53,4 +53,4 @@ def get_unused_symbols_watermark() -> list[str]:
 def get_missing_symbols_watermark() -> list[str]:
     """list[str]: Returns a list of all watermarks in Scryfall's catalog not found in this repository."""
     local_wm = get_local_watermarks()
-    return [wm for wm in get_all_watermarks() if wm not in local_wm]
+    return [wm for wm in get_all_watermarks() if wm not in local_wm and wm not in WMData.IGNORED]
