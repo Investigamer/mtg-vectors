@@ -1,3 +1,22 @@
+## v0.5.0 (2024-01-09)
+
+### Feat
+
+- **watermark**: Add many new watermarks, most modified from https://github.com/andrewgioia/mana
+
+### Fix
+
+- **generate_markdown_missing**: Fix issue where special characters in scryfall link would mutate the query
+- **MISSING.md**: Update MISSING.md with fixed methodology
+- **get_missing_symbols_set_rarities**: Prevent false positive on WM entries
+
+### Refactor
+
+- **get_missing_symbols_watermark**: Ensure ignored watermarks are not included in the "MISSING.md" generator
+- **WMPath,WMData**: Add watermark constant objects
+- **data**: Start tracking "mixed" and "ignored" watermark data
+- **manifest**: Update manifest version
+
 ## v0.4.0 (2023-12-10)
 
 ### Feat
