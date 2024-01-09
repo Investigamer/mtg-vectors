@@ -7,6 +7,9 @@ import os
 from pathlib import Path
 from pprint import pprint
 
+# Third Party Imports
+import yarl
+
 # Local Imports
 from src.constants import Constants, Paths, SetData, URI, SetRarities
 from src.symbols_set import get_missing_symbols_set, get_missing_symbols_set_rarities
@@ -85,8 +88,9 @@ def generate_markdown_missing() -> None:
         file.write('| Symbol Name   | Links         |\n')
         file.write('| ------------- | ------------- |\n')
         for wm in missing_wm:
-            file.write(f'| {wm.title()} |'
-                       f'[Cards](https://scryfall.com/search?q=watermark%3A{wm.lower()}) |\n')
+            # Format URL queries
+            url = yarl.URL('https://scryfall.com/search').with_query({'q': f'watermark:{wm.lower()}'})
+            file.write(f'| {wm.title()} | [Cards]({str(url)}) |\n')
         file.write('\n# Missing Set Symbol Rarities\n')
         file.write('| Symbol Name   | Rarities Missing | Links |\n')
         file.write('| ------------- | ---------------- | ----- |\n')
