@@ -1,3 +1,9 @@
+## v0.5.1 (2024-01-18)
+
+### Refactor
+
+- **set**: New symbol "MKM", updated symbol "RVR"
+
 ## v0.5.0 (2024-01-09)
 
 ### Feat
