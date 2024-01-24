@@ -1,3 +1,10 @@
+## v0.5.2 (2024-01-24)
+
+### Refactor
+
+- **symbols/set**: Add MKC symbols, remove old missing.yml file
+- **manifest**: Update collection manifest
+
 ## v0.5.1 (2024-01-18)
 
 ### Refactor
