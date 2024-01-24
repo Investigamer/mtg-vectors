@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2024-01-18",
-    "version": "0.5.1+20240118",
+    "date": "2024-01-24",
+    "version": "0.5.1+20240124",
     "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip"
   },
   "set": {
@@ -1777,6 +1777,14 @@
       ],
       "MIR": [
         "80",
+        "C",
+        "M",
+        "R",
+        "T",
+        "U",
+        "WM"
+      ],
+      "MKC": [
         "C",
         "M",
         "R",

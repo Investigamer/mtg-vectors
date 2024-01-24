@@ -54,7 +54,6 @@ class SetPath:
     CORRECTED: Path = Paths.DATA / 'set' / 'corrected.yml'
     EMPTY: Path = Paths.DATA / 'set' / 'empty.yml'
     IGNORED: Path = Paths.DATA / 'set' / 'ignored.yml'
-    MISSING: Path = Paths.DATA / 'set' / 'missing.yml'
     MIXED: Path = Paths.DATA / 'set' / 'mixed.yml'
     ROUTES: Path = Paths.DATA / 'set' / 'routes.yml'
     RARITIES: Path = Paths.DATA / 'set' / 'rarities.yml'
@@ -77,7 +76,6 @@ class SetData:
     CORRECTED: dict[str, str] = load_data_file(SetPath.CORRECTED)
     EMPTY: list[str] = load_data_file(SetPath.EMPTY).get('empty', [])
     IGNORED: list[str] = load_data_file(SetPath.IGNORED).get('ignored', [])
-    MISSING: dict[str, str] = load_data_file(SetPath.MISSING)
     MIXED: list[str] = load_data_file(SetPath.MIXED).get('mixed', [])
     RARITIES: list[str] = load_data_file(SetPath.RARITIES).get('rarities', [])
     ROUTES: dict[str, str] = dict(sorted(load_data_file(SetPath.ROUTES).items()))
