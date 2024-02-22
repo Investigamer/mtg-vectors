@@ -20,7 +20,7 @@ currently missing from the repository, generating a symbol manifest file, and bu
 can be distributed to outside apps when the repository is updated.
 
 # Python Setup (Poetry)
-We like to use Poetry for managing the project environment, dependencies, etc. It is highly recommended to install 
+We like to use Poetry for managing the project environment, dependencies, etc. It is highly recommended to 
 setup this project using the Poetry method, ESPECIALLY if you plan to contribute to the project. If you wish to set up 
 the project without using Poetry, skip to [this](#python-setup-without-poetry) section.
 1. Install poetry if you don't have it.
