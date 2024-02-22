@@ -2,7 +2,7 @@
 A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols. If you wish to 
 contribute to this repository, please check our [missing vectors list](/docs/MISSING.md). This list is generated automatically every week 
 to ensure the repository remains updated as new symbols are released.
-<center>
+<div align="center" markdown="1" style="font-size: large;">
 
    [![GitHub file size in bytes](https://img.shields.io/github/size/Investigamer/mtg-vectors/package.zip?label=latest-package&color=white)](https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip)
    ![GitHub last commit](https://img.shields.io/github/last-commit/Investigamer/mtg-vectors?label=last-updated&color=blue)
@@ -10,7 +10,7 @@ to ensure the repository remains updated as new symbols are released.
    ![Static Badge](https://img.shields.io/badge/python-3.10%E2%80%943.12-yellow?color=red)
    [![Discord](https://img.shields.io/discord/889831317066358815?label=discord&color=green)](https://discord.gg/magicproxies)
 
-</center>
+</div>
 
 # Python CLI
 This repository includes a small Python project, the scope of which is contained 
