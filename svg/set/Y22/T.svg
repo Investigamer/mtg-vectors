@@ -11,28 +11,23 @@
       }
 
       .cls-3 {
-        fill: #bb2c26;
+        fill: #612c75;
       }
     </style>
     <linearGradient id="linear-gradient" x1="728.13" y1="205.56" x2="1278.08" y2="462" gradientTransform="translate(0 601.37) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#bb2c26"/>
-      <stop offset=".03" stop-color="#be3226"/>
-      <stop offset=".07" stop-color="#c64225"/>
-      <stop offset=".11" stop-color="#d35d24"/>
-      <stop offset=".15" stop-color="#e07823"/>
-      <stop offset=".16" stop-color="#e17a23"/>
-      <stop offset=".26" stop-color="#ee8b1f"/>
-      <stop offset=".37" stop-color="#f5951e"/>
-      <stop offset=".5" stop-color="#f7981d"/>
-      <stop offset=".63" stop-color="#f5951e"/>
-      <stop offset=".74" stop-color="#ee8b1f"/>
-      <stop offset=".84" stop-color="#e17a23"/>
-      <stop offset=".85" stop-color="#e07823"/>
-      <stop offset=".86" stop-color="#db6e23"/>
-      <stop offset=".9" stop-color="#cd5125"/>
-      <stop offset=".93" stop-color="#c33d25"/>
-      <stop offset=".97" stop-color="#bd3026"/>
-      <stop offset="1" stop-color="#bb2c26"/>
+      <stop offset="0" stop-color="#612c75"/>
+      <stop offset=".01" stop-color="#653179"/>
+      <stop offset=".11" stop-color="#855693"/>
+      <stop offset=".21" stop-color="#9e73a8"/>
+      <stop offset=".31" stop-color="#b088b7"/>
+      <stop offset=".41" stop-color="#bb94c0"/>
+      <stop offset=".5" stop-color="#bf99c3"/>
+      <stop offset=".59" stop-color="#bb94c0"/>
+      <stop offset=".69" stop-color="#b088b7"/>
+      <stop offset=".79" stop-color="#9e73a8"/>
+      <stop offset=".89" stop-color="#855693"/>
+      <stop offset=".99" stop-color="#653179"/>
+      <stop offset="1" stop-color="#612c75"/>
     </linearGradient>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">

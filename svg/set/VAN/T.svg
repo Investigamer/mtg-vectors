@@ -15,13 +15,15 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="11.37" y1="153.32" x2="589.29" y2="153.32" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#927443"/>
-      <stop offset=".2" stop-color="#b39458"/>
-      <stop offset=".39" stop-color="#ccab67"/>
-      <stop offset=".5" stop-color="#d5b46d"/>
-      <stop offset=".61" stop-color="#ccab67"/>
-      <stop offset=".8" stop-color="#b39458"/>
-      <stop offset="1" stop-color="#927443"/>
+      <stop offset="0" stop-color="#612c75"/>
+      <stop offset=".13" stop-color="#80508f"/>
+      <stop offset=".29" stop-color="#a277ab"/>
+      <stop offset=".42" stop-color="#b790bc"/>
+      <stop offset=".5" stop-color="#bf99c3"/>
+      <stop offset=".58" stop-color="#b790bc"/>
+      <stop offset=".71" stop-color="#a277ab"/>
+      <stop offset=".87" stop-color="#80508f"/>
+      <stop offset="1" stop-color="#612c75"/>
     </linearGradient>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">

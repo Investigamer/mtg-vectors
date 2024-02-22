@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg
-    id="Layer_2"
-    data-name="Layer 2"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 1080.37 635.88"
->
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080.37 635.88">
   <defs>
     <style>
       .cls-1, .cls-2 {
@@ -14,26 +8,23 @@
       }
 
       .cls-2 {
-        fill: url(#linear-gradient);
+        fill: url(#New_Gradient_Swatch_2);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="-419.63" y1="859.88" x2="-418.63" y2="859.88" gradientTransform="translate(423311.13 451238.69) scale(1008.69 -524.42)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#bb2c26"/>
-      <stop offset=".04" stop-color="#bf3526"/>
-      <stop offset=".11" stop-color="#cb4d25"/>
-      <stop offset=".19" stop-color="#de7523"/>
-      <stop offset=".21" stop-color="#e17a23"/>
-      <stop offset=".29" stop-color="#ee8b1f"/>
-      <stop offset=".38" stop-color="#f5951e"/>
-      <stop offset=".5" stop-color="#ff9915"/>
-      <stop offset=".62" stop-color="#f5951e"/>
-      <stop offset=".71" stop-color="#ee8b1f"/>
-      <stop offset=".79" stop-color="#e17a23"/>
-      <stop offset=".8" stop-color="#e07823"/>
-      <stop offset=".85" stop-color="#d35d24"/>
-      <stop offset=".91" stop-color="#c64225"/>
-      <stop offset=".96" stop-color="#be3226"/>
-      <stop offset="1" stop-color="#bb2c26"/>
+    <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="-419.63" y1="859.88" x2="-418.63" y2="859.88" gradientTransform="translate(423311.13 451238.69) scale(1008.69 -524.42)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#612c75"/>
+      <stop offset="0" stop-color="#653179"/>
+      <stop offset=".11" stop-color="#855693"/>
+      <stop offset=".21" stop-color="#9e73a8"/>
+      <stop offset=".31" stop-color="#b088b7"/>
+      <stop offset=".41" stop-color="#bb94c0"/>
+      <stop offset=".5" stop-color="#bf99c3"/>
+      <stop offset=".59" stop-color="#bb94c0"/>
+      <stop offset=".69" stop-color="#b088b7"/>
+      <stop offset=".79" stop-color="#9e73a8"/>
+      <stop offset=".89" stop-color="#855693"/>
+      <stop offset=".99" stop-color="#653179"/>
+      <stop offset="1" stop-color="#612c75"/>
     </linearGradient>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">

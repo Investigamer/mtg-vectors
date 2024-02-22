@@ -12,22 +12,15 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="-502.38" y1="1063.87" x2="-501.38" y2="1063.87" gradientTransform="translate(-241124.52 1109044.02) rotate(37.55) scale(964.45 -964.45)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#bb2c26"/>
-      <stop offset=".04" stop-color="#bf3526"/>
-      <stop offset=".11" stop-color="#cb4d25"/>
-      <stop offset=".19" stop-color="#de7523"/>
-      <stop offset=".21" stop-color="#e17a23"/>
-      <stop offset=".29" stop-color="#ee8b1f"/>
-      <stop offset=".38" stop-color="#f5951e"/>
-      <stop offset=".5" stop-color="#ff9915"/>
-      <stop offset=".62" stop-color="#f5951e"/>
-      <stop offset=".71" stop-color="#ee8b1f"/>
-      <stop offset=".79" stop-color="#e17a23"/>
-      <stop offset=".8" stop-color="#e07823"/>
-      <stop offset=".85" stop-color="#d35d24"/>
-      <stop offset=".91" stop-color="#c64225"/>
-      <stop offset=".96" stop-color="#be3226"/>
-      <stop offset="1" stop-color="#bb2c26"/>
+      <stop offset="0" stop-color="#612c75"/>
+      <stop offset=".13" stop-color="#80508f"/>
+      <stop offset=".29" stop-color="#a277ab"/>
+      <stop offset=".42" stop-color="#b790bc"/>
+      <stop offset=".5" stop-color="#bf99c3"/>
+      <stop offset=".58" stop-color="#b790bc"/>
+      <stop offset=".71" stop-color="#a277ab"/>
+      <stop offset=".87" stop-color="#80508f"/>
+      <stop offset="1" stop-color="#612c75"/>
     </linearGradient>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
