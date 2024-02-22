@@ -1,6 +1,12 @@
-# MTG watermarks that contain a mix of symbols
+###
+# * Watermark names recognized by Scryfall which can represent multiple different vector assets.
+#
+# * TODO:
+#   - Create a methodology for mapping multi-symbol watermark names to the proper symbol based on the card.
+###
 
 mixed:
+  - set
   - cutiemark
   - flavor
   - grandprix

@@ -1,4 +1,9 @@
-# Symbol codes used in our "Set" catalogue which are expected to not exist on Scryfall
+###
+# * Directories in our symbol catalog that are not recognized icon names on Scryfall.
+#
+# * TODO:
+#   - Represent the windows-compatibility CON -> CONF substitution elsewhere.
+###
 
 ignored:
   - '.extras'

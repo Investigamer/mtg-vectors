@@ -1,4 +1,8 @@
-# Scryfall icon SVGs which have differing names
+###
+# * Scryfall "icon" resources which have used multiple codes at varying times.
+# * (key) The code we have chosen as canon to represent this icon.
+# * (value) A list of all codes Scryfall has used for this icon.
+###
 
 STAR: [STAR, PMEI]
 DEFAULT: [DEFAULT, PMTG2]

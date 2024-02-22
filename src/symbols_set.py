@@ -40,18 +40,6 @@ def get_all_sets() -> dict[str, SetDetails]:
 """
 
 
-def get_sets_by_symbol(sym: str) -> dict[str, SetDetails]:
-    """Return a list of set codes that use a given SVG symbol.
-
-    Args:
-        sym: The name of an SVG set symbol recognized by Scryfall.
-
-    Returns:
-        A list of Scryfall 'set' objects that use the given symbol.
-    """
-    return {code: v for code, v in get_all_sets().items() if sym.lower() in v['icon']}
-
-
 def check_code_recognized(code: str) -> tuple[bool, str]:
     """Check if a symbol code is recognized.
 

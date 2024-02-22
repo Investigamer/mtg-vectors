@@ -1,4 +1,8 @@
-# Sets defined as incorrect symbol in Scryfall data
+###
+# * Sets defined with an incorrect icon in Scryfall data
+# * (key) A valid Scryfall recognized set code.
+# * (value) A valid symbol code found in our symbol catalog.
+###
 
 PDP10: DPA
 PDP12: DPA

@@ -1,4 +1,6 @@
-# List of all accepted rarities
+###
+# * List of Rarities recognized by the repository.
+###
 
 rarities:
   - '80'

@@ -1,4 +1,7 @@
-# Symbol names used in our "Watermark" catalogue which are detected as missing but actually exist
+###
+# * Watermark names recognized by Scryfall which do not have an equivalent name in our catalog, but do
+#   exist in the catalog.
+###
 
 ignored:
   - cutiemark

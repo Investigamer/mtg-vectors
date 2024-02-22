@@ -3,7 +3,7 @@ from datetime import datetime, date
 from pathlib import Path
 
 # Third Party Utils
-from src.utils import load_data_file
+from omnitils.files_data import load_data_file
 
 """
 * Global Constant Objects
@@ -25,8 +25,9 @@ class Paths:
     CONFIG: Path = ROOT / 'pyproject.toml'
     MANIFEST: Path = ROOT / 'manifest.json'
 
-    # Markdown files
-    MD_MISSING = ROOT / 'MISSING.md'
+    # Markdown docs
+    DOCS = ROOT / 'docs'
+    DOCS_MISSING = DOCS / 'MISSING.md'
 
 
 class URI:
@@ -55,8 +56,8 @@ class SetPath:
     EMPTY: Path = Paths.DATA / 'set' / 'empty.yml'
     IGNORED: Path = Paths.DATA / 'set' / 'ignored.yml'
     MIXED: Path = Paths.DATA / 'set' / 'mixed.yml'
-    ROUTES: Path = Paths.DATA / 'set' / 'routes.yml'
     RARITIES: Path = Paths.DATA / 'set' / 'rarities.yml'
+    ROUTES: Path = Paths.DATA / 'set' / 'routes.yml'
 
 
 class WMPath:

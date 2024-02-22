@@ -1,5 +1,16 @@
-# A "Routes" file which tells us which parent symbol to use for sets who share that symbol
-# TODO: We need to figure out how to generate this mostly dynamically by analyzing the "symbol_icon_uri" from Scryfall
+###
+# * Manually routes sets to the most accurate symbol code.
+# * (key) A valid Scryfall recognized set code.
+# * (value) A valid symbol code found in our symbol catalog.
+#
+# * NOTE:
+#   - Uses all other data files to compile a comprehensive mapping for any set code
+#     who's icon provided in Scryfall data does not match the preferred symbol code.
+#
+# * TODO:
+#   - Create a process for updating and generating this dynamically via
+#     Scryfall's "symbol_icon_uri" resource?
+###
 
 # ------------------------------
 # * Base Definitions

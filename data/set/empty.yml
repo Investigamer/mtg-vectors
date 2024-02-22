@@ -1,4 +1,6 @@
-# MTG Sets that contain no symbol
+###
+# * Sets that have no defined icon on Scryfall.
+###
 
 empty:
   - 'PCMP'
