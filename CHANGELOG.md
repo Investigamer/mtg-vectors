@@ -1,3 +1,15 @@
+## v0.6.0 (2024-02-22)
+
+### Feat
+
+- **CLI**: Implement new CLI to replace basic "scripts" file. Commands include building manifest and docs, as well as basic tests
+
+### Refactor
+
+- **README,constants,utils**: General refactoring after implementing CLI and use of the "omnitils" package
+- **requirements.txt**: Update project files, poetry lock, and add "requirements.txt"
+- **symbols/set**: Add missing rarities for various symbols, correct margin spacing on various symbols
+
 ## v0.5.2 (2024-01-24)
 
 ### Refactor
