@@ -1,3 +1,9 @@
+## v0.6.1 (2024-02-23)
+
+### Refactor
+
+- **symbols/set**: Add new symbols: CLU, RIN, REN
+
 ## v0.6.0 (2024-02-22)
 
 ### Feat
