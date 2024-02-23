@@ -1,23 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-4276,0)">
-        <g id="M" transform="matrix(1,0,0,1,4276,0)">
-            <rect x="0" y="0" width="1000" height="1000" style="fill:none;"/>
-            <g id="Ebene1">
-            </g>
-            <g id="Ebene2">
-                <path d="M165.988,343.419L395.773,310.017L498.86,100.964L602.523,309.441L832.884,343.419L667.024,505.824L706.185,735.609L500.012,627.34L293.263,734.458L331.848,505.824L165.988,343.419Z"/>
-                <path d="M192.674,717.595L223.197,543.672L95.923,418.701L35.453,604.142L192.674,717.595Z" style="stroke:black;stroke-width:1px;"/>
-                <g transform="matrix(-1,0,0,1,998.776,2.24962)">
-                    <path d="M192.674,717.595L223.197,543.672L95.923,418.701L35.453,604.142L192.674,717.595Z" style="stroke:black;stroke-width:1px;"/>
-                </g>
-                <path d="M846.92,243.702L786.566,59.413L592.601,59.413L670.924,217.902L846.92,243.702Z" style="stroke:black;stroke-width:1px;"/>
-                <g transform="matrix(-1,0,0,1,998.811,-0.201566)">
-                    <path d="M846.92,243.702L786.566,59.413L592.601,59.413L670.924,217.902L846.92,243.702Z" style="stroke:black;stroke-width:1px;"/>
-                </g>
-                <path d="M341.795,826.545L498.902,744.537L655.548,826.545L499.363,940.805L341.795,826.545Z" style="stroke:black;stroke-width:1px;"/>
-            </g>
-        </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.18 953.2">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.08px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="M">
+      <g id="Ebene2">
+        <path class="cls-1" d="M141.52,307.48l248.17-36.07,111.33-225.78,111.96,225.16,248.79,36.7-179.13,175.4,42.29,248.17-222.67-116.93-223.29,115.69,41.67-246.92-179.13-175.4Z"/>
+        <path class="cls-2" d="M170.34,711.59l32.96-187.84-137.46-134.97L.54,589.07l169.8,122.53Z"/>
+        <path class="cls-2" d="M832.84,714.02l-32.96-187.84,137.46-134.97,65.31,200.28-169.8,122.53Z"/>
+        <path class="cls-2" d="M876.92,199.79L811.74.76h-209.48l84.59,171.17,190.08,27.86Z"/>
+        <path class="cls-2" d="M126.29,199.57L191.48.54h209.48l-84.59,171.17-190.08,27.86Z"/>
+        <path class="cls-2" d="M331.39,829.26l169.68-88.57,169.18,88.57-168.68,123.4-170.17-123.4Z"/>
+      </g>
     </g>
+  </g>
 </svg>
