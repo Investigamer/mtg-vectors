@@ -1,7 +1,6 @@
 # Missing Set Symbols
 | Symbol Code   | Links         |
 | ------------- | ------------- |
-| PLANESWALKER |[SVG](https://svgs.scryfall.io/sets/planeswalker.svg), [Cards](https://scryfall.com/sets/ulst) |
 | UND |[SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/tund) |
 | PTG |[SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
 
@@ -15,6 +14,7 @@
 | ------------- | ---------------- | ----- |
 | MED | C, R, T, U, WM |[SVG](https://svgs.scryfall.io/sets/med.svg), [Cards](https://scryfall.com/sets/ptg) |
 | OVNT | C, M, T, U, WM |[SVG](https://svgs.scryfall.io/sets/ovnt.svg), [Cards](https://scryfall.com/sets/ptg) |
+| PEURO | C, M, R, U, WM |[SVG](https://svgs.scryfall.io/sets/peuro.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PGRU | M, R, T, U, WM |[SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PDRC | M, R, T, U |[SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PZ2 | M, R, T, U |[SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/ptg) |
