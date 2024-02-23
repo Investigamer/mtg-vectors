@@ -1,3 +1,9 @@
+## v0.6.2 (2024-02-23)
+
+### Refactor
+
+- **symbols/set**: Add missing symbols: PLANESWALKER, PAPAC, PEURO
+
 ## v0.6.1 (2024-02-23)
 
 ### Refactor
