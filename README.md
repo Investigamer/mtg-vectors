@@ -12,6 +12,14 @@ to ensure the repository remains updated as new symbols are released.
 
 </div>
 
+# 💌 How can I support the project?
+Feel free to [join our community discord](http://discord.gg/magicproxies) where we test, improve, and release all kinds of awesome MTG related tools
+and templates. Also, please consider supporting me on [Patreon](http://patreon.com/mpcfill) which pays for hosting costs, gives me time to expand
+and maintain this repository and other API datasets, and helps me build a ton of cool stuff like 
+[Proxyshop](https://github.com/Investigamer/Proxyshop), [MTG Art Downloader](https://github.com/Investigamer/mtg-art-downloader), 
+the [Hexproof API](https://api.hexproof.io/docs) and more! If Patreon isn't your thing, you can also buy 
+me a coffee [via PayPal](https://www.paypal.com/donate/?hosted_button_id=D96NBC6ZAJ8H6). Thanks so much to our awesome supporters!
+
 # Python CLI
 This repository includes a small Python project, the scope of which is contained 
 within the `src` directory. This project provides a variety of CLI commands for gathering Scryfall data,
