@@ -1,3 +1,10 @@
+## v0.6.3 (2024-02-26)
+
+### Refactor
+
+- **symbols/set**: New symbol: ACR
+- **svg/symbols,README**: Add new rarities for MED, update README
+
 ## v0.6.2 (2024-02-23)
 
 ### Refactor
