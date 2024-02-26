@@ -1,3 +1,9 @@
+## v0.6.4 (2024-02-26)
+
+### Refactor
+
+- **symbols/set**: Added new symbols: MH3
+
 ## v0.6.3 (2024-02-26)
 
 ### Refactor
