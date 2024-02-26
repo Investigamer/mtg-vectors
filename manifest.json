@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2024-02-26",
-    "version": "0.6.3+20240226",
+    "version": "0.6.4+20240226",
     "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip"
   },
   "set": {
@@ -1777,6 +1777,14 @@
       ],
       "MH2": [
         "80",
+        "C",
+        "M",
+        "R",
+        "T",
+        "U",
+        "WM"
+      ],
+      "MH3": [
         "C",
         "M",
         "R",
