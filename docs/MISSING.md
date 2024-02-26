@@ -12,9 +12,6 @@
 # Missing Set Symbol Rarities
 | Symbol Name   | Rarities Missing | Links |
 | ------------- | ---------------- | ----- |
-| MED | C, R, T, U, WM |[SVG](https://svgs.scryfall.io/sets/med.svg), [Cards](https://scryfall.com/sets/ptg) |
-| OVNT | C, M, T, U, WM |[SVG](https://svgs.scryfall.io/sets/ovnt.svg), [Cards](https://scryfall.com/sets/ptg) |
-| PEURO | C, M, R, U, WM |[SVG](https://svgs.scryfall.io/sets/peuro.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PGRU | M, R, T, U, WM |[SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PDRC | M, R, T, U |[SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PZ2 | M, R, T, U |[SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/ptg) |
@@ -30,7 +27,6 @@
 | Y23 | T, WM |[SVG](https://svgs.scryfall.io/sets/y23.svg), [Cards](https://scryfall.com/sets/ptg) |
 | Y24 | T, WM |[SVG](https://svgs.scryfall.io/sets/y24.svg), [Cards](https://scryfall.com/sets/ptg) |
 | ZNC | T, WM |[SVG](https://svgs.scryfall.io/sets/znc.svg), [Cards](https://scryfall.com/sets/ptg) |
-| AKR | T |[SVG](https://svgs.scryfall.io/sets/akr.svg), [Cards](https://scryfall.com/sets/ptg) |
 | C19 | T |[SVG](https://svgs.scryfall.io/sets/c19.svg), [Cards](https://scryfall.com/sets/ptg) |
 | CC2 | T |[SVG](https://svgs.scryfall.io/sets/cc2.svg), [Cards](https://scryfall.com/sets/ptg) |
 | DMR | T |[SVG](https://svgs.scryfall.io/sets/dmr.svg), [Cards](https://scryfall.com/sets/ptg) |
