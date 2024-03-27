@@ -13,12 +13,12 @@
     <style
        id="style1">
       .cls-1 {
-        stroke: #1d1d1b;
+        stroke: #000000;
         stroke-miterlimit: 10;
       }
 
       .cls-1, .cls-2 {
-        fill: #1d1d1b;
+        fill: #000000;
       }
 
       .cls-2, .cls-3 {

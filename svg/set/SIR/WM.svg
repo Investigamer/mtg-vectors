@@ -13,7 +13,7 @@
     <style
        id="style1">
       .cls-1 {
-        fill: #010101;
+        fill: #000000;
         fill-rule: evenodd;
         stroke-width: 0px;
       }
