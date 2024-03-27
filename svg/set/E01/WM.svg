@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="1024"
-   height="1008.7"
+   width="978.17181"
+   height="889.30499"
    id="svg6"
-   sodipodi:docname="C.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs10" />
-  <sodipodi:namedview
-     id="namedview8"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="23.697"
-     inkscape:cx="16.753"
-     inkscape:cy="16.5"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
   <path
-     d="M 306.63,66.865 C 286.28,303.31 24.002,305.99 22.931,441.31 22.054,552.13 393.43,710.39 512,956.17 630.57,710.39 1001.9,552.13 1001.1,441.31 1000,305.99 737.72,303.31 717.37,66.865 590.13,255.54 867.56,373.69 868.3,435.58 869.03,497.47 548.13,670.81 512,723.1 475.87,670.81 154.97,497.47 155.7,435.58 156.44,373.69 433.87,255.54 306.63,66.865 Z M 512,66.865 370.63,423.16 512,562.62 653.37,423.16 Z"
+     d="M 283.70055,0 C 263.35055,236.445 1.0725506,239.125 0.00155063,374.445 c -0.877,110.82 370.49899937,269.08 489.06899937,514.86 118.57,-245.78 489.9,-404.04 489.1,-514.86 -1.1,-135.32 -263.38,-138 -283.73,-374.445 -127.24,188.675 150.19,306.825 150.93,368.715 0.73,61.89 -320.17,235.23 -356.3,287.52 -36.13,-52.29 -357.03,-225.63 -356.3,-287.52 0.74,-61.89 278.17,-180.04 150.93,-368.715 z m 205.37,0 -141.37,356.295 141.37,139.46 141.37,-139.46 z"
      id="path4"
      style="stroke-width:30.567" />
 </svg>

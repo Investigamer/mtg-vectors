@@ -6,35 +6,14 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="354.91"
-   height="485"
-   viewBox="0 0 354.91 485"
+   width="354.90399"
+   height="485.00101"
+   viewBox="0 0 354.90399 485.00101"
    enable-background="new 0 0 375 500"
    xml:space="preserve"
-   sodipodi:docname="U.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs48" /><sodipodi:namedview
-   id="namedview46"
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1.0"
-   inkscape:pageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   showgrid="false"
-   inkscape:zoom="1.438"
-   inkscape:cx="178.03"
-   inkscape:cy="242.7"
-   inkscape:window-width="1920"
-   inkscape:window-height="986"
-   inkscape:window-x="-11"
-   inkscape:window-y="-11"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
+   id="defs48" />
 <g
    id="g43"
    transform="translate(-9.766,-7.079)">
@@ -47,7 +26,7 @@
    gradientUnits="userSpaceOnUse"
    x1="26.257"
    y1="247.09"
-   x2="348.17"
+   x2="348.17001"
    y2="247.09"
    gradientTransform="matrix(1,0,0,-1,0,501)">
 		<stop
@@ -126,7 +105,7 @@
    style="fill:url(#SVGID_1_)" />
 	<polygon
    fill="#ffffff"
-   points="187.22,134.84 250.64,173.13 250.64,246.73 187.22,285.62 123.79,246.73 123.79,173.13 "
+   points="250.64,246.73 187.22,285.62 123.79,246.73 123.79,173.13 187.22,134.84 250.64,173.13 "
    id="polygon41" />
 </g>
 </svg>

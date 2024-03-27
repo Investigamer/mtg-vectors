@@ -4,12 +4,8 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="633.77"
-   height="500"
-   sodipodi:docname="R.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="633.77002"
+   height="499.99857"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
@@ -17,10 +13,10 @@
     <linearGradient
        id="SVGID_1_"
        gradientUnits="userSpaceOnUse"
-       x1="45.977"
-       y1="2.3491"
-       x2="45.977"
-       y2="48.281"
+       x1="45.977001"
+       y1="2.3491001"
+       x2="45.977001"
+       y2="48.280998"
        gradientTransform="matrix(9.9998,0,0,9.9998,0,-1.57)">
       <stop
          style="stop-color:#8b723c"
@@ -46,10 +42,10 @@
     <linearGradient
        id="SVGID_2_"
        gradientUnits="userSpaceOnUse"
-       x1="22.654"
+       x1="22.653999"
        y1="466.75"
-       x2="22.654"
-       y2="511.76"
+       x2="22.653999"
+       y2="511.76001"
        gradientTransform="matrix(9.9998,0,0,-9.9998,-83.597,5148.8)">
       <stop
          style="stop-color:#8b723c"
@@ -73,24 +69,6 @@
          id="stop27" />
     </linearGradient>
   </defs>
-  <sodipodi:namedview
-     id="namedview35"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="15.64"
-     inkscape:cx="31.682"
-     inkscape:cy="24.872"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_1" />
   <path
      d="m 361.3,0 c 59.29,107.27 50.14,178.16 30.11,206.67 L 351.04,105.73 C 332.09,60.949 330.11,63.489 319.33,63.489 h -17.97 c 23.54,126.261 18.17,213.001 1.07,314.321 l 121.1,-78.65 c -11.14,46.25 -49.81,86.08 -117.52,81.66 V 499.1 C 463.62,509.12 598.73,337.09 522.4,159.2 537.1,131.12 575.23,140.66 633.77,160.93 600.24,62.449 489.49,12.79 361.3,0 Z"
      id="path2"

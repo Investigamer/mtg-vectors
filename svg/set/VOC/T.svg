@@ -6,35 +6,14 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="361.7"
+   width="361.70001"
    height="430"
    viewBox="0 0 361.7 430"
    enable-background="new 0 0 375 460"
    xml:space="preserve"
-   sodipodi:docname="T.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs38" /><sodipodi:namedview
-   id="namedview36"
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1.0"
-   inkscape:pageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   showgrid="false"
-   inkscape:zoom="1.563"
-   inkscape:cx="180.42"
-   inkscape:cy="214.01"
-   inkscape:window-width="1664"
-   inkscape:window-height="999"
-   inkscape:window-x="234"
-   inkscape:window-y="151"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="g33" />
+   id="defs38" />
 <g
    id="g33"
    transform="translate(-7.14,-15.18)">
@@ -51,7 +30,7 @@
    gradientUnits="userSpaceOnUse"
    x1="22.893"
    y1="235.63"
-   x2="353.08"
+   x2="353.07999"
    y2="235.63">
 		<stop
    offset="0"
