@@ -1,3 +1,13 @@
+## v0.6.5 (2024-04-02)
+
+### Fix
+
+- **symbols/set**: PR #1 from jordi735/main, crop and clean set symbol SVG's
+
+### Refactor
+
+- **symbols/set**: Add new symbols: BLB, MC3, OTJ. Update symbols: ACR, MH3
+
 ## v0.6.4 (2024-02-26)
 
 ### Refactor
