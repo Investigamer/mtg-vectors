@@ -3,38 +3,18 @@
    version="1.1"
    viewBox="0 0 1024 973.82"
    id="svg19"
-   sodipodi:docname="T.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="1024"
+   height="973.82001"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview21"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.73833"
-     inkscape:cx="511.97"
-     inkscape:cy="486.23"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg19" />
   <defs
      id="defs13">
     <linearGradient
        id="a"
-       x1="36.28"
+       x1="36.279999"
        x2="468.38"
-       y1="34.42"
-       y2="445.51"
+       y1="34.419998"
+       y2="445.51001"
        gradientTransform="scale(2.0291)"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -65,8 +45,9 @@
      id="path15"
      style="fill:#ffffff;fill-opacity:1" />
   <path
-     d="m612.4 736.38 337.98-269.95-65.98-203.7-129.36-6.11 16.3 218.23-151.86-404.84-214.33-0.169-45.58 121.3 212.49 52.05-431.92 19.46-66.525 203.84 101.04 80.55 115.13-186.37-114.67 417.06 173.29 126.25 107.93-71.3-141.77-167 361.3 238.14 173.51-125.97-34.44-124.75z"
+     d="M 612.4,736.38 950.38,466.43 884.4,262.73 755.04,256.62 771.34,474.85 619.48,70.01 405.15,69.841 l -45.58,121.3 212.49,52.05 -431.92,19.46 -66.525,203.84 101.04,80.55 115.13,-186.37 -114.67,417.06 173.29,126.25 107.93,-71.3 -141.77,-167 361.3,238.14 173.51,-125.97 -34.44,-124.75 z"
      fill="url(#a)"
      stroke-width="23.026"
-     id="path17" />
+     id="path17"
+     style="fill:url(#a)" />
 </svg>

@@ -4,42 +4,20 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="1024"
-   height="948.77"
-   sodipodi:docname="T.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="1024.0037"
+   height="948.76898"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs27" />
-  <sodipodi:namedview
-     id="namedview25"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="14.38"
-     inkscape:cx="26.912"
-     inkscape:cy="24.965"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_1" />
   <g
      id="g22"
-     transform="matrix(18.975,0,0,18.975,0.15374,0)">
+     transform="matrix(18.975,0,0,18.975,0.15373582,0)">
     <radialGradient
        id="SVGID_2_"
-       cx="39.509"
-       cy="9.292"
-       r="32.262"
+       cx="39.508999"
+       cy="9.2919998"
+       r="32.262001"
        gradientTransform="matrix(-0.891,-0.454,0.3553,-0.6973,71.41,33.708)"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -64,7 +42,7 @@
        id="SVGID_3_"
        cx="31.476"
        cy="23.562"
-       r="29.203"
+       r="29.202999"
        gradientTransform="matrix(-0.9823,-0.1872,0.1398,-0.7336,59.101,46.738)"
        gradientUnits="userSpaceOnUse">
       <stop

@@ -5,39 +5,17 @@
    viewBox="0 0 143 200"
    version="1.1"
    id="svg17"
-   sodipodi:docname="T.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs21" />
-  <sodipodi:namedview
-     id="namedview19"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="pt"
-     showgrid="false"
-     inkscape:zoom="2.6963"
-     inkscape:cx="95.318"
-     inkscape:cy="133.15"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g15" />
   <g
      id="g15">
     <polygon
        fill="url(#radialGradient856)"
-       points="10,190 10,9 134,9 134,190 "
-       id="polygon2" />
+       points="134,9 134,190 10,190 10,9 "
+       id="polygon2"
+       style="fill:url(#radialGradient856)" />
     <radialGradient
        cx="0"
        cy="0"
