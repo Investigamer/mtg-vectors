@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2024-02-26",
-    "version": "0.6.4+20240226",
+    "date": "2024-04-02",
+    "version": "0.6.5+20240402",
     "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip"
   },
   "set": {
@@ -556,6 +556,14 @@
       ],
       "BFZ": [
         "80",
+        "C",
+        "M",
+        "R",
+        "T",
+        "U",
+        "WM"
+      ],
+      "BLB": [
         "C",
         "M",
         "R",
@@ -1713,6 +1721,14 @@
         "U",
         "WM"
       ],
+      "MC3": [
+        "C",
+        "M",
+        "R",
+        "T",
+        "U",
+        "WM"
+      ],
       "MD1": [
         "80",
         "C",
@@ -2045,6 +2061,14 @@
         "M",
         "R",
         "S",
+        "T",
+        "U",
+        "WM"
+      ],
+      "OTJ": [
+        "C",
+        "M",
+        "R",
         "T",
         "U",
         "WM"

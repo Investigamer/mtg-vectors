@@ -1,12 +1,15 @@
 # Missing Set Symbols
 | Symbol Code   | Links         |
 | ------------- | ------------- |
+| BIG |[SVG](https://svgs.scryfall.io/sets/big.svg), [Cards](https://scryfall.com/sets/big) |
+| OTP |[SVG](https://svgs.scryfall.io/sets/otp.svg), [Cards](https://scryfall.com/sets/otp) |
 | UND |[SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/tund) |
 | PTG |[SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
 
 # Missing Watermarks
 | Symbol Name   | Links         |
 | ------------- | ------------- |
+| Magicfest | [Cards](https://scryfall.com/search?q=watermark:magicfest) |
 | Trumpkatsumai | [Cards](https://scryfall.com/search?q=watermark:trumpkatsumai) |
 
 # Missing Set Symbol Rarities
