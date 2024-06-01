@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mtg-vectors"
-version = "0.6.5"
+version = "0.6.6"
 description = "A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols."
 authors = ["Investigamer <freethoughtleft@gmail.com>"]
 license = "MPL-2.0"
@@ -24,7 +24,7 @@ omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.1.5"}
 vectors = 'src.commands:VectorsCLI'
 
 [tool.commitizen]
-version = "0.6.5"
+version = "0.6.6"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
 update_changelog_on_bump = true

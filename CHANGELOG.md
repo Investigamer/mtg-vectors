@@ -1,3 +1,9 @@
+## v0.6.6 (2024-06-01)
+
+### Refactor
+
+- **cli,poetry**: Minor cli refactoring, update poetry.lock deps
+
 ## v0.6.5 (2024-04-02)
 
 ### Fix

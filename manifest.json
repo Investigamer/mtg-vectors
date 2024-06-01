@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2024-04-02",
-    "version": "0.6.5+20240402",
+    "date": "2024-06-01",
+    "version": "0.6.5+20240601",
     "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip"
   },
   "set": {
@@ -256,16 +256,16 @@
       "YWOE": "Y24"
     },
     "rarities": {
-      "WM": "Watermark",
+      "80": "80",
+      "B": "Bonus",
       "C": "Common",
-      "U": "Uncommon",
-      "R": "Rare",
+      "H": "Half",
       "M": "Mythic",
+      "R": "Rare",
+      "U": "Uncommon",
       "S": "Special",
       "T": "Timeshifted",
-      "B": "Bonus",
-      "80": "80",
-      "H": "Half"
+      "WM": "Watermark"
     },
     "symbols": {
       "10E": [
