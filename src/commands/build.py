@@ -7,7 +7,7 @@ from pathlib import Path
 # Third Party Imports
 import click
 import yarl
-from omnitils.files_data import dump_data_file
+from omnitils.files import dump_data_file
 
 # Local Imports
 from src.constants import Constants, Paths, SetData, SetRarities, URI

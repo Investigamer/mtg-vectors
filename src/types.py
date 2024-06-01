@@ -5,9 +5,6 @@
 from typing import Optional
 from typing_extensions import TypedDict
 
-# Local Imports
-from src.constants import URI
-
 
 """
 * Types: Set Data
@@ -31,7 +28,7 @@ class ManifestMeta(TypedDict):
     """Manifest metadata."""
     date: str
     version: str
-    uri: type[URI.PACKAGE]
+    uri: str
 
 
 class ManifestSet(TypedDict):

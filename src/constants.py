@@ -3,7 +3,7 @@ from datetime import datetime, date
 from pathlib import Path
 
 # Third Party Utils
-from omnitils.files_data import load_data_file
+from omnitils.files import load_data_file
 
 """
 * Global Constant Objects
@@ -90,14 +90,14 @@ class WMData:
 
 """Define recognized rarities for set symbols."""
 SetRarities = {
-    'WM': 'Watermark',
+    '80': '80',
+    'B': 'Bonus',
     'C': 'Common',
-    'U': 'Uncommon',
-    'R': 'Rare',
+    'H': 'Half',
     'M': 'Mythic',
+    'R': 'Rare',
+    'U': 'Uncommon',
     'S': 'Special',
     'T': 'Timeshifted',
-    'B': 'Bonus',
-    '80': '80',
-    'H': 'Half'
+    'WM': 'Watermark'
 }

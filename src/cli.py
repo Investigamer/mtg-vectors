@@ -7,4 +7,4 @@ from src.commands import AppCLI
 
 if __name__ == '__main__':
     """Launch the CLI application."""
-    AppCLI()
+    VectorsCLI = AppCLI()
