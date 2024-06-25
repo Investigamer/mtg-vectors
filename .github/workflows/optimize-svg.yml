@@ -30,9 +30,12 @@ jobs:
 
     - name: Process SVG files with Inkscape
       run: |
+        export GDK_BACKEND=x11
+        export NO_AT_BRIDGE=1
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-          inkscape "$file" --actions="page-fit-to-selection;export-plain-svg;export-filename:$file"
+          echo "file-open:$file;select-all;object-to-path;export-plain-svg;export-filename:$file;file-close" >> inkscape_jobs.txt
         done
+        inkscape --shell < inkscape_jobs.txt
 
     - name: Optimize SVG files with SVGO
       run: |
@@ -47,6 +50,6 @@ jobs:
       with:
         commit-message: 'build(svg): Format and optimize svg files'
         title: 'Action: Optimize Symbols'
-        body: "# Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting."
+        body: "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting."
         branch: svg-optimization
         base: main
