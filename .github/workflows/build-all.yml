@@ -1,0 +1,46 @@
+name: Build Package and Docs
+
+on:
+  schedule:
+    # Scheduled Daily (Midnight)
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout Repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Use Python 3.12
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      # Install Poetry
+      - name: Install Poetry using pipx
+        run: pipx install poetry
+
+      # Install and Update Project
+      - name: Install dependencies
+        run: |
+          poetry install
+          poetry update
+
+      # Build Package and Docs
+      - name: Activate Poetry shell and build docs
+        run: |
+          poetry shell
+          vectors build docs
+
+      # Commit Changes
+      - name: Add and Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          git commit -m "deps(build): Process daily updates (package, docs, poetry)."
+          cz bump
+          git push
