@@ -2,54 +2,47 @@
 * Commands: Scryfall Data
 """
 from pprint import pprint
+from typing import Callable, Optional
 
 # Third Party Imports
 import click
+from loguru import logger
 
 # Local Imports
 from src.symbols_set import get_all_sets, get_missing_symbols_set
 from src.symbols_wm import get_missing_symbols_watermark
 from src.types import SetDetails
 
-
-"""
-* Command Groups
-"""
-
-
-@click.group(
-    name='test', chain=True,
-    help='Commands that run data tests.')
-def test_cli():
-    """Cli interface for test funcs."""
-    pass
-
-
 """
 * Commands
 """
 
 
-@test_cli.command(
-    name='list-sets-by-symbol',
-    help='Lists all sets that use a specific symbol icon.')
-@click.argument('sym', required=True)
-def list_sets_by_symbol(sym: str) -> dict[str, SetDetails]:
+@click.command(
+    help='Lists all sets that match a provided query.')
+@click.option(
+    '-s', '--sym',
+    required=False, type=str, help='Match a provided Scryfall icon (symbol) name.')
+def list_sets_by_symbol(sym: Optional[str] = None) -> dict[str, SetDetails]:
     """Return a list of set codes that use a given SVG symbol.
 
     Args:
-        sym: The name of an SVG set symbol recognized by Scryfall.
+        sym: The name of an SVG icon recognized by Scryfall.
 
     Returns:
         A list of Scryfall 'set' objects that use the given symbol.
     """
-    data = {code: v for code, v in get_all_sets().items() if sym.lower() in v['icon']}
-    pprint(data)
+    data = {}
+    for code, v in get_all_sets().items():
+        # Check symbol match
+        if sym is None or sym.lower() in v['icon'].lower():
+            parent = '' if not v['parent'] else f"(Parent: {v['parent'].upper()})"
+            logger.info(f"[{code.upper():<5}| {v['icon']}.svg] {v['name']} {parent} <{v['type']}>")
+        data[code] = v
     return data
 
 
-@test_cli.command(
-    name='list-missing-sets',
+@click.command(
     help="Lists all sets that currently don't have a matching vector symbol catalogued in this repository.")
 def list_missing_symbols_set() -> None:
     """List any sets that don't have a matching vector symbol found in this repository."""
@@ -71,8 +64,7 @@ def list_missing_symbols_set() -> None:
     print("=" * 50)
 
 
-@test_cli.command(
-    name='list-missing-watermarks',
+@click.command(
     help="Lists all watermark names that don't have matching vector symbol catalogued in this repository.")
 def list_missing_symbols_watermark() -> None:
     """List any watermarks that don't have a matching vector symbol found in this repository."""
@@ -92,3 +84,21 @@ def list_missing_symbols_watermark() -> None:
     print("=" * 50)
     print("NO SETS MISSING!")
     print("=" * 50)
+
+
+"""
+* Command Groups
+"""
+
+
+@click.group(
+    chain=True,
+    commands={
+        'missing-watermarks': list_missing_symbols_watermark,
+        'missing-sets': list_missing_symbols_set,
+        'list-sets': list_sets_by_symbol
+    },
+    help='Commands that run data tests.')
+def test_cli():
+    """Cli interface for test funcs."""
+    pass

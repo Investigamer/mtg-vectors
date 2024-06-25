@@ -8,6 +8,7 @@ from pathlib import Path
 import click
 import yarl
 from omnitils.files import dump_data_file
+from omnitils.logs import logger
 
 # Local Imports
 from src.constants import Constants, Paths, SetData, SetRarities, URI
@@ -17,26 +18,13 @@ from src.types import Manifest
 from src.utils import create_zip
 
 """
-* Command Groups
-"""
-
-
-@click.group(
-    name='build', chain=True,
-    help='Commands that build repository assets.')
-def build_cli():
-    """Cli interface for build funcs."""
-    pass
-
-
-"""
 * Commands
 """
 
 
-@build_cli.command(
-    name='docs',
-    help='Builds the MISSING.md file which tracks all vector assets currently missing from the catalogue.')
+@click.command(
+    help='Build a `MISSING.md` markdown file which tracks all vector assets currently '
+         'missing from the catalogue, based on current scryfall data.')
 def build_docs() -> None:
     """Generates the 'MISSING.md' file used in this repository."""
     missing_set = [(k.upper(), v[0].lower()) for k, v in get_missing_symbols_set().items()]
@@ -68,8 +56,12 @@ def build_docs() -> None:
                        f'[SVG](https://svgs.scryfall.io/sets/{symbol.lower()}.svg), '
                        f'[Cards](https://scryfall.com/sets/{code.lower()}) |\n')
 
+    # Log success
+    logger.success('Built ~/docs/MISSING.md file!')
 
-@build_cli.command(name='manifest')
+
+@click.command(
+    help='Build a project manifest and compiled package that can be pulled from outside apps.')
 def build_manifest() -> None:
     """Generates a manifest of all symbols in the repository and compiles all symbols into
         a zip that can be pulled from outside apps."""
@@ -113,12 +105,32 @@ def build_manifest() -> None:
     # Create a zip of all symbols
     create_zip(Paths.SVG, Paths.PACKAGE)
 
+    # Log success
+    logger.success('Built manifest and package!')
 
-@build_cli.command(
-    name='all',
+
+@click.command(
     help='Build docs, manifest, and any other relevant resources used by the repository.')
 @click.pass_context
 def build_all(ctx: click.Context) -> None:
     """Generate all resources used by the repository."""
     ctx.invoke(build_manifest)
     ctx.invoke(build_docs)
+
+
+"""
+* Command Groups
+"""
+
+
+@click.group(
+    chain=True,
+    commands={
+        '.': build_all,
+        'docs': build_docs,
+        'manifest': build_manifest
+    },
+    help='Commands that build repository assets.')
+def build_cli():
+    """Cli interface for build funcs."""
+    pass

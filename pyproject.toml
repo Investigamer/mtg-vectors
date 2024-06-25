@@ -18,7 +18,7 @@ commitizen = "^3.12.0"
 typing-extensions = "^4.8.0"
 setuptools = "^69.0.2"
 click = "^8.1.7"
-omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.1.5"}
+omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.2.2"}
 
 [tool.poetry.scripts]
 vectors = 'src.commands:VectorsCLI'

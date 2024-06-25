@@ -19,15 +19,8 @@ from src.commands.test import test_cli
         'build': build_cli,
         'test': test_cli
     },
-    context_settings={
-        'ignore_unknown_options': True
-    },
-    invoke_without_command=True,
     help='Invoke the CLI without a command to launch an ongoing headless Proxyshop application.')
-@click.pass_context
-def AppCLI(ctx: click.Context):
-    if ctx.invoked_subcommand is None:
-        ctx.invoke(build_all)
+def AppCLI():
     pass
 
 
