@@ -1,6 +1,7 @@
 name: Build Package and Docs
 
 on:
+  workflow_dispatch:
   schedule:
     # Scheduled Daily (Midnight)
     - cron: '0 0 * * *'

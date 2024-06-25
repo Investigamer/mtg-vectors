@@ -1,6 +1,7 @@
 name: Optimize SVG Symbols
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
