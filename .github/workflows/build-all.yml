@@ -13,6 +13,8 @@ jobs:
       # Checkout Repository
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-tags: true
 
       # Use Python 3.12
       - name: Set up Python 3.12
