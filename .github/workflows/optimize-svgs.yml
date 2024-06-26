@@ -55,5 +55,5 @@ jobs:
         commit-message: 'build(svg): Format and optimize svg files'
         title: 'Action: Optimize Symbols'
         body: "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting."
-        branch: svg-optimization
+        branch: svg-actions
         base: main

@@ -21,7 +21,7 @@ click = "^8.1.7"
 omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.2.2"}
 
 [tool.poetry.scripts]
-vectors = 'src.commands:VectorsCLI'
+vectors = 'src.commands:AppCLI'
 
 [tool.commitizen]
 version = "0.6.6"

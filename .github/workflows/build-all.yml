@@ -31,17 +31,16 @@ jobs:
           poetry update
 
       # Build Package and Docs
-      - name: Activate Poetry shell and build docs
+      - name: Build package and docs
         run: |
-          source .venv/bin/activate
-          python src/cli.py build .
+          poetry run vectors build .
 
       # Commit Changes
       - name: Add and Commit changes
         run: |
+          git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add .
           git commit -m "deps(build): Process daily updates (package, docs, poetry)."
           cz bump
           git push
