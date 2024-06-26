@@ -30,18 +30,15 @@ jobs:
         xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" inkscape --shell < commands.txt
 
     # Install Node, NPM and SVGO
-    - name: Install Node, NPM and SVGO
+    - name: Install Node / NPM
       uses: actions/setup-node@v4
       with:
         node-version: 'latest'
-      run: |
-        node --version
-        npm --version
-        npm install -g svgo
 
     # Create optimized versions of all SVG files
-    - name: Optimize SVG files with SVGO
+    - name: Install SVGO, Optimize SVG files
       run: |
+        npm install -g svgo
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
           optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set//')"
           mkdir -p "$(dirname "$optimized_file")"
