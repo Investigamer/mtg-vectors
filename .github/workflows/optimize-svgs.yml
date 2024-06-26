@@ -13,38 +13,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Install Inkscape
       run: |
         sudo add-apt-repository ppa:inkscape.dev/stable
-        sudo apt-get update
-        sudo apt-get install inkscape
-
-    - name: Install Node.js and npm
-      uses: actions/setup-node@v3
-      with:
-        node-version: 'latest'
-
-    - name: Install SVGO
-      run: npm install -g svgo
+        sudo apt-get install -y inkscape xvfb
 
     - name: Process SVG files with Inkscape
       run: |
-        export GDK_BACKEND=x11
-        export NO_AT_BRIDGE=1
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-          echo "file-open:$file;select-all;object-to-path;export-plain-svg;export-filename:$file;file-close" >> inkscape_jobs.txt
+          echo "file-open:$file;select-all;object-to-path;export-plain-svg;export-filename:$file;file-close" >> commands.txt
         done
-        inkscape --shell < inkscape_jobs.txt
+        xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" inkscape --shell < commands.txt
 
-    - name: Optimize SVG files with SVGO
-      run: |
-        find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-          optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set//')"
-          mkdir -p "$(dirname "$optimized_file")"
-          svgo -i "$file" -o "$optimized_file"
-        done
+#    - name: Install Node.js, NPM, and SVGO
+#      uses: actions/setup-node@v4
+#      with:
+#        node-version: 'latest'
+#      run: |
+#        node --version
+#        npm --version
+#
+
+#    - name: Install SVGO
+#      run: npm install -g svgo
+
+#    - name: Optimize SVG files with SVGO
+#      run: |
+#        find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
+#          optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set//')"
+#          mkdir -p "$(dirname "$optimized_file")"
+#          svgo -i "$file" -o "$optimized_file"
+#        done
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
