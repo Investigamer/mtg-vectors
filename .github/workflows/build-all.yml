@@ -14,6 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           fetch-tags: true
 
       # Use Python 3.12
@@ -40,6 +41,7 @@ jobs:
       # Commit Changes
       - name: Add and Commit changes
         run: |
+          git pull --tags
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
