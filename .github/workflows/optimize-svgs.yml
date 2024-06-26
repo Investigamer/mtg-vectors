@@ -25,9 +25,11 @@ jobs:
     - name: Process SVG files with Inkscape
       run: |
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-          echo "file-open:$file;select-all;object-to-path;export-plain-svg;export-filename:$file;file-close" >> commands.txt
+          echo "file-open:$file;select-all; page-fit-to-selection; export-plain-svg; export-filename:$file; file-close" >> commands.txt
         done
         xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" inkscape --shell < commands.txt
+        rm commands.txt
+        git add .
 
     # Install Node, NPM and SVGO
     - name: Install Node / NPM
@@ -44,6 +46,7 @@ jobs:
           mkdir -p "$(dirname "$optimized_file")"
           svgo -i "$file" -o "$optimized_file"
         done
+        git add .
 
     # Open a new PR with changed SVG files
     - name: Create Pull Request
