@@ -20,13 +20,12 @@ jobs:
         with:
           python-version: '3.12'
 
-      # Install Poetry
+      # Install Poetry and dependencies
       - name: Install Poetry using pipx
-        run: pipx install poetry
-
-      # Install and Update Project
-      - name: Install dependencies
         run: |
+          python3 -m pip install --user pipx
+          python3 -m pipx ensurepath
+          pipx install poetry
           poetry config virtualenvs.in-project true
           poetry install
           poetry update
