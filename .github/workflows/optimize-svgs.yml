@@ -15,11 +15,13 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    # Install Inkscape and XVFB
     - name: Install Inkscape
       run: |
         sudo add-apt-repository ppa:inkscape.dev/stable
         sudo apt-get install -y inkscape xvfb
 
+    # Process SVG files with Inkscape
     - name: Process SVG files with Inkscape
       run: |
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
@@ -27,26 +29,26 @@ jobs:
         done
         xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" inkscape --shell < commands.txt
 
-#    - name: Install Node.js, NPM, and SVGO
-#      uses: actions/setup-node@v4
-#      with:
-#        node-version: 'latest'
-#      run: |
-#        node --version
-#        npm --version
-#
+    # Install Node, NPM and SVGO
+    - name: Install Node, NPM and SVGO
+      uses: actions/setup-node@v4
+      with:
+        node-version: 'latest'
+      run: |
+        node --version
+        npm --version
+        npm install -g svgo
 
-#    - name: Install SVGO
-#      run: npm install -g svgo
+    # Create optimized versions of all SVG files
+    - name: Optimize SVG files with SVGO
+      run: |
+        find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
+          optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set//')"
+          mkdir -p "$(dirname "$optimized_file")"
+          svgo -i "$file" -o "$optimized_file"
+        done
 
-#    - name: Optimize SVG files with SVGO
-#      run: |
-#        find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-#          optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set//')"
-#          mkdir -p "$(dirname "$optimized_file")"
-#          svgo -i "$file" -o "$optimized_file"
-#        done
-
+    # Open a new PR with changed SVG files
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
       with:
