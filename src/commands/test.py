@@ -2,7 +2,7 @@
 * Commands: Scryfall Data
 """
 from pprint import pprint
-from typing import Callable, Optional
+from typing import Optional
 
 # Third Party Imports
 import click

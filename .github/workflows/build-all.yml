@@ -27,14 +27,15 @@ jobs:
       # Install and Update Project
       - name: Install dependencies
         run: |
+          poetry config virtualenvs.in-project true
           poetry install
           poetry update
 
       # Build Package and Docs
       - name: Activate Poetry shell and build docs
         run: |
-          poetry shell
-          vectors build docs
+          source .venv/bin/activate
+          python src/cli.py build .
 
       # Commit Changes
       - name: Add and Commit changes
