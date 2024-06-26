@@ -1,3 +1,21 @@
+## v0.6.7 (2024-06-26)
+
+### Fix
+
+- **workflows**: Make sure to fetch tags
+- **workflows**: Ensure cz command run from poetry
+- **cli**: Fix incorrect CLI entrypoint
+- **build-all**: Try to correct issue with poetry/pipx
+- **workflows**: Correct typo, rework flow
+- **typo**: Fix workflow typo
+
+### Refactor
+
+- **workflows**: Remove commands.txt from final commit, make a few small changes
+- **workflows**: Rename file
+- **poetry**: Update poetry deps, build new manifest, package, and docs
+- **svg/set**: Add lots of new symbols!
+
 ## v0.6.6 (2024-06-01)
 
 ### Refactor
