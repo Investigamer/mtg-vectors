@@ -20,5 +20,5 @@
 | BIG | T |[SVG](https://svgs.scryfall.io/sets/big.svg), [Cards](https://scryfall.com/sets/ptg) |
 | BLC | T |[SVG](https://svgs.scryfall.io/sets/blc.svg), [Cards](https://scryfall.com/sets/ptg) |
 | M3C | T |[SVG](https://svgs.scryfall.io/sets/m3c.svg), [Cards](https://scryfall.com/sets/ptg) |
-| OTP | T |[SVG](https://svgs.scryfall.io/sets/otp.svg), [Cards](https://scryfall.com/sets/ptg) |
 | OTC | T |[SVG](https://svgs.scryfall.io/sets/otc.svg), [Cards](https://scryfall.com/sets/ptg) |
+| OTP | T |[SVG](https://svgs.scryfall.io/sets/otp.svg), [Cards](https://scryfall.com/sets/ptg) |

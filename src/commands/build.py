@@ -88,10 +88,10 @@ def build_manifest() -> None:
         if folder in ['.alt', '.extras']:
             continue
         # Add rarities to manifest
-        manifest['set']['symbols'][folder] = [
+        manifest['set']['symbols'][folder] = sorted([
             Path(svg).stem for svg in
             os.listdir(Path(Paths.SET, folder))
-            if svg.upper().strip('.svg') not in SetData.RARITIES]
+            if svg.upper().strip('.svg') not in SetData.RARITIES])
 
     # Sort Set Symbols
     manifest['set']['symbols'] = dict(sorted(manifest['set']['symbols'].items())).copy()

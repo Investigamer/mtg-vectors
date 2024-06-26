@@ -56,4 +56,3 @@ jobs:
         title: 'Action: Optimize Symbols'
         body: "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting."
         branch: svg-actions
-        base: main
