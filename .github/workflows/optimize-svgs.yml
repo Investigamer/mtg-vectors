@@ -15,11 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    # Install Inkscape and XVFB
+    # Install Inkscape, XVFB, GitHub CLI
     - name: Install Inkscape
       run: |
         sudo add-apt-repository ppa:inkscape.dev/stable
-        sudo apt-get install -y inkscape xvfb
+        sudo apt-get install -y inkscape xvfb gh
 
     # Process SVG files with Inkscape
     - name: Process SVG files with Inkscape
@@ -48,11 +48,34 @@ jobs:
         done
         git add .
 
-    # Open a new PR with changed SVG files
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v4
-      with:
-        commit-message: 'build(svg): Format and optimize svg files'
-        title: 'Action: Optimize Symbols'
-        body: "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting."
-        branch: svg-actions
+    # Create a PR with the changes, or update existing one
+    - name: Update Existing PR or Create New One
+      run: |
+        # Extract the owner's username from the github.repository context
+        REPO_OWNER=${{ github.repository_owner }}
+
+        # Check if a PR exists for the svg-actions branch
+        pr_exists=$(gh pr list --state open \
+                               --author $REPO_OWNER \
+                               --label "auto-generated" \
+                               --jq '.[] | select(.headRefName == "svg-actions")')
+        
+        if [[ -n "$pr_exists" ]]; then
+          echo "Existing PR found. Pushing changes to update..."
+          git push origin svg-actions
+        else
+          echo "No existing PR found. Creating new PR..."
+          git checkout -b svg-actions
+          git add .
+          git commit -m "build(svg): Format and optimize svg files"
+          git push origin svg-actions
+          
+          gh pr create \
+            --title "Action: Optimize Symbols" \
+            --body "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting." \
+            --head svg-actions \
+            --base main \
+            --label auto-generated
+        fi
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
