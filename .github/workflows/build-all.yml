@@ -47,5 +47,5 @@ jobs:
           git config --global user.email 'github-actions@github.com'
           git commit -m "deps(build): Process daily updates (package, docs, poetry)."
           git push
-          poetry run cz -nr 21 bump --yes
+          poetry run cz -nr 21,16 bump --yes
           git push && git push --tags
