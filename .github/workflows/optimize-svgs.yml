@@ -71,18 +71,13 @@ jobs:
         pr_number=$(echo "$pr_json" | jq -r '.[0].number')
     
         if [[ -n "$pr_exists" ]]; then
-          echo "Existing PR found. Updating..."
-          # Assuming $pr_exists now contains the PR number, update the existing PR
-          gh pr edit "$pr_exists" \
-            --title "Action: Optimize Symbols" \
-            --body "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting." \
-            --label auto-generated
+          echo "Existing PR found, no need to make one"
         else
+        # Create a new PR
           echo "No existing PR found. Creating new PR"
-          # Create a new PR as no existing PR was found
           gh pr create \
             --title "Action: Optimize Symbols" \
-            --body "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting." \
+            --body "Triggered by: New Commit\r\n-----------\r\nRan automated SVG optimization and formatting." \
             --head actions/svg-optimize \
             --base main \
             --label auto-generated
