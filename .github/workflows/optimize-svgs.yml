@@ -63,7 +63,8 @@ jobs:
         git commit -m "build(svg): Format and optimize svg files"
     
         # Push changes to the remote repository
-        git push origin actions/svg-optimize --set-upstream
+        git pull
+        git push -u origin actions/svg-optimize
     
         # Check if a PR exists for the actions/svg-optimize branch
         pr_json=$(gh pr list --state open --label auto-generated --head actions/svg-optimize --json number)
