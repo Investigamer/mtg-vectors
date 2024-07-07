@@ -1,40 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
-	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
-	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
-	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
-	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
-	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
-	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
-	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
-]>
-<svg version="1.1"
-	 id="Ebene_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 144.6 68.9"
-	 style="enable-background:new 0 0 144.6 68.9;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 144.49999 68.9"
+   xml:space="preserve"
+   width="144.5"
+   height="68.900002"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:i="&amp;ns_ai;"><defs
+   id="defs3" />
+<style
+   type="text/css"
+   id="style1">
 	.st0{display:none;fill:#FFFFFF;}
 </style>
-<switch>
-	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
-		<i:aipgfRef  xlink:href="#adobe_illustrator_pgf">
+<switch
+   id="switch3">
+	<foreignObject
+   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1">
+		<i:aipgfRef
+   xlink:href="#adobe_illustrator_pgf">
 		</i:aipgfRef>
 	</foreignObject>
-	<g i:extraneous="self">
-		<path class="st0" d="M114.2,7c-4.6-4.5-10.8-7-17.2-7c-9.1,0-17.5,5-21.7,13.1l-9.7-9.7L0,68.9l16.7,0l21.5-21.5L51.7,61l8.3-8.3
-			l-6.8-6.8l6.8-6.8l-6.8-6.8L65.5,20l5.2,5.2L64,32.1l6.8,6.8l-7,7l8.3,8.3l7-7l5.2,5.2l-7,7l9.5,9.5l17.1,0l-9.7-9.7l6.8-6.8
-			l-6.8-6.8l5.2-5.2l12,12l-6.8,6.8l8.3,8.3l6.8-6.8l8.1,8.1l16.7,0l-28.6-28.6c3.6-4.4,5.6-9.9,5.6-15.6C121.7,18,119,11.6,114.2,7
-			z"/>
-		<path d="M112.5,8.7c-4.2-4.1-9.8-6.3-15.6-6.3c-8.5,0-16.2,4.8-20,12.4l15.7,15.7l6.8-6.8l14.9,14.9c3.2-4,4.9-8.9,4.9-14
-			C119.3,18.7,116.9,12.9,112.5,8.7z"/>
-		<path d="M107.8,59.2l6.8-6.8L99.5,37.3l-8.3,8.3l6.8,6.8l-6.8,6.8l7.3,7.3H87.5l-7-7l7-7l-8.3-8.3l-7,7l-5.2-5.2l7-7l-6.8-6.8
-			l6.8-6.8l-8.3-8.3L50.2,32.3l6.8,6.8l-6.8,6.8l6.8,6.8l-5.2,5.2L38.2,44.3L16,66.5H5.5l60-60l27.2,27.2l6.8-6.8l39.6,39.6h-10.5
-			l-8.8-8.8l-6.8,6.8L107.8,59.2z"/>
+	<g
+   i:extraneous="self"
+   id="g3">
+		<path
+   class="st0"
+   d="M 114.2,7 C 109.6,2.5 103.4,0 97,0 87.9,0 79.5,5 75.3,13.1 L 65.6,3.4 0,68.9 H 16.7 L 38.2,47.4 51.7,61 60,52.7 53.2,45.9 60,39.1 53.2,32.3 65.5,20 l 5.2,5.2 -6.7,6.9 6.8,6.8 -7,7 8.3,8.3 7,-7 5.2,5.2 -7,7 9.5,9.5 h 17.1 l -9.7,-9.7 6.8,-6.8 -6.8,-6.8 5.2,-5.2 12,12 -6.8,6.8 8.3,8.3 6.8,-6.8 8.1,8.1 h 16.7 L 115.9,40.2 c 3.6,-4.4 5.6,-9.9 5.6,-15.6 C 121.7,18 119,11.6 114.2,7 Z"
+   id="path1" />
+		<path
+   d="m 112.5,8.7 c -4.2,-4.1 -9.8,-6.3 -15.6,-6.3 -8.5,0 -16.2,4.8 -20,12.4 l 15.7,15.7 6.8,-6.8 14.9,14.9 c 3.2,-4 4.9,-8.9 4.9,-14 0.1,-5.9 -2.3,-11.7 -6.7,-15.9 z"
+   id="path2" />
+		<path
+   d="m 107.8,59.2 6.8,-6.8 -15.1,-15.1 -8.3,8.3 6.8,6.8 -6.8,6.8 7.3,7.3 h -11 l -7,-7 7,-7 -8.3,-8.3 -7,7 L 67,46 74,39 67.2,32.2 74,25.4 65.7,17.1 50.2,32.3 57,39.1 50.2,45.9 57,52.7 51.8,57.9 38.2,44.3 16,66.5 H 5.5 l 60,-60 27.2,27.2 6.8,-6.8 39.6,39.6 h -10.5 l -8.8,-8.8 -6.8,6.8 z"
+   id="path3" />
 	</g>
 </switch>
-<i:aipgf  id="adobe_illustrator_pgf" i:pgfEncoding="zstd/base64" i:pgfVersion="24">
+<i:aipgf
+   id="adobe_illustrator_pgf"
+   i:pgfEncoding="zstd/base64"
+   i:pgfVersion="24">
 	<![CDATA[
 	KLUv/QBYNWIDiuGLwjrwRIS0A8xwtIFXJIvD4rAIMVwIGBjL5Mz+HRbKez2xPXD78X40loTZL5aU
 lJSUMD4Oul8gsskwiZQQpAvIDM0MGIWSQ52riY6Oc4WxvtcJo1iZAdDVmUrPjuscwOpYbDXhRzVZ

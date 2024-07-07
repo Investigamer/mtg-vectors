@@ -42,7 +42,7 @@
       </linearGradient>
       <polygon
          fill="url(#SVGID_3_)"
-         points="268.634,236.744 214.649,286.658 304.193,283.047 "
+         points="304.193,283.047 268.634,236.744 214.649,286.658 "
          id="polygon3"
          style="fill:url(#SVGID_3_)" />
       <linearGradient
@@ -68,7 +68,7 @@
       </linearGradient>
       <polygon
          fill="url(#SVGID_6_)"
-         points="59.385,236.765 23.828,283.02 113.424,286.66 "
+         points="113.424,286.66 59.385,236.765 23.828,283.02 "
          id="polygon6"
          style="fill:url(#SVGID_6_)" />
       <linearGradient
@@ -94,7 +94,7 @@
       </linearGradient>
       <polygon
          fill="url(#SVGID_9_)"
-         points="271.69,182.753 224.971,151.225 184.641,36.435 184.667,265.032 "
+         points="184.641,36.435 184.667,265.032 271.69,182.753 224.971,151.225 "
          id="polygon9"
          style="fill:url(#SVGID_9_)" />
       <linearGradient
@@ -120,7 +120,7 @@
       </linearGradient>
       <polygon
          fill="url(#SVGID_12_)"
-         points="143.391,265.072 143.4,36.417 103.092,151.221 56.379,182.738 "
+         points="103.092,151.221 56.379,182.738 143.391,265.072 143.4,36.417 "
          id="polygon12"
          style="fill:url(#SVGID_12_)" />
     </g>
