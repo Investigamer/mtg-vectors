@@ -25,7 +25,7 @@ jobs:
     - name: Process SVG files with Inkscape
       run: |
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-          echo "file-open:$file; select-all; page-fit-to-selection; export-plain-svg; export-filename:$file; file-close" >> commands.txt
+          echo "file-open:$file; select-all; page-fit-to-selection; export-plain-svg; export-filename:$file; export-do; file-close" >> commands.txt
         done
         xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" inkscape --shell < commands.txt
         rm commands.txt
@@ -42,35 +42,47 @@ jobs:
       run: |
         npm install -g svgo
         find svg/set -name "*.svg" -print0 | while IFS= read -r -d '' file; do
-          optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set//')"
+          optimized_file="svg/set_optimized/$(echo "$file" | sed 's/svg\/set\//')"
           mkdir -p "$(dirname "$optimized_file")"
           svgo -i "$file" -o "$optimized_file"
         done
         git add .
 
-    # Create a PR with the changes, or update existing one
+    # Create a PR
     - name: Update Existing PR or Create New One
       run: |
-        # Extract the owner's username from the github.repository context
-        REPO_OWNER=${{ github.repository_owner }}
-
-        # Check if a PR exists for the svg-actions branch
-        pr_exists=$(gh pr list --state=open --author=$REPO_OWNER --label=auto-generated --head=svg-actions)
-        
+        # Configure Git user
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+    
+        # Checkout to the target branch, create it if it doesn't exist
+        git checkout -b actions/svg-optimize || true
+    
+        # Commit changes
+        git add .
+        git commit -m "build(svg): Format and optimize svg files"
+    
+        # Push changes to the remote repository
+        git push origin actions/svg-optimize --set-upstream
+    
+        # Check if a PR exists for the actions/svg-optimize branch
+        pr_json=$(gh pr list --state open --label auto-generated --head actions/svg-optimize --json number)
+        pr_number=$(echo "$pr_json" | jq -r '.[0].number')
+    
         if [[ -n "$pr_exists" ]]; then
-          echo "Existing PR found. Pushing changes to update..."
-          git push origin svg-actions
+          echo "Existing PR found. Updating..."
+          # Assuming $pr_exists now contains the PR number, update the existing PR
+          gh pr edit "$pr_exists" \
+            --title "Action: Optimize Symbols" \
+            --body "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting." \
+            --label auto-generated
         else
-          echo "No existing PR found. Creating new PR..."
-          git checkout -b svg-actions
-          git add .
-          git commit -m "build(svg): Format and optimize svg files"
-          git push origin svg-actions
-          
+          echo "No existing PR found. Creating new PR"
+          # Create a new PR as no existing PR was found
           gh pr create \
             --title "Action: Optimize Symbols" \
             --body "Triggered by: New Commit\n-----------\nRan automated SVG optimization and formatting." \
-            --head svg-actions \
+            --head actions/svg-optimize \
             --base main \
             --label auto-generated
         fi
