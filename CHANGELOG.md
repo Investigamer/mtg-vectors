@@ -1,3 +1,14 @@
+## v0.6.8 (2024-07-09)
+
+### Fix
+
+- **workflow**: Minor typo in github action
+
+### Refactor
+
+- **workflows**: Improve optimization workflow
+- **optimize-svgs.yml**: Make sure to pull changes
+
 ## v0.6.7 (2024-06-26)
 
 ### Fix
