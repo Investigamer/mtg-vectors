@@ -20,5 +20,6 @@ def create_zip(src: Path, dst: Path) -> None:
     with zipfile.ZipFile(dst, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(src):
             for file in files:
-                zipf.write(os.path.join(root, file),
-                           arcname=os.path.relpath(os.path.join(root, file), src))
+                file_path = os.path.join(root, file)
+                rel_path = os.path.relpath(file_path, src)
+                zipf.write(file_path, rel_path)
