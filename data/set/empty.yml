@@ -1,5 +1,9 @@
 ###
-# * Sets that have no defined icon on Scryfall.
+# * Sets that Scryfall assigned the "default" icon which don't have a visible icon on any of the cards. Purely
+#   for the purpose of record keeping, non-functional.
+#
+# * (key) Always 'empty'.
+# * (value) A list of set codes.
 ###
 
 empty:
