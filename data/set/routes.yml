@@ -1,15 +1,17 @@
 ###
-# * Manually routes sets to the most accurate symbol code.
+# * Manually routes sets to the most accurate symbol code. This data file is a holdover from the
+#   Proxyshop project where I manually defined symbol routing for nearly every symbol to account
+#   for inconsistencies in Scryfall data.
+#
 # * (key) A valid Scryfall recognized set code.
 # * (value) A valid symbol code found in our symbol catalog.
 #
-# * NOTE:
-#   - Uses all other data files to compile a comprehensive mapping for any set code
-#     who's icon provided in Scryfall data does not match the preferred symbol code.
-#
 # * TODO:
-#   - Create a process for updating and generating this dynamically via
-#     Scryfall's "symbol_icon_uri" resource?
+#   - Create a process for updating and generating our data files dynamically via
+#     Scryfall's "symbol_icon_uri" resource so we don't include definitions that
+#     Scryfall already accurately represents.
+#   - Eventually deprecate this datafile in favor of using Scryfall's icon definition
+#     unless routed in other data files.
 ###
 
 # ------------------------------
@@ -172,6 +174,7 @@ PHOP: DCI
 # ------------------------------
 
 # Vintage Championship
+# Todo: Uses OVNT until 2013, switches to STAR.
 OVNT: STAR
 
 # Legacy Championship
@@ -534,6 +537,6 @@ MB1: DEFAULT
 CMB1: DEFAULT
 CMB2: DEFAULT
 FMB1: DEFAULT
-PLIST: DEFAULT
-UPLIST: DEFAULT
+PLST: DEFAULT
+ULST: DEFAULT
 RQS: DEFAULT
