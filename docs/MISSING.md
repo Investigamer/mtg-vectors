@@ -18,8 +18,8 @@
 | PDRC | M, R, T, U |[SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/ptg) |
 | PZ2 | M, R, T, U |[SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/ptg) |
 | Y24 | T, WM |[SVG](https://svgs.scryfall.io/sets/y24.svg), [Cards](https://scryfall.com/sets/ptg) |
-| BIG | T |[SVG](https://svgs.scryfall.io/sets/big.svg), [Cards](https://scryfall.com/sets/ptg) |
-| BLC | T |[SVG](https://svgs.scryfall.io/sets/blc.svg), [Cards](https://scryfall.com/sets/ptg) |
-| M3C | T |[SVG](https://svgs.scryfall.io/sets/m3c.svg), [Cards](https://scryfall.com/sets/ptg) |
 | OTP | T |[SVG](https://svgs.scryfall.io/sets/otp.svg), [Cards](https://scryfall.com/sets/ptg) |
+| BIG | T |[SVG](https://svgs.scryfall.io/sets/big.svg), [Cards](https://scryfall.com/sets/ptg) |
+| M3C | T |[SVG](https://svgs.scryfall.io/sets/m3c.svg), [Cards](https://scryfall.com/sets/ptg) |
 | OTC | T |[SVG](https://svgs.scryfall.io/sets/otc.svg), [Cards](https://scryfall.com/sets/ptg) |
+| BLC | T |[SVG](https://svgs.scryfall.io/sets/blc.svg), [Cards](https://scryfall.com/sets/ptg) |

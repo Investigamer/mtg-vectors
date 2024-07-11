@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2024-07-10",
-    "version": "0.6.8+20240710",
+    "date": "2024-07-11",
+    "version": "0.6.8+20240711",
     "uri": "https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip"
   },
   "set": {
@@ -166,8 +166,8 @@
       "PLG21": "STAR",
       "PLG22": "STAR",
       "PLGM": "DEFAULT",
-      "PLIST": "DEFAULT",
       "PLNY": "STAR",
+      "PLST": "DEFAULT",
       "PMDA": "STAR",
       "PMEI": "STAR",
       "PMIC": "PAST",
@@ -234,7 +234,7 @@
       "THP3": "JOU",
       "TSB": "TSP",
       "UGIN": "FRF",
-      "UPLIST": "DEFAULT",
+      "ULST": "DEFAULT",
       "WC00": "DEFAULT",
       "WC01": "DEFAULT",
       "WC02": "DEFAULT",
