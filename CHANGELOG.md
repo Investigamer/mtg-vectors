@@ -1,3 +1,10 @@
+## v0.6.9 (2024-07-11)
+
+### Refactor
+
+- **utils**: Minor refactoring
+- **routes**: Commit final update before planning deprecation of manual routes
+
 ## v0.6.8 (2024-07-09)
 
 ### Fix
