@@ -1,6 +1,7 @@
 # Missing Set Symbols
 | Symbol Code   | Links         |
 | ------------- | ------------- |
+| DSC |[SVG](https://svgs.scryfall.io/sets/dsc.svg), [Cards](https://scryfall.com/sets/dsc) |
 | DSK |[SVG](https://svgs.scryfall.io/sets/dsk.svg), [Cards](https://scryfall.com/sets/dsk) |
 | UND |[SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/tund) |
 | PTG |[SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
