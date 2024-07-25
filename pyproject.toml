@@ -19,6 +19,7 @@ typing-extensions = "^4.8.0"
 setuptools = "^69.0.2"
 click = "^8.1.7"
 omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.2.2"}
+hexproof = {git = "https://github.com/Investigamer/hexproof.git", tag = "0.3.0"}
 
 [tool.poetry.scripts]
 vectors = 'src.commands:AppCLI'
