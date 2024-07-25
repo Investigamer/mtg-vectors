@@ -22,11 +22,13 @@ class Paths:
     SVG: Path = ROOT / 'svg'
     SET: Path = SVG / 'set'
     WATERMARK: Path = SVG / 'watermark'
-    SET_OPTIMIZED: Path = SVG / 'optimized' / 'set'
-    WATERMARK_OPTIMIZED: Path = SVG / 'optimized' / 'watermark'
+    SVG_OPTIMIZED: Path = SVG / 'optimized'
+    SET_OPTIMIZED: Path = SVG_OPTIMIZED / 'set'
+    WATERMARK_OPTIMIZED: Path = SVG_OPTIMIZED / 'watermark'
 
     # Project files
-    PACKAGE: Path = ROOT / 'package.zip'
+    PACKAGE_ALL: Path = ROOT / 'package.all.zip'
+    PACKAGE_OPTIMIZED: Path = ROOT / 'package.optimized.zip'
     CONFIG: Path = ROOT / 'pyproject.toml'
     MANIFEST: Path = ROOT / 'manifest.json'
 

@@ -231,5 +231,3 @@ def get_npm_command() -> str:
 
     # SVGO couldn't be executed
     raise OSError('SVGO does not seem to be installed!')
-
-
