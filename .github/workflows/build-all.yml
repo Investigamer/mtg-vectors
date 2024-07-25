@@ -46,15 +46,11 @@ jobs:
           poetry update
           npm install
 
-      # Build Package and Docs
-      - name: Build package and docs
-        run: |
-          poetry run vectors build .
-
-      # Commit Changes
-      - name: Add and Commit changes
+      # Build Package and Docs, Commit Changes
+      - name: Build Repository and Commit Changes
         run: |
           git pull --tags
+          poetry run vectors build .
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
