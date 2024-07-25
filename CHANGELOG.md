@@ -1,3 +1,19 @@
+## v0.6.9 (2024-07-25)
+
+### Refactor
+
+- **svg**: Remove eroneous files
+- **workflows**: Minor tweaks
+- **commands**: Update commands and command utilities using new schema system, data files, and build system
+- **symbols,schema**: Rework set symbol utilities using new schema structures, remove deprecated files
+- **watermarks**: Rework watermark utilities
+- **github**: Deprecate unneeeded workflow, update build workflow
+- **data**: Major rework of data files, deprecate files no longer needed
+- **cleanup**: Remove unnecessary files and generate new docs
+- **svg**: Relocate unused symbols, add new optimized symbols path
+- **utils**: Minor refactoring
+- **routes**: Commit final update before planning deprecation of manual routes
+
 ## v0.6.8 (2024-07-09)
 
 ### Fix
