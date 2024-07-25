@@ -17,13 +17,25 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
+      # Install Inkscape, XVFB, GitHub CLI
+      - name: Install Inkscape
+        run: |
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt-get install -y inkscape xvfb gh
+
       # Use Python 3.12
       - name: Set up Python 3.12
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
 
-      # Install Poetry and dependencies
+      # Install Node, NPM and SVGO
+      - name: Install Node / NPM
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+
+      # Install Pipx, Poetry and dependencies
       - name: Install Poetry using pipx
         run: |
           python3 -m pip install --user pipx
@@ -32,6 +44,7 @@ jobs:
           poetry config virtualenvs.in-project true
           poetry install
           poetry update
+          npm install
 
       # Build Package and Docs
       - name: Build package and docs
@@ -45,7 +58,7 @@ jobs:
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git commit -m "deps(build): Process daily updates (package, docs, poetry)."
+          git commit -m "deps(build): Process daily updates."
           git push
           poetry run cz -nr 21,16 bump --yes
           git push && git push --tags
