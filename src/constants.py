@@ -1,4 +1,7 @@
-# Base Paths
+"""
+* App Constants
+"""
+# Standard Library Imports
 from datetime import datetime, date
 from pathlib import Path
 
@@ -17,8 +20,10 @@ class Paths:
 
     # SVG Assets
     SVG: Path = ROOT / 'svg'
-    SET: Path = ROOT / 'svg' / 'set'
-    WATERMARK: Path = ROOT / 'svg' / 'watermark'
+    SET: Path = SVG / 'set'
+    WATERMARK: Path = SVG / 'watermark'
+    SET_OPTIMIZED: Path = SVG / 'optimized' / 'set'
+    WATERMARK_OPTIMIZED: Path = SVG / 'optimized' / 'watermark'
 
     # Project files
     PACKAGE: Path = ROOT / 'package.zip'
@@ -52,11 +57,9 @@ class Constants:
 class SetPath:
     """Define paths for 'Set' symbol data files."""
     ALIAS: Path = Paths.DATA / 'set' / 'alias.yml'
-    CORRECTED: Path = Paths.DATA / 'set' / 'corrected.yml'
     EMPTY: Path = Paths.DATA / 'set' / 'empty.yml'
     IGNORED: Path = Paths.DATA / 'set' / 'ignored.yml'
     MIXED: Path = Paths.DATA / 'set' / 'mixed.yml'
-    RARITIES: Path = Paths.DATA / 'set' / 'rarities.yml'
     ROUTES: Path = Paths.DATA / 'set' / 'routes.yml'
 
 
@@ -73,12 +76,10 @@ class WMPath:
 
 class SetData:
     """Loaded data for 'Set' symbols."""
-    ALIAS: dict[str, list[str]] = load_data_file(SetPath.ALIAS)
-    CORRECTED: dict[str, str] = load_data_file(SetPath.CORRECTED)
+    ALIAS: dict[str, str] = load_data_file(SetPath.ALIAS)
     EMPTY: list[str] = load_data_file(SetPath.EMPTY).get('empty', [])
     IGNORED: list[str] = load_data_file(SetPath.IGNORED).get('ignored', [])
     MIXED: list[str] = load_data_file(SetPath.MIXED).get('mixed', [])
-    RARITIES: list[str] = load_data_file(SetPath.RARITIES).get('rarities', [])
     ROUTES: dict[str, str] = dict(sorted(load_data_file(SetPath.ROUTES).items()))
 
 
@@ -86,18 +87,3 @@ class WMData:
     """Loaded data for 'Watermark' symbols."""
     IGNORED: list[str] = load_data_file(WMPath.IGNORED).get('ignored', [])
     MIXED: list[str] = load_data_file(WMPath.MIXED).get('mixed', [])
-
-
-"""Define recognized rarities for set symbols."""
-SetRarities = {
-    '80': '80',
-    'B': 'Bonus',
-    'C': 'Common',
-    'H': 'Half',
-    'M': 'Mythic',
-    'R': 'Rare',
-    'U': 'Uncommon',
-    'S': 'Special',
-    'T': 'Timeshifted',
-    'WM': 'Watermark'
-}
