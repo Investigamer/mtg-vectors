@@ -3,14 +3,17 @@
 #
 # * NOTES:
 #   - Purely for record keeping purposes.
-#   - Generally Scryfall will assign the "DEFAULT" code to these.
+#   - Scryfall typically (but not always) assigns the "DEFAULT" code to these.
 ###
 
 mixed:
+  # 15th Anniversary
   - P15A
+  # Media Inserts
   - PMEI
   - # Vintage World Championship
   - OVNT
+  - OLGC
   # World championship
   - WC04
   - WC03
@@ -23,10 +26,6 @@ mixed:
   # World Championship Promos
   - PWOR
   - PHJ
-  # Secret Lair Promo Decks
-  - PHED
-  - PAGL
-  - PCTB
   # Judge Promos
   - JGP
   - G99
@@ -70,12 +69,10 @@ mixed:
   - GK2
   # Misc sets with no official symbol
   # OR reprint using original symbol
-  - MB1
   - CMB1
   - CMB2
-  - FMB1
-  - PLIST
-  - UPLIST
+  - PLST
+  - ULST
   # Celebration Cards
   - PCEL
   # Friday Night Magic
