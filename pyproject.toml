@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mtg-vectors"
-version = "0.6.9"
+version = "0.6.10"
 description = "A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols."
 authors = ["Investigamer <freethoughtleft@gmail.com>"]
 license = "MPL-2.0"
@@ -25,7 +25,7 @@ hexproof = {git = "https://github.com/Investigamer/hexproof.git", tag = "0.3.0"}
 vectors = 'src.commands:AppCLI'
 
 [tool.commitizen]
-version = "0.6.9"
+version = "0.6.10"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
 update_changelog_on_bump = true

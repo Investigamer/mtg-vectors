@@ -1,3 +1,12 @@
+## v0.6.10 (2024-07-27)
+
+### Refactor
+
+- **workflows**: Update formatting of release body
+- **git**: Ensure manifest isn't committed to repo
+- **naming**: Re-add properly named symbols which encountered filename issue
+- **naming**: Remove optimized symbols to fix naming issue with git
+
 ## v0.6.9 (2024-07-25)
 
 ### Refactor
