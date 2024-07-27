@@ -1,4 +1,4 @@
-name: Build Package and Docs
+name: Build Daily Release
 
 on:
   workflow_dispatch:
