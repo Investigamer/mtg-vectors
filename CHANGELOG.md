@@ -1,3 +1,10 @@
+## v0.6.11 (2024-07-27)
+
+### Refactor
+
+- **svg**: Add repaired symbols
+- **svg**: Temporarily remove anomalous symbols
+
 ## v0.6.10 (2024-07-27)
 
 ### Refactor
