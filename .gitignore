@@ -158,3 +158,4 @@ node_modules
 .idea
 
 mtg-vectors.*.zip
+manifest.json
