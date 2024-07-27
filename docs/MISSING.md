@@ -16,9 +16,9 @@
 # Missing Set Symbol Rarities
 | Symbol Name | Rarities Missing | Links |
 | ----------- | ---------------- | ----- |
-| PGRU | M, U, T, R, WM | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
-| PDRC | M, U, T, R | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
-| PZ2 | M, U, T, R | [SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/pz2) |
+| PGRU | U, T, WM, M, R | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
+| PDRC | U, T, M, R | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
+| PZ2 | U, T, M, R | [SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/pz2) |
 | Y24 | T, WM | [SVG](https://svgs.scryfall.io/sets/y24.svg), [Cards](https://scryfall.com/sets/ywoe) |
 | BIG | T | [SVG](https://svgs.scryfall.io/sets/big.svg), [Cards](https://scryfall.com/sets/tbig) |
 | BLC | T | [SVG](https://svgs.scryfall.io/sets/blc.svg), [Cards](https://scryfall.com/sets/tblc) |
