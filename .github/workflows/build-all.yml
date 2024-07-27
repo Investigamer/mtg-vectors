@@ -65,15 +65,10 @@ jobs:
         run: |
           VERSION=$(poetry version -s)
           DATE=$(date +%Y%m%d)
+          DATE_FMT=$(date +'%Y-%m-%d')
           echo "PROJECT_VERSION=${VERSION}" >> $GITHUB_ENV
-          echo "VERSION_TAG=${VERSION}+${DATE}" >> $GITHUB_ENV
-
-      # Extract notes from last changelog
-      - name: Extract Last Changelog
-        id: extract_release_notes
-        uses: ffurrer2/extract-release-notes@v2
-        with:
-          changelog_file: CHANGELOG.md
+          echo "DATE_FMT=${DATE_FMT}" >> $GITHUB_ENV
+          echo "VERSION_TAG=v${VERSION}+${DATE}" >> $GITHUB_ENV
 
       # Publish Release
       - name: Publish Release
@@ -82,18 +77,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "v${{ env.VERSION_TAG }}"
-          release_name: "Daily Build — v${{ env.VERSION_TAG }}"
-          body: "# Build v${{ env.VERSION_TAG }}
+          tag_name: ${{ env.VERSION_TAG }}
+          release_name: ${{ env.VERSION_TAG }}
+          body: "## Daily Build (${{ env.DATE_FMT }})
+            
             This is an automated daily release that ingests changes to the SVG catalog and live Scryfall data. A new
             release does not mean the codebase has changed. The version tag for automated releases and the manifest file 
-            is comprised of the current codebase version + the day the release was generated in `YYYYMMDD` format.
+            is comprised of the codebase version + the day this release was generated in `YYYYMMDD` format.
             
-            ## Changelog v${{ env.PROJECT_VERSION }}
-            This is the changelog as of the most recent version of the repository's codebase. See the 
-            [full changelog](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md) to view 
-            the full codebase history.
-            ${{ steps.extract_release_notes.outputs.release_notes }}"
+            ### Release Files
+            
+            Two packages are provided, the `all` package contains both the original SVG files and the optimized 
+            versions. The `optimized` package only contains the optimized SVG files. Both packages include a 
+            `manifest.json` file which provides helpful compatibility and routing data. Generally, the optimized 
+            SVG files are recommended for production use, typically saving about 30-50% in filesize and providing
+            improved formatting compatibility accross use cases.
+            
+            ### Changelog
+            
+            See the automated [changelog](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md) to view 
+            the full history of the codebase."
           draft: false
           prerelease: false
 
