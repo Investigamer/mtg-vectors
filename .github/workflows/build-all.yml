@@ -46,8 +46,8 @@ jobs:
           poetry update
           npm install
 
-      # Build Package and Docs, Commit Changes
-      - name: Build Repository and Commit Changes
+      # Build Project and Commit Changes
+      - name: Build Project and Commit Changes
         run: |
           git pull --tags
           poetry run vectors build .
@@ -58,3 +58,63 @@ jobs:
           git push
           poetry run cz -nr 21,16 bump --yes
           git push && git push --tags
+
+      # Generate release tag
+      - name: Generate Release Tag
+        id: generate_tag
+        run: |
+          VERSION=$(poetry version -s)
+          DATE=$(date +%Y%m%d)
+          echo "PROJECT_VERSION=${VERSION}" >> $GITHUB_ENV
+          echo "VERSION_TAG=${VERSION}+${DATE}" >> $GITHUB_ENV
+
+      # Extract notes from last changelog
+      - name: Extract Last Changelog
+        id: extract_release_notes
+        uses: ffurrer2/extract-release-notes@v2
+        with:
+          changelog_file: CHANGELOG.md
+
+      # Publish Release
+      - name: Publish Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "v${{ env.VERSION_TAG }}"
+          release_name: "Daily Build — v${{ env.VERSION_TAG }}"
+          body: "# Build v${{ env.VERSION_TAG }}
+            This is an automated daily release that ingests changes to the SVG catalog and live Scryfall data. A new
+            release does not mean the codebase has changed. The version tag for automated releases and the manifest file 
+            is comprised of the current codebase version + the day the release was generated in `YYYYMMDD` format.
+            
+            ## Changelog v${{ env.PROJECT_VERSION }}
+            This is the changelog as of the most recent version of the repository's codebase. See the 
+            [full changelog](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md) to view 
+            the full codebase history.
+            ${{ steps.extract_release_notes.outputs.release_notes }}"
+          draft: false
+          prerelease: false
+
+      # Upload Release Package (All)
+      - name: Upload Release Package (All)
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: mtg-vectors.all.zip
+          asset_name: mtg-vectors.all.zip
+          asset_content_type: application/zip
+
+      # Upload Release Package (Optimized)
+      - name: Upload Release Package (Optimized)
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: mtg-vectors.optimized.zip
+          asset_name: mtg-vectors.optimized.zip
+          asset_content_type: application/zip

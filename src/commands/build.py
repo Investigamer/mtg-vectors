@@ -104,9 +104,15 @@ def build_manifest() -> None:
     # Dump manifest data
     dump_data_file(manifest.model_dump(), Paths.MANIFEST, config={'sort_keys': False})
 
-    # Create a zip of all symbols
-    create_zip(Paths.SVG, Paths.PACKAGE_ALL)
-    create_zip(Paths.SVG_OPTIMIZED, Paths.PACKAGE_OPTIMIZED)
+    # Create packages
+    create_zip(
+        src=Paths.SVG,
+        dst=Paths.PACKAGE_ALL,
+        files=[Paths.MANIFEST])
+    create_zip(
+        src=Paths.SVG_OPTIMIZED,
+        dst=Paths.PACKAGE_OPTIMIZED,
+        files=[Paths.MANIFEST])
 
     # Log success
     logger.success('Built manifest and package!')

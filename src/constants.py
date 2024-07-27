@@ -27,8 +27,8 @@ class Paths:
     WATERMARK_OPTIMIZED: Path = SVG_OPTIMIZED / 'watermark'
 
     # Project files
-    PACKAGE_ALL: Path = ROOT / 'package.all.zip'
-    PACKAGE_OPTIMIZED: Path = ROOT / 'package.optimized.zip'
+    PACKAGE_ALL: Path = ROOT / 'mtg-vectors.all.zip'
+    PACKAGE_OPTIMIZED: Path = ROOT / 'mtg-vectors.optimized.zip'
     CONFIG: Path = ROOT / 'pyproject.toml'
     MANIFEST: Path = ROOT / 'manifest.json'
 

@@ -25,18 +25,22 @@ INKSCAPE_ACTIONS = ';'.join([
 """
 
 
-def create_zip(src: Path, dst: Path) -> None:
+def create_zip(src: Path, dst: Path, files: list[Path] | None = None) -> None:
     """Create a `.zip` archive containing the contents of a given source directory.
     Args:
         src: Path to the source directory.
         dst: Path to the destination `.zip` file.
+        files: Additional files to include in the archive.
     """
+    files = files or []
     with zipfile.ZipFile(dst, 'w', zipfile.ZIP_DEFLATED) as zipf:
-        for root, dirs, files in os.walk(src):
-            for file in files:
+        for root, dirs, _files in os.walk(src):
+            for file in _files:
                 file_path = os.path.join(root, file)
                 rel_path = os.path.relpath(file_path, src)
                 zipf.write(file_path, rel_path)
+        for file in files:
+            zipf.write(str(file), file.name)
 
 
 """
