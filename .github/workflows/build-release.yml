@@ -2,7 +2,6 @@ name: Build Daily Release
 
 on:
   workflow_dispatch:
-  push:
   schedule:
     # Scheduled Daily (Midnight)
     - cron: '0 0 * * *'
