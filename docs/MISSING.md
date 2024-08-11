@@ -2,8 +2,8 @@
 | Symbol Code   | Links         |
 | ------------- | ------------- |
 | FDN |[SVG](https://svgs.scryfall.io/sets/fdn.svg), [Cards](https://scryfall.com/sets/fdn) |
-| DSC |[SVG](https://svgs.scryfall.io/sets/dsc.svg), [Cards](https://scryfall.com/sets/dsc) |
 | DSK |[SVG](https://svgs.scryfall.io/sets/dsk.svg), [Cards](https://scryfall.com/sets/dsk) |
+| DSC |[SVG](https://svgs.scryfall.io/sets/dsc.svg), [Cards](https://scryfall.com/sets/dsc) |
 | MB2 |[SVG](https://svgs.scryfall.io/sets/mb2.svg), [Cards](https://scryfall.com/sets/mb2) |
 | UND |[SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/tund) |
 | PTG |[SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
