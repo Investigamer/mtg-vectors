@@ -1,7 +1,32 @@
-## v0.6.9 (2024-07-11)
+## v0.6.11 (2024-07-27)
 
 ### Refactor
 
+- **svg**: Add repaired symbols
+- **svg**: Temporarily remove anomalous symbols
+
+## v0.6.10 (2024-07-27)
+
+### Refactor
+
+- **workflows**: Update formatting of release body
+- **git**: Ensure manifest isn't committed to repo
+- **naming**: Re-add properly named symbols which encountered filename issue
+- **naming**: Remove optimized symbols to fix naming issue with git
+
+## v0.6.9 (2024-07-25)
+
+### Refactor
+
+- **svg**: Remove eroneous files
+- **workflows**: Minor tweaks
+- **commands**: Update commands and command utilities using new schema system, data files, and build system
+- **symbols,schema**: Rework set symbol utilities using new schema structures, remove deprecated files
+- **watermarks**: Rework watermark utilities
+- **github**: Deprecate unneeeded workflow, update build workflow
+- **data**: Major rework of data files, deprecate files no longer needed
+- **cleanup**: Remove unnecessary files and generate new docs
+- **svg**: Relocate unused symbols, add new optimized symbols path
 - **utils**: Minor refactoring
 - **routes**: Commit final update before planning deprecation of manual routes
 

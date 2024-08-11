@@ -1,10 +1,18 @@
 ###
-# * Scryfall "icon" resources which have used multiple codes at varying times.
-# * (key) The code we have chosen as canon to represent this icon.
-# * (value) A list of all codes Scryfall has used for this icon.
+# * Scryfall "icon" aliases. These are icon codes which should be treated as a different
+#   icon code for one of the following reasons:
+#   1. The same icon has more than 1 recognized code on Scryfall.
+#   2. The icon code is not compatible with some operating systems (Windows).
+#
+# * (key) The original icon code on Scryfall.
+# * (value) The icon that should be used within this repository for this icon.
 ###
 
-STAR: [STAR, PMEI]
-DEFAULT: [DEFAULT, PMTG2]
-DCI: [PARL, DCI]
-MTGA: [MTGA, ARENA]
+# Scryfall duplicate icons
+ARENA: MTGA
+PARL: DCI
+PMTG2: DEFAULT
+PMEI: STAR
+
+# Corrected for Windows
+CON: CONF

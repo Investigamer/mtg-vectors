@@ -1,0 +1,123 @@
+name: Build Daily Release
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Scheduled Daily (Midnight)
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout Repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      # Install Inkscape, XVFB, GitHub CLI
+      - name: Install Inkscape
+        run: |
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt-get install -y inkscape xvfb gh
+
+      # Use Python 3.12
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      # Install Node, NPM and SVGO
+      - name: Install Node / NPM
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+
+      # Install Pipx, Poetry and dependencies
+      - name: Install Poetry using pipx
+        run: |
+          python3 -m pip install --user pipx
+          python3 -m pipx ensurepath
+          pipx install poetry
+          poetry config virtualenvs.in-project true
+          poetry install
+          poetry update
+          npm install
+
+      # Build Project and Commit Changes
+      - name: Build Project and Commit Changes
+        run: |
+          git pull --tags
+          poetry run vectors build .
+          git add .
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git commit -m "deps(build): Process daily updates."
+          git push
+          poetry run cz -nr 21,16 bump --yes
+          git push && git push --tags
+
+      # Generate release tag
+      - name: Generate Release Tag
+        id: generate_tag
+        run: |
+          VERSION=$(poetry version -s)
+          DATE=$(date +%Y%m%d)
+          DATE_FMT=$(date +'%Y-%m-%d')
+          echo "PROJECT_VERSION=${VERSION}" >> $GITHUB_ENV
+          echo "DATE_FMT=${DATE_FMT}" >> $GITHUB_ENV
+          echo "VERSION_TAG=v${VERSION}+${DATE}" >> $GITHUB_ENV
+
+      # Publish Release
+      - name: Publish Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.VERSION_TAG }}
+          release_name: ${{ env.VERSION_TAG }}
+          body: "## Daily Build (${{ env.DATE_FMT }})
+            
+            This is an automated daily release that ingests changes to the SVG catalog and live Scryfall data. A new
+            release does not mean the codebase has changed. The version tag for automated releases and the manifest file 
+            is comprised of the codebase version + the day this release was generated in `YYYYMMDD` format.
+            
+            ### Release Files
+            
+            Two packages are provided, the `all` package contains both the original SVG files and the optimized 
+            versions. The `optimized` package only contains the optimized SVG files. Both packages include a 
+            `manifest.json` file which provides helpful compatibility and routing data. Generally, the optimized 
+            SVG files are recommended for production use, typically saving about 30-50% in filesize and providing
+            improved formatting compatibility accross use cases.
+            
+            ### Changelog
+            
+            See the automated [changelog](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md) to view 
+            the full history of the codebase."
+          draft: false
+          prerelease: false
+
+      # Upload Release Package (All)
+      - name: Upload Release Package (All)
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: mtg-vectors.all.zip
+          asset_name: mtg-vectors.all.zip
+          asset_content_type: application/zip
+
+      # Upload Release Package (Optimized)
+      - name: Upload Release Package (Optimized)
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: mtg-vectors.optimized.zip
+          asset_name: mtg-vectors.optimized.zip
+          asset_content_type: application/zip

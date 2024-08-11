@@ -91,6 +91,13 @@ good old fashion pip. First lets clone the `mtg-vectors` repository somewhere on
     py src/cli.py build --help
     ```
 
+# Symbol Optimization
+This project supports an optimization workflow which is executed anytime a new package is built for
+distribution. To use this optimization workflow locally, you'll need both Inkscape and SVGO. You can install
+Inkscape on any operating system by visiting their website. You can install SVGO to this project locally using 
+`npm install`, or you can install SVGO to your global node installation with `npm install --global svgo`. To run 
+the optimization workflow, use `vectors build optimized` within the poetry shell environment.
+
 # Design Standards
 1. Try to create symbols from scratch in a software like Adobe Illustrator, using a WoTC official rasterized asset as a 
 guide. SOMETIMES you can use the Scryfall SVG linked next to an item in the `MISSING.md` reference file as a starting 
@@ -103,10 +110,10 @@ different symbols, please try to replicate the look of the specific symbol you a
 5. I know that the "T" rarity is only used in a handful of sets, but we try to maintain this rarity across the board for the
 benefit of custom cards, designing custom cubes, and other creative activities. WM represents the "watermark" version of a set
 symbol and should have no outline (one solid black layer).
-5. **PLEASE**, when you are finished with an SVG file, make sure to save or export it with **no transparent margin/space around
+6. When you are finished with an SVG file, we recommend you export it with **no transparent margin/space around
 the symbol**. Do not save the file as a symbol inside a larger transparent bounding box, or an art board that is larger than the
 symbol itself. If using Illustrator, join the symbol layers into **one group**, select that group, and Right Click -> Export 
-Selection. We are trying to enforce all symbols having no extra margin space.
+Selection.
 
 # Data Standards
 1. All real card data is gathered from Scryfall, and with _very few_ exceptions we try to use Scryfall equivalent naming 
@@ -126,41 +133,36 @@ Markdown `.md` format.
    - Is there a symbol we have that can act as a clean replacement for the incorrect Scryfall mapping?
 
 # The Symbol Manifest File
-The manifest for this repository (`manifest.json`) contains the following information:
-1. `meta` — This key tracks metadata about the current state of the repository.
-   - `date` — The date when the current manifest was generated.
-   - `version` — The version of the current manifest, combines the version of the repository and date this manifest was generated.
-   - `uri` — URL pointing to the live hosted ZIP package of all vectors catalogued in the repository at the time this manifest was generated.
-2. `set` — This key tracks all information pertaining to "set" symbol vectors.
-   - `route` — A dictionary mapping some set codes to a specific symbol code. Typically, a set is assigned a manual routing in this 
-dictionary because in our view Scryfall's provided icon for this set is incorrect. We also try to enforce one code for all symbols in 
-the repository, and Scryfall has a few cases where the same icon is given multiple icon names. In these cases we try to choose the most
-sensible of these names and re-route any duplicates to the preferred one. See the [Other Data Files](#other-data-files) section for more info.
-   - `symbols` — A dictionary of all symbol codes found in this repository mapped to a list of rarities currently supported by
+The project manifest (`manifest.json`) is used to track changes to the repository and help other applications
+accurately map SVG assets to Magic the Gathering data. The manifest contains the following data sections:
+### Meta
+- `date` Date when the current manifest was generated, in `YYYY-MM-DD` format.
+- `version` The version of the current manifest. Combines the project version (semVer) and date this manifest was 
+generated e.g. `0.1.0+20240101`.
+- `uri` URL pointing to the live hosted ZIP package of all vectors catalogued in the repository at the time this manifest was generated.
+### Set
+- `aliases` A dictionary mapping icon codes to the properly recognized universal alias for that icon code. See [Data Files](#data-files).
+- `routes` A dictionary mapping set codes to replacement symbol codes. Typically, a set is assigned a manual routing in this 
+dictionary because in our view Scryfall's provided icon for this set is incorrect. See [Data Files](#data-files).
+- `symbols` A dictionary of all symbol codes found in this repository mapped to a list of rarities currently supported by
 that symbol.
-3. `watermark` — This key tracks all information pertaining to "watermark" symbol vectors.
-   - `routes` — A dictionary which might map certain watermark names to other watermark names. Currently empty.
-   - `symbols` — A list of currently recognized watermark symbol names.
+### Watermark
+- `routes` A dictionary reserved for mapping watermarks in the future, currently unused.
+- `symbols` A list of currently recognized watermark symbol names.
 
-# Other Data Files
-1. `/set/alies.yml` — Tracks Scryfall "icon" resources that have multiple codes. The key represents the code we've chosen
-as "canon" for that symbol. The value is a list of all codes Scryfall has associated with this symbol at varying times.
-2. `/set/corrected.yml` — Tracks sets that Scryfall has assigned a seemingly incorrect icon code to. The key represents
-the set's "code", the value represents the symbol code we have chosen to route this set to.
-3. `/set/empty.yml` — Tracks a list of sets that have no defined icon on Scryfall.
-4. `/set/ignored.yml` — Tracks s list of directory names in our symbol catalog that are not recognized icon names on Scryfall.
-5. `/set/mixed.yml` — Tracks a list of sets that have a variety of different symbols, please note that generally Scryfall will 
-assign the "DEFAULT" code to these, but not always. In the future we plan to create additional mappings that allow users to 
-route individual cards in a given set to specific symbols to help deal with this scenario.
-6. `/set/rarities.yml` — Tracks all the rarities recognized by this repository.
-7. `/set/routes.yml` — Tracks a dictionary of set codes manually routed to symbol codes. Keys are valid Scryfall set codes, 
-values are symbol codes from our catalog. This dictionary is the culmination of many hours of analyzing Scryfall set data, 
-it was migrated to this project from my app [Proxyshop](https://github.com/Investigamer/Proxyshop) and heavily modified 
-thereafter to meet the requirements of the project. It is compiled by synthesizing, combining, and interpolating the other
-data files into a unified mapping, only re-routing sets which have a different icon code on Scryfall (for any reason). The 
-`routes` dictionary in our generated `manifest.json` is sourced from this dictionary at the time the manifest is generated.
-8. `/watermark/ignored.yml` — Tracks a list of watermark names recognized by Scryfall that do exist in this catalog, but don't
-share the same filename.
-9. `/watermark/mixed.yml` — Tracks a list of watermark names recognized by Scryfall that represent multiple different 
-symbols. We need to formalize a methodology for mapping each specific occurrence of this watermark name to the appropriate 
-vector asset.
+# Data Files
+This repository contains a few data files which track helpful information relating to Scryfall's data sets and how this 
+project maps symbols to MTG data to better match real world cards.
+
+### Set Symbols
+1. **[alias.yml](data/set/alias.yml)**—Tracks Scryfall "icon" resources that have multiple codes or have codes which require an alias to 
+maintain compatibility across operating systems.
+2. **[empty.yml](data/set/empty.yml)**—Tracks a list of sets that have no defined icon on Scryfall.
+3. **[ignored.yml](data/set/ignored.yml)**—Tracks a list of directory names in our symbol catalog that are not recognized icon codes on Scryfall.
+4. **[mixed.yml](data/set/mixed.yml)**—Tracks a list of sets where cards have a variety of different symbols.
+5. **[routes.yml](data/set/routes.yml)**—Tracks a dictionary of set codes manually routed to symbol codes that defer from Scryfall's mapping.
+
+### Watermarks
+1. **[ignored.yml](data/watermark/ignored.yml)**—Tracks a list of watermark names recognized by Scryfall that do exist in this catalog, but don't share the same filename.
+2. **[mixed.yml](data/watermark/mixed.yml)**—Tracks a list of watermark names recognized by Scryfall that represent multiple different 
+symbols. We plan to implement a strategy for mapping each watermark subset to the appropriate cards.

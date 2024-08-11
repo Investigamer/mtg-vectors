@@ -157,3 +157,5 @@ node_modules
 # Pycharm
 .idea
 
+mtg-vectors.*.zip
+manifest.json

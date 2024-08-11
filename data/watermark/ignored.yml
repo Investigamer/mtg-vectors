@@ -4,6 +4,7 @@
 ###
 
 ignored:
+  - set
   - cutiemark
   - flavor
   - grandprix

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mtg-vectors"
-version = "0.6.9"
+version = "0.6.11"
 description = "A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols."
 authors = ["Investigamer <freethoughtleft@gmail.com>"]
 license = "MPL-2.0"
@@ -16,15 +16,16 @@ yarl = "^1.9.3"
 pyyaml = "^6.0.1"
 commitizen = "^3.12.0"
 typing-extensions = "^4.8.0"
-setuptools = "^70.0.0"
+setuptools = "^69.0.2"
 click = "^8.1.7"
 omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.2.2"}
+hexproof = {git = "https://github.com/Investigamer/hexproof.git", tag = "0.3.0"}
 
 [tool.poetry.scripts]
 vectors = 'src.commands:AppCLI'
 
 [tool.commitizen]
-version = "0.6.9"
+version = "0.6.11"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
 update_changelog_on_bump = true
