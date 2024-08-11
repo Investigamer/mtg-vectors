@@ -1,3 +1,13 @@
+## v0.7.0 (2024-08-11)
+
+### Feat
+
+- **symbols**: New sets: DSC, DSK, FDN, J25, MB2
+
+### Refactor
+
+- **workflows**: Remove push activation
+
 ## v0.6.11 (2024-07-27)
 
 ### Refactor
