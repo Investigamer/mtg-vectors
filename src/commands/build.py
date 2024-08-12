@@ -87,7 +87,7 @@ def build_manifest() -> None:
         meta=ManifestMeta(
             date=Constants.DATE_NOW,
             version=Constants.VERSION_FULL,
-            uri=URI.PACKAGE
+            uri=URI.RELEASES
         ),
         set=ManifestSet(
             aliases=SetData.ALIAS.copy(),
