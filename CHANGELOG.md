@@ -1,3 +1,9 @@
+## v0.7.1 (2024-08-12)
+
+### Fix
+
+- **build**: Ensure proper URI is entered into the manifest
+
 ## v0.7.0 (2024-08-11)
 
 ### Feat
