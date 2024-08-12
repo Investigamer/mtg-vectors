@@ -39,7 +39,7 @@ class Paths:
 
 class URI:
     """Live hosted resource URLs."""
-    PACKAGE: str = 'https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip'
+    RELEASES: str = 'https://api.github.com/repos/Investigamer/mtg-vectors/releases/latest'
 
 
 class Constants:
