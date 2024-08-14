@@ -1,3 +1,9 @@
+## v0.7.2 (2024-08-14)
+
+### Fix
+
+- **YWOE**: Merge YWOE into correct icon code -> Y24
+
 ## v0.7.1 (2024-08-12)
 
 ### Fix
