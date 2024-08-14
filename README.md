@@ -4,7 +4,7 @@ contribute to this repository, please check our [missing vectors list](/docs/MIS
 to ensure the repository remains updated as new symbols are released.
 <div align="center" markdown="1" style="font-size: large;">
 
-   [![GitHub file size in bytes](https://img.shields.io/github/size/Investigamer/mtg-vectors/package.zip?label=latest-package&color=white)](https://raw.githubusercontent.com/Investigamer/mtg-vectors/main/package.zip)
+   [![GitHub Release](https://img.shields.io/github/v/release/Investigamer/mtg-vectors?color=white)](https://github.com/Investigamer/mtg-vectors/releases/latest)
    ![GitHub last commit](https://img.shields.io/github/last-commit/Investigamer/mtg-vectors?label=last-updated&color=blue)
    [![GitHub License](https://img.shields.io/github/license/Investigamer/mtg-vectors?color=black)](https://www.tldrlegal.com/license/mozilla-public-license-2-0-mpl-2)
    ![Static Badge](https://img.shields.io/badge/python-3.10%E2%80%943.12-yellow?color=red)
@@ -29,8 +29,8 @@ can be distributed to outside apps when the repository is updated.
 
 # Python Setup (Poetry)
 We like to use Poetry for managing the project environment, dependencies, etc. It is highly recommended to 
-setup this project using the Poetry method, ESPECIALLY if you plan to contribute to the project. If you wish to set up 
-the project without using Poetry, skip to [this](#python-setup-without-poetry) section.
+set up this project using the Poetry method, ESPECIALLY if you plan to contribute to the project. It is possible to 
+set up the project without Poetry, but we won't cover that here.
 1. Install poetry if you don't have it.
     ```shell
     # 1: Install pipx and ensure path.
@@ -55,6 +55,9 @@ the project without using Poetry, skip to [this](#python-setup-without-poetry) s
     ```
 3. The project is now set up. You can now run our utility scripts via the CLI:
     ```shell
+    # Enter the virtual environment
+    poetry shell
+
     # See the "test" scripts available
     vectors test --help
 
@@ -62,54 +65,25 @@ the project without using Poetry, skip to [this](#python-setup-without-poetry) s
     vectors build --help
     ```
 
-# Python Setup (Without Poetry)
-1. If you don't feel like using Poetry (you really should, it's great!) you can install the Python project using the 
-good old fashion pip. First lets clone the `mtg-vectors` repository somewhere on your system:
-    ```shell
-    # Clone and enter the project.
-    git clone https://github.com/Investigamer/mtg-vectors.git
-    cd mtg-vectors
-    ```
-2. Next, create a Python virtual environment (highly recommended) and install our dependencies to it.
-    ```shell
-    # 1: Create a virtual environment
-    py -m venv .venv
-   
-    # #2: Enter the virtual environment
-    .venv/scripts/activate # For Windows
-    source .venv/bin/activate # MacOS or Linux
-   
-    # 2: Install our project dependencies.
-    pip install -r requirements.txt
-    ```
-3. The project is now set up. You can now run our utility scripts via the CLI:
-    ```shell
-    # See the "test" scripts available
-    py src/cli.py test --help
-
-    # See the "build" scripts available
-    py src/cli.py build --help
-    ```
-
 # Symbol Optimization
 This project supports an optimization workflow which is executed anytime a new package is built for
 distribution. To use this optimization workflow locally, you'll need both Inkscape and SVGO. You can install
 Inkscape on any operating system by visiting their website. You can install SVGO to this project locally using 
 `npm install`, or you can install SVGO to your global node installation with `npm install --global svgo`. To run 
-the optimization workflow, use `vectors build optimized` within the poetry shell environment.
+the optimization workflow, use `vectors build optimized` within the virtual environment.
 
 # Design Standards
 1. Try to create symbols from scratch in a software like Adobe Illustrator, using a WoTC official rasterized asset as a 
 guide. SOMETIMES you can use the Scryfall SVG linked next to an item in the `MISSING.md` reference file as a starting 
 place, but do keep in mind Scryfall-provided SVG icons can often be inaccurate or poorly created.
 2. For rarity colors, you must either sample colors from a WoTC official raster asset, or use the commonly held rarity 
-colors from previous symbols. Please note that the rotation and spectrum of the gradient changes pretty frequently over 
-different symbols, please try to replicate the look of the specific symbol you are re-creating.
+colors from previous symbols. Please note that the rotation and spectrum of the gradient changes from symbol to symbol, 
+please try to replicate the look of the specific symbol you are re-creating.
 3. For non-rarity colors present in the symbol, always sample from an official WoTC provided raster asset. Don't just wing it.
 4. When creating a new symbol, we ask that you please generate at-minimum these rarities: `WM, C, U, R, M, T`
-5. I know that the "T" rarity is only used in a handful of sets, but we try to maintain this rarity across the board for the
-benefit of custom cards, designing custom cubes, and other creative activities. WM represents the "watermark" version of a set
-symbol and should have no outline (one solid black layer).
+5. I know the "T" rarity is only used in a handful of sets, but we try to maintain this rarity across the board for the
+benefit of custom card designers. WM represents the "watermark" version of a set symbol and should have no outline 
+(one solid black layer).
 6. When you are finished with an SVG file, we recommend you export it with **no transparent margin/space around
 the symbol**. Do not save the file as a symbol inside a larger transparent bounding box, or an art board that is larger than the
 symbol itself. If using Illustrator, join the symbol layers into **one group**, select that group, and Right Click -> Export 
@@ -119,13 +93,17 @@ Selection.
 1. All real card data is gathered from Scryfall, and with _very few_ exceptions we try to use Scryfall equivalent naming 
 conventions when dealing with symbol mapping, naming, sorting, etc.
 2. For data files (confined to the `/data/` directory), we prefer to use the human-readable YAML `.yml` format.
-3. For the manifest file `manifest.json`, we prefer to use JSON `.json` for its unrivaled performance, since this file is application-focused.
+3. For the manifest file `manifest.json`, we prefer to use JSON `.json` for its unrivaled performance, since this file 
+is application-focused.
 4. All vector assets are located in the `/svg/` directory, currently separated into two categories:
    - 'Set' Symbols, those found on the right hand side of a card's typeline.
    - 'Watermark' Symbols, those found in the textbox of certain cards, behind the rules text.
-5. For user reference or documentation files (currently just `MISSING.md`), we prefer the widely supported and formatting rich
+5. All optimized vector assets are located in the `/svg/optimized/` directory. These are versions of the original SVG
+assets which have been normalized for use across different applications, with the source markup text minified for 
+reduced file size. We recommend you use the optimized version of the catalog in any real world applications.
+6. For user reference or documentation files (currently just `MISSING.md`), we prefer the widely supported and formatting rich
 Markdown `.md` format.
-6. When interpreting inconsistencies or undesirable mappings in Scryfall data, we consider the following:
+7. When interpreting inconsistencies or undesirable mappings in Scryfall data, we consider the following:
    - Did Scryfall map the incorrect symbol because the real cards use a mix of different symbols?
    - Did Scryfall map the incorrect symbol because the symbol changed after the set was printed?
    - Did Scryfall map the incorrect symbol because they don't have the asset and never bother to add it?
