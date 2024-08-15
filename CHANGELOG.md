@@ -1,3 +1,9 @@
+## v0.7.3 (2024-08-15)
+
+### Refactor
+
+- **symbols/set**: Added and updated rarities for: BIG, BLC, DSC, DSK, M3C, MB2, OTC, OTP
+
 ## v0.7.2 (2024-08-14)
 
 ### Fix
