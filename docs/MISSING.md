@@ -13,15 +13,6 @@
 # Missing Set Symbol Rarities
 | Symbol Name | Rarities Missing | Links |
 | ----------- | ---------------- | ----- |
-| PGRU | R, M, T, WM, U | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
-| PDRC | R, M, T, U | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
-| PZ2 | R, M, T, U | [SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/pz2) |
-| BIG | T | [SVG](https://svgs.scryfall.io/sets/big.svg), [Cards](https://scryfall.com/sets/big) |
-| BLC | T | [SVG](https://svgs.scryfall.io/sets/blc.svg), [Cards](https://scryfall.com/sets/blc) |
-| DSC | T | [SVG](https://svgs.scryfall.io/sets/dsc.svg), [Cards](https://scryfall.com/sets/dsc) |
-| DSK | T | [SVG](https://svgs.scryfall.io/sets/dsk.svg), [Cards](https://scryfall.com/sets/dsk) |
-| FDN | T | [SVG](https://svgs.scryfall.io/sets/fdn.svg), [Cards](https://scryfall.com/sets/fdn) |
-| M3C | T | [SVG](https://svgs.scryfall.io/sets/m3c.svg), [Cards](https://scryfall.com/sets/m3c) |
-| MB2 | T | [SVG](https://svgs.scryfall.io/sets/mb2.svg), [Cards](https://scryfall.com/sets/mb2) |
-| OTC | T | [SVG](https://svgs.scryfall.io/sets/otc.svg), [Cards](https://scryfall.com/sets/totc) |
-| OTP | T | [SVG](https://svgs.scryfall.io/sets/otp.svg), [Cards](https://scryfall.com/sets/totp) |
+| PGRU | U, WM, R, M, T | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
+| PDRC | U, R, M, T | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
+| PZ2 | U, R, M, T | [SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/pz2) |
