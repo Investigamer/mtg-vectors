@@ -54,9 +54,9 @@ jobs:
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git commit -m "deps(build): Process daily updates."
-          git push
-          poetry run cz -nr 21,16 bump --yes
+          git commit -m "deps(build): Process daily updates." || { echo "No changes to commit, ending workflow."; exit 0; }
+          git push || { echo "No changes to push, ending workflow."; exit 0; }
+          poetry run cz -nr 21,16,7 bump --yes
           git push && git push --tags
 
       # Generate release tag
