@@ -13,6 +13,6 @@
 # Missing Set Symbol Rarities
 | Symbol Name | Rarities Missing | Links |
 | ----------- | ---------------- | ----- |
-| PGRU | WM, U, M, R, T | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
-| PDRC | U, M, R, T | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
-| PZ2 | U, M, R, T | [SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/pz2) |
+| PGRU | U, T, R, M, WM | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
+| PDRC | U, T, R, M | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
+| PZ2 | U, T, R, M | [SVG](https://svgs.scryfall.io/sets/pz2.svg), [Cards](https://scryfall.com/sets/pz2) |
