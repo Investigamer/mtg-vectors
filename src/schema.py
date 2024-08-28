@@ -60,10 +60,10 @@ class Icon(Schema):
 
         # Build directory path and discover missing rarities
         _path = Path(Paths.SET, icon.upper())
-        _missing = [
+        _missing = sorted(
             n for n in REQUIRED_RARITIES
             if not Path(_path, n).with_suffix('.svg').is_file()
-        ]
+        )
 
         # Return generated Icon object
         return Icon(
@@ -107,10 +107,10 @@ class Icon(Schema):
         # Get items with missing rarities
         _items = [n for n in items if n.exists and n.missing]
 
-        # Sort alphabetically
+        # Secondary sort: alphabetical (ascending)
         _items = sorted(_items, key=lambda n: n.icon)
 
-        # Sort by number if rarities missing
+        # Primary sort: number missing (descending)
         return sorted(_items, key=lambda n: len(n.missing), reverse=True)
 
 
