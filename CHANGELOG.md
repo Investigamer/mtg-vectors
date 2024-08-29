@@ -1,3 +1,9 @@
+## v0.7.4 (2024-08-29)
+
+### Refactor
+
+- **schema**: Ensure missing rarities are always sorted alphabetically
+
 ## v0.7.3 (2024-08-15)
 
 ### Refactor
