@@ -6,6 +6,10 @@ on:
     # Scheduled Daily (Midnight)
     - cron: '0 0 * * *'
 
+env:
+  SKIP_BUILD: false
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -54,14 +58,15 @@ jobs:
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git commit -m "deps(build): Process daily updates." || { echo "No changes to commit, ending workflow."; exit 0; }
-          git push || { echo "No changes to push, ending workflow."; exit 0; }
+          git commit -m "deps(build): Process daily updates." || { echo "No changes to commit, skipping build process."; echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
+          git push || { echo "No changes to push, skipping build process.";  echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
           poetry run cz -nr 21,16,7 bump --yes
           git push && git push --tags
 
       # Generate release tag
       - name: Generate Release Tag
         id: generate_tag
+        if: ${{ env.SKIP_BUILD != 'true' }}
         run: |
           VERSION=$(poetry version -s)
           DATE=$(date +%Y%m%d)
@@ -74,8 +79,7 @@ jobs:
       - name: Publish Release
         id: create_release
         uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ env.SKIP_BUILD != 'true' }}
         with:
           tag_name: ${{ env.VERSION_TAG }}
           release_name: ${{ env.VERSION_TAG }}
@@ -103,8 +107,7 @@ jobs:
       # Upload Release Package (All)
       - name: Upload Release Package (All)
         uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ env.SKIP_BUILD != 'true' }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: mtg-vectors.all.zip
@@ -114,8 +117,7 @@ jobs:
       # Upload Release Package (Optimized)
       - name: Upload Release Package (Optimized)
         uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ env.SKIP_BUILD != 'true' }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: mtg-vectors.optimized.zip
