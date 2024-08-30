@@ -1,3 +1,9 @@
+## v0.7.5 (2024-08-30)
+
+### Fix
+
+- **workflow**: Add env to track whether build process should be skipped
+
 ## v0.7.4 (2024-08-29)
 
 ### Refactor
