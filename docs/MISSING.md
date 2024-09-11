@@ -3,6 +3,7 @@
 | ----------- | ----- |
 | PTG | [SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
 | UND | [SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/und) |
+| Y25 | [SVG](https://svgs.scryfall.io/sets/y25.svg), [Cards](https://scryfall.com/sets/yblb) |
 
 # Missing Watermarks
 | Symbol Name | Links |
