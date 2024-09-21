@@ -47,7 +47,6 @@ jobs:
           pipx install poetry
           poetry config virtualenvs.in-project true
           poetry install
-          poetry update
           npm install
 
       # Build Project and Commit Changes
