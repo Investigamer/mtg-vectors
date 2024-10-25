@@ -31,6 +31,7 @@ can be distributed to outside apps when the repository is updated.
 We like to use Poetry for managing the project environment, dependencies, etc. It is highly recommended to 
 set up this project using the Poetry method, ESPECIALLY if you plan to contribute to the project. It is possible to 
 set up the project without Poetry, but we won't cover that here.
+
 1. Install poetry if you don't have it.
     ```shell
     # 1: Install pipx and ensure path.
