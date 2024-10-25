@@ -18,8 +18,8 @@ commitizen = "^3.12.0"
 typing-extensions = "^4.8.0"
 setuptools = "^70.0.0"
 click = "^8.1.7"
-omnitils = {git = "https://github.com/Investigamer/omnitils.git", tag = "1.2.2"}
-hexproof = {git = "https://github.com/Investigamer/hexproof.git", tag = "0.3.0"}
+omnitils = "^1.4.6"
+hexproof = "^0.3.7"
 
 [tool.poetry.scripts]
 vectors = 'src.commands:AppCLI'
