@@ -2,7 +2,7 @@
 | Symbol Code | Links |
 | ----------- | ----- |
 | DFT | [SVG](https://svgs.scryfall.io/sets/dft.svg), [Cards](https://scryfall.com/sets/tdft) |
-| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/drc) |
+| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/tdrc) |
 | FDC | [SVG](https://svgs.scryfall.io/sets/fdc.svg), [Cards](https://scryfall.com/sets/fdc) |
 | INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/tinr) |
 | PIO | [SVG](https://svgs.scryfall.io/sets/pio.svg), [Cards](https://scryfall.com/sets/pio) |
