@@ -10,6 +10,7 @@
 | INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/tinr) |
 | PIO | [SVG](https://svgs.scryfall.io/sets/pio.svg), [Cards](https://scryfall.com/sets/pio) |
 | PTG | [SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
+| TDC | [SVG](https://svgs.scryfall.io/sets/tdc.svg), [Cards](https://scryfall.com/sets/tdc) |
 | TDM | [SVG](https://svgs.scryfall.io/sets/tdm.svg), [Cards](https://scryfall.com/sets/tdm) |
 | UND | [SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/und) |
 | Y25 | [SVG](https://svgs.scryfall.io/sets/y25.svg), [Cards](https://scryfall.com/sets/yblb) |
