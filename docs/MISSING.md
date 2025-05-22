@@ -1,13 +1,13 @@
 # Missing Set Symbols
 | Symbol Code | Links |
 | ----------- | ----- |
-| DFT | [SVG](https://svgs.scryfall.io/sets/dft.svg), [Cards](https://scryfall.com/sets/dft) |
-| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/drc) |
+| DFT | [SVG](https://svgs.scryfall.io/sets/dft.svg), [Cards](https://scryfall.com/sets/tdft) |
+| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/tdrc) |
 | FCA | [SVG](https://svgs.scryfall.io/sets/fca.svg), [Cards](https://scryfall.com/sets/fca) |
 | FDC | [SVG](https://svgs.scryfall.io/sets/fdc.svg), [Cards](https://scryfall.com/sets/fdc) |
-| FIC | [SVG](https://svgs.scryfall.io/sets/fic.svg), [Cards](https://scryfall.com/sets/fic) |
-| FIN | [SVG](https://svgs.scryfall.io/sets/fin.svg), [Cards](https://scryfall.com/sets/fin) |
-| INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/inr) |
+| FIC | [SVG](https://svgs.scryfall.io/sets/fic.svg), [Cards](https://scryfall.com/sets/tfic) |
+| FIN | [SVG](https://svgs.scryfall.io/sets/fin.svg), [Cards](https://scryfall.com/sets/pfin) |
+| INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/tinr) |
 | PIO | [SVG](https://svgs.scryfall.io/sets/pio.svg), [Cards](https://scryfall.com/sets/pio) |
 | PTG | [SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
 | TDC | [SVG](https://svgs.scryfall.io/sets/tdc.svg), [Cards](https://scryfall.com/sets/tdc) |
