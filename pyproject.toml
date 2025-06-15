@@ -11,7 +11,7 @@ include = 'src'
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
-requests = "^2.31.0"
+requests = "^2.32.4"
 yarl = "^1.9.3"
 pyyaml = "^6.0.1"
 commitizen = "^3.12.0"
