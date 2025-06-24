@@ -6,7 +6,7 @@
 | EOE | [SVG](https://svgs.scryfall.io/sets/eoe.svg), [Cards](https://scryfall.com/sets/eoe) |
 | FCA | [SVG](https://svgs.scryfall.io/sets/fca.svg), [Cards](https://scryfall.com/sets/fca) |
 | FDC | [SVG](https://svgs.scryfall.io/sets/fdc.svg), [Cards](https://scryfall.com/sets/fdc) |
-| FIC | [SVG](https://svgs.scryfall.io/sets/fic.svg), [Cards](https://scryfall.com/sets/fic) |
+| FIC | [SVG](https://svgs.scryfall.io/sets/fic.svg), [Cards](https://scryfall.com/sets/tfic) |
 | FIN | [SVG](https://svgs.scryfall.io/sets/fin.svg), [Cards](https://scryfall.com/sets/fin) |
 | INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/inr) |
 | PIO | [SVG](https://svgs.scryfall.io/sets/pio.svg), [Cards](https://scryfall.com/sets/pio) |
