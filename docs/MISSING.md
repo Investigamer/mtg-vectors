@@ -2,7 +2,7 @@
 | Symbol Code | Links |
 | ----------- | ----- |
 | DFT | [SVG](https://svgs.scryfall.io/sets/dft.svg), [Cards](https://scryfall.com/sets/dft) |
-| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/drc) |
+| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/tdrc) |
 | EOC | [SVG](https://svgs.scryfall.io/sets/eoc.svg), [Cards](https://scryfall.com/sets/teoc) |
 | EOE | [SVG](https://svgs.scryfall.io/sets/eoe.svg), [Cards](https://scryfall.com/sets/eoe) |
 | EOS | [SVG](https://svgs.scryfall.io/sets/eos.svg), [Cards](https://scryfall.com/sets/eos) |
