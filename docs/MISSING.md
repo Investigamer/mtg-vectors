@@ -2,15 +2,15 @@
 | Symbol Code | Links |
 | ----------- | ----- |
 | DFT | [SVG](https://svgs.scryfall.io/sets/dft.svg), [Cards](https://scryfall.com/sets/tdft) |
-| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/drc) |
-| EOC | [SVG](https://svgs.scryfall.io/sets/eoc.svg), [Cards](https://scryfall.com/sets/teoc) |
-| EOE | [SVG](https://svgs.scryfall.io/sets/eoe.svg), [Cards](https://scryfall.com/sets/teoe) |
+| DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/tdrc) |
+| EOC | [SVG](https://svgs.scryfall.io/sets/eoc.svg), [Cards](https://scryfall.com/sets/eoc) |
+| EOE | [SVG](https://svgs.scryfall.io/sets/eoe.svg), [Cards](https://scryfall.com/sets/eoe) |
 | EOS | [SVG](https://svgs.scryfall.io/sets/eos.svg), [Cards](https://scryfall.com/sets/eos) |
 | FCA | [SVG](https://svgs.scryfall.io/sets/fca.svg), [Cards](https://scryfall.com/sets/fca) |
 | FDC | [SVG](https://svgs.scryfall.io/sets/fdc.svg), [Cards](https://scryfall.com/sets/fdc) |
 | FIC | [SVG](https://svgs.scryfall.io/sets/fic.svg), [Cards](https://scryfall.com/sets/fic) |
 | FIN | [SVG](https://svgs.scryfall.io/sets/fin.svg), [Cards](https://scryfall.com/sets/fin) |
-| INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/tinr) |
+| INR | [SVG](https://svgs.scryfall.io/sets/inr.svg), [Cards](https://scryfall.com/sets/inr) |
 | PIO | [SVG](https://svgs.scryfall.io/sets/pio.svg), [Cards](https://scryfall.com/sets/pio) |
 | PTG | [SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
 | SPE | [SVG](https://svgs.scryfall.io/sets/spe.svg), [Cards](https://scryfall.com/sets/spe) |
