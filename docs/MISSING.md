@@ -3,7 +3,7 @@
 | ----------- | ----- |
 | DFT | [SVG](https://svgs.scryfall.io/sets/dft.svg), [Cards](https://scryfall.com/sets/tdft) |
 | DRC | [SVG](https://svgs.scryfall.io/sets/drc.svg), [Cards](https://scryfall.com/sets/drc) |
-| EOC | [SVG](https://svgs.scryfall.io/sets/eoc.svg), [Cards](https://scryfall.com/sets/eoc) |
+| EOC | [SVG](https://svgs.scryfall.io/sets/eoc.svg), [Cards](https://scryfall.com/sets/teoc) |
 | EOE | [SVG](https://svgs.scryfall.io/sets/eoe.svg), [Cards](https://scryfall.com/sets/eoe) |
 | EOS | [SVG](https://svgs.scryfall.io/sets/eos.svg), [Cards](https://scryfall.com/sets/eos) |
 | FCA | [SVG](https://svgs.scryfall.io/sets/fca.svg), [Cards](https://scryfall.com/sets/fca) |
