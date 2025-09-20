@@ -16,10 +16,9 @@
 | PIO | [SVG](https://svgs.scryfall.io/sets/pio.svg), [Cards](https://scryfall.com/sets/pio) |
 | PTG | [SVG](https://svgs.scryfall.io/sets/ptg.svg), [Cards](https://scryfall.com/sets/ptg) |
 | SPE | [SVG](https://svgs.scryfall.io/sets/spe.svg), [Cards](https://scryfall.com/sets/spe) |
-| SPM | [SVG](https://svgs.scryfall.io/sets/spm.svg), [Cards](https://scryfall.com/sets/spm) |
 | TDC | [SVG](https://svgs.scryfall.io/sets/tdc.svg), [Cards](https://scryfall.com/sets/tdc) |
 | TDM | [SVG](https://svgs.scryfall.io/sets/tdm.svg), [Cards](https://scryfall.com/sets/tdm) |
-| TLA | [SVG](https://svgs.scryfall.io/sets/tla.svg), [Cards](https://scryfall.com/sets/tla) |
+| TLA | [SVG](https://svgs.scryfall.io/sets/tla.svg), [Cards](https://scryfall.com/sets/ftla) |
 | TLE | [SVG](https://svgs.scryfall.io/sets/tle.svg), [Cards](https://scryfall.com/sets/tle) |
 | UND | [SVG](https://svgs.scryfall.io/sets/und.svg), [Cards](https://scryfall.com/sets/und) |
 | Y25 | [SVG](https://svgs.scryfall.io/sets/y25.svg), [Cards](https://scryfall.com/sets/yblb) |
