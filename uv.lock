@@ -762,7 +762,7 @@ wheels = [
 
 [[package]]
 name = "mtg-vectors"
-version = "0.7.5"
+version = "0.7.7"
 source = { editable = "." }
 dependencies = [
     { name = "click" },
