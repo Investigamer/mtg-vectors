@@ -13,6 +13,9 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
       # Checkout Repository
       - name: Checkout code
@@ -27,11 +30,12 @@ jobs:
           sudo add-apt-repository ppa:inkscape.dev/stable
           sudo apt-get install -y inkscape xvfb gh
 
-      # Use Python 3.12
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v4
+      # Set-up Python 3.12 (uv)
+      - name: Set up uv (Python 3.12 + cache)
+        uses: astral-sh/setup-uv@v7
         with:
-          python-version: '3.12'
+          python-version: "3.12"
+          enable-cache: true
 
       # Install Node, NPM and SVGO
       - name: Install Node / NPM
@@ -39,27 +43,23 @@ jobs:
         with:
           node-version: 'latest'
 
-      # Install Pipx, Poetry and dependencies
-      - name: Install Poetry using pipx
+      # Install deps
+      - name: Install Dependencies
         run: |
-          python3 -m pip install --user pipx
-          python3 -m pipx ensurepath
-          pipx install poetry
-          poetry config virtualenvs.in-project true
-          poetry install
-          npm install
+          uv sync --extra dev
+          uv lock
 
       # Build Project and Commit Changes
       - name: Build Project and Commit Changes
         run: |
           git pull --tags
-          poetry run vectors build .
+          uv run vectors build .
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git commit -m "deps(build): Process daily updates." || { echo "No changes to commit, skipping build process."; echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
           git push || { echo "No changes to push, skipping build process.";  echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
-          poetry run cz -nr 21,16,7 bump --yes
+          uv run cz -nr 21,16,7 bump --yes
           git push && git push --tags
 
       # Generate release tag
@@ -67,7 +67,7 @@ jobs:
         id: generate_tag
         if: ${{ env.SKIP_BUILD != 'true' }}
         run: |
-          VERSION=$(poetry version -s)
+          VERSION=$(uv version --short)
           DATE=$(date +%Y%m%d)
           DATE_FMT=$(date +'%Y-%m-%d')
           echo "PROJECT_VERSION=${VERSION}" >> $GITHUB_ENV

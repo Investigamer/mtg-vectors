@@ -28,42 +28,24 @@ currently missing from the repository, generating a symbol manifest file, and bu
 can be distributed to outside apps when the repository is updated.
 
 # Python Setup (Poetry)
-We like to use Poetry for managing the project environment, dependencies, etc. It is highly recommended to 
-set up this project using the Poetry method, ESPECIALLY if you plan to contribute to the project. It is possible to 
-set up the project without Poetry, but we won't cover that here.
-
-1. Install poetry if you don't have it.
+We use `uv` for managing the project environment, dependencies, etc. If you plan to contribute to the project using `uv` is essential.
+1. [Install](https://docs.astral.sh/uv/getting-started/installation/) `uv` if you don't have it (for Windows I recommend installing via `scoop`).
+2. Clone the `mtg-vectors` repository somewhere on your system and sync with `uv`.
     ```shell
-    # 1: Install pipx and ensure path.
-    py -m pip install --user pipx
-    py -m pipx ensurepath
-    
-    # 2: Install poetry and check that it works
-    pipx install poetry
-    poetry --version
-
-    # 3: [Recommended] Configure poetry to create virtual environments in-project.
-    poetry config virtualenvs.in-project true
-    ```
-2. Clone the `mtg-vectors` repository somewhere on your system and install the project environment with Poetry.
-    ```shell
-    # 1: Clone and enter the project.
     git clone https://github.com/Investigamer/mtg-vectors.git
     cd mtg-vectors
-
-    # 2: Install the poetry environment.
-    poetry install
+    uv sync --extra dev
     ```
 3. The project is now set up. You can now run our utility scripts via the CLI:
     ```shell
-    # Enter the virtual environment
-    poetry shell
-
-    # See the "test" scripts available
-    vectors test --help
-
-    # See the "build" scripts available
-    vectors build --help
+    # List the command groups available
+    uv run vectors --help
+   
+    # List the test commands available
+    uv run vectors test --help
+    
+    # List the build commands available
+    uv run vectors build --help
     ```
 
 # Symbol Optimization

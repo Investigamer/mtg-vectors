@@ -6,7 +6,7 @@ from typing import Optional
 
 # Third Party Imports
 import click
-from hexproof.scryfall import ScryURL
+from hexproof.providers.scryfall import ScryURL
 from omnitils.logs import logger
 
 # Local Imports

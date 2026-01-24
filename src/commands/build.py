@@ -9,8 +9,8 @@ from typing import Optional
 
 # Third Party Imports
 import click
-from hexproof.vectors import RarityNameMap
-from hexproof.scryfall import ScryURL
+from hexproof.providers.vectors import RarityNameMap
+from hexproof.providers.scryfall import ScryURL
 from omnitils.files import dump_data_file
 from omnitils.logs import logger
 

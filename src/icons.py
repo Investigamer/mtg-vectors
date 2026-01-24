@@ -6,7 +6,7 @@ import os
 from functools import cache
 
 # Third Party Imports
-from hexproof import scryfall as Scryfall
+from hexproof.providers import scryfall as Scryfall
 
 # Local Imports
 from src.constants import Paths, SetData
