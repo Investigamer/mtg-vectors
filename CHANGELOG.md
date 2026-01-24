@@ -1,3 +1,9 @@
+## v0.7.6 (2026-01-23)
+
+### Fix
+
+- **uv**: Migrate from poetry -> uv, support updated `hexproof` module
+
 ## v0.7.5 (2024-08-30)
 
 ### Fix
