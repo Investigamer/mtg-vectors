@@ -1,6 +1,6 @@
 [project]
 name = "mtg-vectors"
-version = "0.7.6"
+version = "0.7.7"
 description = "A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols."
 authors = [{ name = "Investigamer", email = "hexproofsystems@gmail.com" }]
 license = "MPL-2.0"
@@ -35,7 +35,7 @@ build-backend = "hatchling.build"
 packages = ["src"]
 
 [tool.commitizen]
-version = "0.7.6"
+version = "0.7.7"
 encoding = "utf-8"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"

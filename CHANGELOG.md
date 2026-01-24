@@ -1,3 +1,9 @@
+## v0.7.7 (2026-01-24)
+
+### Fix
+
+- **cli**: Use correct Scryfall URL mapping
+
 ## v0.7.6 (2026-01-23)
 
 ### Fix
