@@ -51,7 +51,7 @@ def build_docs() -> None:
         file.write('| ----------- | ----- |\n')
         for wm in missing_wm:
             # Format URL queries
-            url = ScryURL.API.Cards.Search.with_query({'q': f'watermark:{wm.lower()}'})
+            url = ScryURL.API_CARDS_SEARCH.with_query({'q': f'watermark:{wm.lower()}'})
             file.write(f'| {wm.title()} | [Cards]({str(url)}) |\n')
 
         # Write the list of missing rarities
