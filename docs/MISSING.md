@@ -5,12 +5,8 @@
 # Missing Watermarks
 | Symbol Name | Links |
 | ----------- | ----- |
-| Airnomads | [Cards](https://api.scryfall.com/cards/search?q=watermark:airnomads) |
-| Earthkingdom | [Cards](https://api.scryfall.com/cards/search?q=watermark:earthkingdom) |
-| Firenation | [Cards](https://api.scryfall.com/cards/search?q=watermark:firenation) |
 | Magicfest | [Cards](https://api.scryfall.com/cards/search?q=watermark:magicfest) |
 | Trumpkatsumai | [Cards](https://api.scryfall.com/cards/search?q=watermark:trumpkatsumai) |
-| Watertribe | [Cards](https://api.scryfall.com/cards/search?q=watermark:watertribe) |
 
 # Missing Set Symbol Rarities
 | Symbol Name | Rarities Missing | Links |
