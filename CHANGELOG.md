@@ -1,3 +1,13 @@
+## v0.8.0 (2026-05-01)
+
+### Feat
+
+- **svg/watermark**: Add fracture watermark.
+
+### Fix
+
+- **eos**: Fix EOS timeshifted symbol (renamed)
+
 ## v0.7.7 (2026-01-24)
 
 ### Fix
