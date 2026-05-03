@@ -15,6 +15,7 @@ dependencies = [
     "click>=8.1.7,<9",
     "omnitils~=1.4.6",
     "hexproof~=0.4.0",
+    "typer>=0.21.1",
 ]
 
 [project.optional-dependencies]
@@ -25,7 +26,8 @@ dev = [
 ]
 
 [project.scripts]
-vectors = 'src.commands:AppCLI'
+vectors = 'src._cli:app'
+hooks-cz = 'hooks.commitizen:hooks'
 
 [build-system]
 requires = ["hatchling"]
@@ -40,6 +42,6 @@ encoding = "utf-8"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
 update_changelog_on_bump = true
-version_files = [
-    "pyproject.toml:version"
+pre_bump_hooks = [
+    "uv run hooks-cz pre-bump"
 ]

@@ -1,25 +1,32 @@
-name: Build Daily Release
+name: Build and Publish Release
 
 on:
-  workflow_dispatch:
   schedule:
     # Scheduled Daily (Midnight)
     - cron: '0 0 * * *'
+  workflow_dispatch:
 
+# Environment
 env:
   SKIP_BUILD: false
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+# Prevent overlapping publishes if tags get pushed in quick succession.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
+    name: Build and Publish Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
       id-token: write
     steps:
-      # Checkout Repository
-      - name: Checkout code
-        uses: actions/checkout@v4
+      # Checkout repository
+      - name: Checkout (full history + tags)
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           fetch-tags: true
@@ -27,7 +34,9 @@ jobs:
       # Install Inkscape, XVFB, GitHub CLI
       - name: Install Inkscape
         run: |
+          sudo apt-get update
           sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt-get update
           sudo apt-get install -y inkscape xvfb gh
 
       # Set-up Python 3.12 (uv)
@@ -43,21 +52,20 @@ jobs:
         with:
           node-version: 'latest'
 
-      # Install deps
-      - name: Install Dependencies
+      # Sync Deps, Optimize, and Package
+      - name: Sync Deps, Optimize, and Package
         run: |
-          uv sync --extra dev
-          uv lock
-
-      # Build Project and Commit Changes
-      - name: Build Project and Commit Changes
-        run: |
-          git pull --tags
+          set -euo pipefail
+          uv sync --extra dev --locked
           uv run vectors build .
+
+      # Push Changes
+      - name: Push Changes
+        run: |
           git add .
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git commit -m "deps(build): Process daily updates." || { echo "No changes to commit, skipping build process."; echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
+          git commit -m "build(gh): Process daily updates." || { echo "No changes to commit, skipping build process."; echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
           git push || { echo "No changes to push, skipping build process.";  echo "SKIP_BUILD=true" >> $GITHUB_ENV; exit 0; }
           uv run cz -nr 21,16,7 bump --yes
           git push && git push --tags
@@ -73,33 +81,40 @@ jobs:
           echo "PROJECT_VERSION=${VERSION}" >> $GITHUB_ENV
           echo "DATE_FMT=${DATE_FMT}" >> $GITHUB_ENV
           echo "VERSION_TAG=v${VERSION}+${DATE}" >> $GITHUB_ENV
+          CHANGELOG="$(uv run cz changelog "$VERSION" --dry-run)"
+          {
+            echo "## Daily Build (${DATE_FMT})"
+            echo
+            echo "This is an automated daily release that ingests changes to the SVG catalog and live Scryfall data. A new"
+            echo "release does not mean the codebase has changed. The version tag for automated releases and the manifest file"
+            echo "is comprised of the codebase version + the day this release was generated in \`YYYYMMDD\` format."
+            echo
+            echo "### Release Files"
+            echo
+            echo "Two packages are provided, the \`all\` package contains both the original SVG files and the optimized"
+            echo "versions. The \`optimized\` package only contains the optimized SVG files. Both packages include a"
+            echo "\`manifest.json\` file which provides helpful compatibility and routing data. Generally, the optimized"
+            echo "SVG files are recommended for production use, typically saving about 30-50% in filesize and providing"
+            echo "improved formatting compatibility across use cases."
+            echo
+            echo "### Changelog"
+            echo
+            echo "${CHANGELOG}"
+            echo
+            echo "[See full changelog.](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md)"
+          } > RELEASE_NOTES.md
 
       # Publish Release
       - name: Publish Release
         id: create_release
         uses: actions/create-release@v1
         if: ${{ env.SKIP_BUILD != 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.VERSION_TAG }}
           release_name: ${{ env.VERSION_TAG }}
-          body: "## Daily Build (${{ env.DATE_FMT }})
-            
-            This is an automated daily release that ingests changes to the SVG catalog and live Scryfall data. A new
-            release does not mean the codebase has changed. The version tag for automated releases and the manifest file 
-            is comprised of the codebase version + the day this release was generated in `YYYYMMDD` format.
-            
-            ### Release Files
-            
-            Two packages are provided, the `all` package contains both the original SVG files and the optimized 
-            versions. The `optimized` package only contains the optimized SVG files. Both packages include a 
-            `manifest.json` file which provides helpful compatibility and routing data. Generally, the optimized 
-            SVG files are recommended for production use, typically saving about 30-50% in filesize and providing
-            improved formatting compatibility accross use cases.
-            
-            ### Changelog
-            
-            See the automated [changelog](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md) to view 
-            the full history of the codebase."
+          body_path: RELEASE_NOTES.md
           draft: false
           prerelease: false
 

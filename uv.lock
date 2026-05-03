@@ -767,7 +767,7 @@ wheels = [
 
 [[package]]
 name = "mtg-vectors"
-version = "0.7.7"
+version = "0.8.0"
 source = { editable = "." }
 dependencies = [
     { name = "click" },
@@ -776,6 +776,7 @@ dependencies = [
     { name = "pyyaml" },
     { name = "requests" },
     { name = "setuptools" },
+    { name = "typer" },
     { name = "typing-extensions" },
     { name = "yarl" },
 ]
@@ -798,6 +799,7 @@ requires-dist = [
     { name = "pyyaml", specifier = ">=6.0.1,<7" },
     { name = "requests", specifier = ">=2.31,<3" },
     { name = "setuptools", specifier = ">=70,<79" },
+    { name = "typer", specifier = ">=0.21.1" },
     { name = "typing-extensions", specifier = ">=4.8,<5" },
     { name = "yarl", specifier = ">=1.9.3,<2" },
 ]
