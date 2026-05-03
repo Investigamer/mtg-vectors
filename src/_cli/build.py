@@ -175,6 +175,6 @@ def build_optimized(
 )
 def build_all(ctx: typer.Context) -> None:
     """Generate all resources used by the repository."""
-    ctx.invoke(build_optimized)
+    ctx.invoke(build_optimized, None)
     ctx.invoke(build_manifest)
     ctx.invoke(build_docs)
