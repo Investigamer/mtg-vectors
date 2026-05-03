@@ -57,7 +57,8 @@ jobs:
       - name: Sync Deps, Optimize, and Package
         run: |
           set -euo pipefail
-          uv sync --extra dev --locked
+          uv sync --extra dev
+          uv lock
           uv run vectors build .
 
       # Push Changes
