@@ -37,7 +37,7 @@ build-backend = "hatchling.build"
 packages = ["src"]
 
 [tool.commitizen]
-version = "0.8.0"
+version = "0.9.0"
 encoding = "utf-8"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
