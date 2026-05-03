@@ -82,7 +82,6 @@ jobs:
           echo "PROJECT_VERSION=${VERSION}" >> $GITHUB_ENV
           echo "DATE_FMT=${DATE_FMT}" >> $GITHUB_ENV
           echo "VERSION_TAG=v${VERSION}+${DATE}" >> $GITHUB_ENV
-          CHANGELOG="$(uv run cz changelog "$VERSION" --dry-run)"
           {
             echo "## Daily Build (${DATE_FMT})"
             echo
@@ -100,7 +99,7 @@ jobs:
             echo
             echo "### Changelog"
             echo
-            echo "${CHANGELOG}"
+            echo "$(uv run cz changelog "$VERSION" --dry-run)"
             echo
             echo "[See full changelog.](https://github.com/Investigamer/mtg-vectors/blob/main/CHANGELOG.md)"
           } > RELEASE_NOTES.md
