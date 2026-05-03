@@ -5,10 +5,9 @@
 import os
 from pathlib import Path
 from time import perf_counter
-from typing import Optional
 
 # Third Party Imports
-import click
+import typer
 from hexproof.providers.vectors import RarityNameMap
 from hexproof.providers.scryfall import ScryURL
 from omnitils.files import dump_data_file
@@ -21,14 +20,22 @@ from src.watermarks import get_missing_watermarks, get_local_watermarks
 from src.schema import Manifest, ManifestMeta, ManifestWatermark, ManifestSet
 from src.utils import create_zip, run_inkscape_batch, gather_svg_jobs, get_npm_command, run_svgo_batch
 
+# Typer group
+app = typer.Typer(
+    name="build",
+    help="A suite of commands for building docs, manifest, release packages, etc."
+)
+
 """
 * Commands
 """
 
 
-@click.command(
-    help='Build a `MISSING.md` markdown file which tracks all vector assets currently '
-         'missing from the catalogue, based on current scryfall data.')
+@app.command(
+    "docs",
+    help="Build a `MISSING.md` markdown file which tracks all vector assets currently "
+         "missing from the catalogue, based on current scryfall data."
+)
 def build_docs() -> None:
     """Generates the 'MISSING.md' file used in this repository."""
     icons = get_missing_icons()
@@ -36,38 +43,40 @@ def build_docs() -> None:
     missing_wm = get_missing_watermarks()
 
     # Add to MD file
-    with open(Paths.DOCS_MISSING, 'w', encoding='utf-8') as file:
+    with open(Paths.DOCS_MISSING, "w", encoding="utf-8") as file:
 
         # Write the list of missing Set Symbols
-        file.write('# Missing Set Symbols\n')
-        file.write('| Symbol Code | Links |\n')
-        file.write('| ----------- | ----- |\n')
+        file.write("# Missing Set Symbols\n")
+        file.write("| Symbol Code | Links |\n")
+        file.write("| ----------- | ----- |\n")
         for sym in icons:
-            file.write(f'| {sym.icon} | [SVG]({sym.svg_url}), [Cards]({sym.set_url}) |\n')
+            file.write(f"| {sym.icon} | [SVG]({sym.svg_url}), [Cards]({sym.set_url}) |\n")
 
         # Write the list of missing watermarks
-        file.write('\n# Missing Watermarks\n')
-        file.write('| Symbol Name | Links |\n')
-        file.write('| ----------- | ----- |\n')
+        file.write("\n# Missing Watermarks\n")
+        file.write("| Symbol Name | Links |\n")
+        file.write("| ----------- | ----- |\n")
         for wm in missing_wm:
             # Format URL queries
-            url = ScryURL.API_CARDS_SEARCH.with_query({'q': f'watermark:{wm.lower()}'})
-            file.write(f'| {wm.title()} | [Cards]({str(url)}) |\n')
+            url = ScryURL.API_CARDS_SEARCH.with_query({"q": f"watermark:{wm.lower()}"})
+            file.write(f"| {wm.title()} | [Cards]({str(url)}) |\n")
 
         # Write the list of missing rarities
-        file.write('\n# Missing Set Symbol Rarities\n')
-        file.write('| Symbol Name | Rarities Missing | Links |\n')
-        file.write('| ----------- | ---------------- | ----- |\n')
+        file.write("\n# Missing Set Symbol Rarities\n")
+        file.write("| Symbol Name | Rarities Missing | Links |\n")
+        file.write("| ----------- | ---------------- | ----- |\n")
         for sym in rarities:
-            file.write(f'| {sym.icon.upper()} | {sym.missing_str} | '
-                       f'[SVG]({sym.svg_url}), [Cards]({sym.set_url}) |\n')
+            file.write(f"| {sym.icon.upper()} | {sym.missing_str} | "
+                       f"[SVG]({sym.svg_url}), [Cards]({sym.set_url}) |\n")
 
     # Log success
-    logger.success('Built ~/docs/MISSING.md file!')
+    logger.success("Built ~/docs/MISSING.md file!")
 
 
-@click.command(
-    help='Build a project manifest and compiled package that can be pulled from outside apps.')
+@app.command(
+    "manifest",
+    help="Build a project manifest and compiled package that can be pulled from outside apps."
+)
 def build_manifest() -> None:
     """Generates a manifest of all symbols in the repository and compiles all symbols into
         a zip that can be pulled from outside apps."""
@@ -102,7 +111,7 @@ def build_manifest() -> None:
     )
 
     # Dump manifest data
-    dump_data_file(manifest.model_dump(), Paths.MANIFEST, config={'sort_keys': False})
+    dump_data_file(manifest.model_dump(), Paths.MANIFEST, config={"sort_keys": False})
 
     # Create packages
     create_zip(
@@ -115,16 +124,22 @@ def build_manifest() -> None:
         files=[Paths.MANIFEST])
 
     # Log success
-    logger.success('Built manifest and package!')
+    logger.success("Built manifest and package!")
 
 
-@click.command(help='Build optimized SVG catalog.')
-@click.argument('npm_command', required=False, default=None)
-def build_optimized(npm_command: Optional[str] = None) -> None:
+@app.command(
+    "optimized",
+    help="Build optimized SVG catalog."
+)
+def build_optimized(
+    npm_command: str | None = typer.Argument(
+        None, help="The npm command to run for optimization."
+    )
+) -> None:
     """Generate optimized SVG directories."""
 
     # Get npm command if not provided
-    npm_command = npm_command or get_npm_command()
+    _command: str = npm_command or get_npm_command()
 
     # Gather optimization jobs
     dirs = [
@@ -133,51 +148,33 @@ def build_optimized(npm_command: Optional[str] = None) -> None:
     ]
 
     # Pre-process SVGs with SVGO
-    logger.info('Processing: SVGO Normalization ...')
+    logger.info("Processing: SVGO Normalization ...")
     start = perf_counter()
-    _ = [run_svgo_batch(src=x, dst=y, npm_command=npm_command) for x, y in dirs],
-    logger.success(f'Completed in {perf_counter() - start:.2f} seconds!')
+    _ = [run_svgo_batch(src=x, dst=y, npm_command=_command) for x, y in dirs],
+    logger.success(f"Completed in {perf_counter() - start:.2f} seconds!")
 
     # Run Inkscape commands
     files: list[Path] = []
     [files.extend(gather_svg_jobs(n)) for _, n in dirs]
-    logger.info('Processing: Inkscape Normalization ...')
+    logger.info("Processing: Inkscape Normalization ...")
     start = perf_counter()
     run_inkscape_batch(files)
-    logger.success(f'Completed in {perf_counter() - start:.2f} seconds!')
+    logger.success(f"Completed in {perf_counter() - start:.2f} seconds!")
 
     # Add final post-process step with SVGO
-    logger.info('Processing: SVGO Optimization ...')
+    logger.info("Processing: SVGO Optimization ...")
     start = perf_counter()
-    _ = [run_svgo_batch(src=n, dst=n, npm_command=npm_command) for _, n in dirs],
-    logger.success(f'Completed in {perf_counter() - start:.2f} seconds!')
-    logger.success('All SVG jobs complete!')
+    _ = [run_svgo_batch(src=n, dst=n, npm_command=_command) for _, n in dirs],
+    logger.success(f"Completed in {perf_counter() - start:.2f} seconds!")
+    logger.success("All SVG jobs complete!")
 
 
-@click.command(
-    help='Build docs, manifest, and any other relevant resources used by the repository.')
-@click.pass_context
-def build_all(ctx: click.Context) -> None:
+@app.command(
+    ".",
+    help="Build docs, manifest, and any other relevant resources used by the repository.",
+)
+def build_all(ctx: typer.Context) -> None:
     """Generate all resources used by the repository."""
     ctx.invoke(build_optimized)
     ctx.invoke(build_manifest)
     ctx.invoke(build_docs)
-
-
-"""
-* Command Groups
-"""
-
-
-@click.group(
-    chain=True,
-    commands={
-        '.': build_all,
-        'docs': build_docs,
-        'manifest': build_manifest,
-        'optimized': build_optimized,
-    },
-    help='Commands that build repository assets.')
-def build_cli():
-    """Cli interface for build funcs."""
-    pass

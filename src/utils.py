@@ -32,14 +32,14 @@ def create_zip(src: Path, dst: Path, files: list[Path] | None = None) -> None:
         dst: Path to the destination `.zip` file.
         files: Additional files to include in the archive.
     """
-    files = files or []
+    file_list: list[Path] = files or []
     with zipfile.ZipFile(dst, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, _files in os.walk(src):
             for file in _files:
                 file_path = os.path.join(root, file)
                 rel_path = os.path.relpath(file_path, src)
                 zipf.write(file_path, rel_path)
-        for file in files:
+        for file in file_list:
             zipf.write(str(file), file.name)
 
 
