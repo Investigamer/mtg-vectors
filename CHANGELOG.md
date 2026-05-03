@@ -1,3 +1,13 @@
+## v0.9.1 (2026-05-03)
+
+### Fix
+
+- **pyproject.toml**: Ensure cz changes version in project file
+
+### Refactor
+
+- **build-release.yml**: Write lock file after sync
+
 ## v0.9.0 (2026-05-03)
 
 ### Feat
