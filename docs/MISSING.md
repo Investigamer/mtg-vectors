@@ -1,6 +1,9 @@
 # Missing Set Symbols
 | Symbol Code | Links |
 | ----------- | ----- |
+| FRA | [SVG](https://svgs.scryfall.io/sets/fra.svg), [Cards](https://scryfall.com/sets/fra) |
+| HOB | [SVG](https://svgs.scryfall.io/sets/hob.svg), [Cards](https://scryfall.com/sets/thob) |
+| HOC | [SVG](https://svgs.scryfall.io/sets/hoc.svg), [Cards](https://scryfall.com/sets/hoc) |
 | MAR | [SVG](https://svgs.scryfall.io/sets/mar.svg), [Cards](https://scryfall.com/sets/mar) |
 | Y26 | [SVG](https://svgs.scryfall.io/sets/y26.svg), [Cards](https://scryfall.com/sets/yecl) |
 
