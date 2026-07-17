@@ -1,6 +1,6 @@
 [project]
 name = "mtg-vectors"
-version = "0.9.0"
+version = "0.9.1"
 description = "A repository of Magic the Gathering SVG (vector) files for set, watermark, and miscellaneous symbols."
 authors = [{ name = "Investigamer", email = "hexproofsystems@gmail.com" }]
 license = "MPL-2.0"
@@ -15,17 +15,19 @@ dependencies = [
     "click>=8.1.7,<9",
     "omnitils~=1.4.6",
     "hexproof~=0.4.0",
+    "typer>=0.21.1",
 ]
 
 [project.optional-dependencies]
 dev = [
     "mypy>=1.9,<2",
-    "pytest>=8.1,<9",
+    "pytest>=9.0.3,<10",
     "commitizen>=3.20,<4"
 ]
 
 [project.scripts]
-vectors = 'src.commands:AppCLI'
+vectors = 'src._cli:app'
+hooks-cz = 'hooks.commitizen:hooks'
 
 [build-system]
 requires = ["hatchling"]
@@ -35,11 +37,12 @@ build-backend = "hatchling.build"
 packages = ["src"]
 
 [tool.commitizen]
+version_provider = "pep621"
 version = "0.9.0"
 encoding = "utf-8"
 changelog_start_rev = "0.2.1"
 tag_format = "v$version"
 update_changelog_on_bump = true
-version_files = [
-    "pyproject.toml:version"
+pre_bump_hooks = [
+    "uv run hooks-cz pre-bump"
 ]

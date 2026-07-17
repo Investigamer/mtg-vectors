@@ -78,6 +78,24 @@ def get_all_sets() -> list[SetDetails]:
 
 
 @cache
+def get_all_sets_raw() -> list[SetDetails]:
+    """Make a GET request to the https://api.scryfall.com/sets endpoint.
+
+    Returns:
+        A dictionary of sets where key is set code, value is SetDetails. No routes applied.
+    """
+    return [
+        SetDetails(
+            code=n.code,
+            type=n.set_type,
+            parent=n.parent_set_code.lower() if n.parent_set_code else None,
+            icon=Scryfall.get_icon_code(url=n.icon_svg_uri),
+            name=n.name
+        ) for n in Scryfall.get_set_list()
+    ]
+
+
+@cache
 def get_all_icons() -> list[Icon]:
     """Returns a (non-repeating) list of all icons found on Scryfall."""
     return [

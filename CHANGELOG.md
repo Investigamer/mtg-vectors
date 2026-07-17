@@ -1,4 +1,27 @@
-## v0.9.0 (2026-05-05)
+## v0.9.1 (2026-05-03)
+
+### Fix
+
+- **pyproject.toml**: Ensure cz changes version in project file
+
+### Refactor
+
+- **build-release.yml**: Write lock file after sync
+
+## v0.9.0 (2026-05-03)
+
+### Feat
+
+- **svg/set**: Add HOB, HOC, FRA
+
+### Fix
+
+- **cli**: Ensure we pass a value to build_optimized from build_all, add source for inkscape install for GH workflow
+- **workflow**: Update workflow to fix improper bump/commit/push behavior, added cz hook to properly capture changes to uv.lock on bump
+
+### Refactor
+
+- **cli**: Rework CLI to use Typer
 
 ## v0.8.0 (2026-05-01)
 
