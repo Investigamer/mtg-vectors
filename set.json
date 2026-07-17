@@ -1,0 +1,6297 @@
+{
+  "10e": {
+    "code_symbol": "10e",
+    "count_cards": 510,
+    "count_printed": 383,
+    "count_tokens": 0
+  },
+  "2ed": {
+    "code_symbol": "2ed",
+    "count_cards": 302,
+    "count_printed": 302,
+    "count_tokens": 0
+  },
+  "2x2": {
+    "code_symbol": "2x2",
+    "count_cards": 579,
+    "count_printed": 331,
+    "count_tokens": 0
+  },
+  "2xm": {
+    "code_symbol": "2xm",
+    "count_cards": 384,
+    "count_printed": 332,
+    "count_tokens": 0
+  },
+  "30a": {
+    "code_symbol": "30a",
+    "count_cards": 594,
+    "count_printed": 594,
+    "count_tokens": 0
+  },
+  "3ed": {
+    "code_symbol": "3ed",
+    "count_cards": 306,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "40k": {
+    "code_symbol": "40k",
+    "count_cards": 617,
+    "count_printed": 168,
+    "count_tokens": 0
+  },
+  "4bb": {
+    "code_parent": "4ed",
+    "code_symbol": "4ed",
+    "count_cards": 378,
+    "count_printed": 378,
+    "count_tokens": 0
+  },
+  "4ed": {
+    "code_symbol": "4ed",
+    "count_cards": 379,
+    "count_printed": 378,
+    "count_tokens": 0
+  },
+  "5dn": {
+    "code_symbol": "5dn",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "5ed": {
+    "code_symbol": "5ed",
+    "count_cards": 460,
+    "count_printed": 455,
+    "count_tokens": 0
+  },
+  "6ed": {
+    "code_symbol": "6ed",
+    "count_cards": 351,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "7ed": {
+    "code_symbol": "7ed",
+    "count_cards": 708,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "8ed": {
+    "code_symbol": "8ed",
+    "count_cards": 711,
+    "count_printed": 357,
+    "count_tokens": 0
+  },
+  "9ed": {
+    "code_symbol": "9ed",
+    "count_cards": 710,
+    "count_printed": 359,
+    "count_tokens": 0
+  },
+  "a25": {
+    "code_symbol": "a25",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "aacr": {
+    "code_parent": "acr",
+    "code_symbol": "acr",
+    "count_cards": 20,
+    "count_tokens": 0
+  },
+  "aafr": {
+    "code_parent": "afr",
+    "code_symbol": "afr",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "ablb": {
+    "code_parent": "blb",
+    "code_symbol": "blb",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "abro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "aclb": {
+    "code_parent": "clb",
+    "code_symbol": "clb",
+    "count_cards": 81,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "acmm": {
+    "code_parent": "cmm",
+    "code_symbol": "cmm",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "acr": {
+    "code_symbol": "acr",
+    "count_cards": 309,
+    "count_printed": 110,
+    "count_tokens": 0
+  },
+  "adft": {
+    "code_parent": "dft",
+    "code_symbol": "dft",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "admu": {
+    "code_parent": "dmu",
+    "code_symbol": "dmu",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "adsk": {
+    "code_parent": "dsk",
+    "code_symbol": "dsk",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "aeoe": {
+    "code_parent": "eoe",
+    "code_symbol": "eoe",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "aer": {
+    "code_symbol": "aer",
+    "count_cards": 197,
+    "count_printed": 184,
+    "count_tokens": 0
+  },
+  "afc": {
+    "code_parent": "afr",
+    "code_symbol": "afc",
+    "count_cards": 331,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "afdn": {
+    "code_parent": "fdn",
+    "code_symbol": "fdn",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "afin": {
+    "code_parent": "fin",
+    "code_symbol": "fin",
+    "count_cards": 53,
+    "count_tokens": 0
+  },
+  "afr": {
+    "code_symbol": "afr",
+    "count_cards": 424,
+    "count_printed": 281,
+    "count_tokens": 0
+  },
+  "ainr": {
+    "code_parent": "inr",
+    "code_symbol": "inr",
+    "count_cards": 25,
+    "count_tokens": 0
+  },
+  "ajmp": {
+    "code_parent": "jmp",
+    "code_symbol": "jmp",
+    "count_cards": 18,
+    "count_printed": 18,
+    "count_tokens": 0
+  },
+  "akh": {
+    "code_symbol": "akh",
+    "count_cards": 287,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "akhm": {
+    "code_parent": "khm",
+    "code_symbol": "khm",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "akr": {
+    "code_symbol": "akr",
+    "count_cards": 339,
+    "count_printed": 338,
+    "count_tokens": 0
+  },
+  "ala": {
+    "code_symbol": "ala",
+    "count_cards": 250,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "alci": {
+    "code_parent": "lci",
+    "code_symbol": "lci",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "all": {
+    "code_symbol": "all",
+    "count_cards": 199,
+    "count_printed": 199,
+    "count_tokens": 0
+  },
+  "altc": {
+    "code_parent": "ltc",
+    "code_symbol": "ltc",
+    "count_cards": 24,
+    "count_tokens": 0
+  },
+  "altr": {
+    "code_parent": "ltr",
+    "code_symbol": "ltr",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "amh1": {
+    "code_parent": "mh1",
+    "code_symbol": "mh1",
+    "count_cards": 54,
+    "count_printed": 54,
+    "count_tokens": 0
+  },
+  "amh2": {
+    "code_parent": "mh2",
+    "code_symbol": "mh2",
+    "count_cards": 162,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "amh3": {
+    "code_parent": "mh3",
+    "code_symbol": "mh3",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "amid": {
+    "code_parent": "mid",
+    "code_symbol": "mid",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "amkm": {
+    "code_parent": "mkm",
+    "code_symbol": "mkm",
+    "count_cards": 49,
+    "count_tokens": 0
+  },
+  "amom": {
+    "code_parent": "mom",
+    "code_symbol": "mom",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "ana": {
+    "code_symbol": "mtga",
+    "count_cards": 46,
+    "count_printed": 46,
+    "count_tokens": 0
+  },
+  "anb": {
+    "code_symbol": "mtga",
+    "count_cards": 120,
+    "count_printed": 116,
+    "count_tokens": 0
+  },
+  "aneo": {
+    "code_parent": "neo",
+    "code_symbol": "neo",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "aone": {
+    "code_parent": "one",
+    "code_symbol": "one",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "aotj": {
+    "code_parent": "otj",
+    "code_symbol": "otj",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "apc": {
+    "code_symbol": "apc",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "arb": {
+    "code_symbol": "arb",
+    "count_cards": 145,
+    "count_printed": 145,
+    "count_tokens": 0
+  },
+  "arc": {
+    "code_symbol": "arc",
+    "count_cards": 150,
+    "count_printed": 150,
+    "count_tokens": 0
+  },
+  "arn": {
+    "code_symbol": "arn",
+    "count_cards": 92,
+    "count_printed": 78,
+    "count_tokens": 0
+  },
+  "asnc": {
+    "code_parent": "snc",
+    "code_symbol": "snc",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "astx": {
+    "code_parent": "stx",
+    "code_symbol": "stx",
+    "count_cards": 162,
+    "count_tokens": 0
+  },
+  "atdm": {
+    "code_parent": "tdm",
+    "code_symbol": "tdm",
+    "count_cards": 54,
+    "count_tokens": 0
+  },
+  "ath": {
+    "code_symbol": "ath",
+    "count_cards": 85,
+    "count_printed": 85,
+    "count_tokens": 0
+  },
+  "atq": {
+    "code_symbol": "atq",
+    "count_cards": 102,
+    "count_printed": 100,
+    "count_tokens": 0
+  },
+  "avow": {
+    "code_parent": "vow",
+    "code_symbol": "vow",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "avr": {
+    "code_symbol": "avr",
+    "count_cards": 244,
+    "count_printed": 244,
+    "count_tokens": 0
+  },
+  "awoe": {
+    "code_parent": "woe",
+    "code_symbol": "woe",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "aznr": {
+    "code_parent": "znr",
+    "code_symbol": "znr",
+    "count_cards": 81,
+    "count_tokens": 0
+  },
+  "bbd": {
+    "code_symbol": "bbd",
+    "count_cards": 256,
+    "count_printed": 254,
+    "count_tokens": 0
+  },
+  "bchr": {
+    "code_parent": "chr",
+    "code_symbol": "chr",
+    "count_cards": 125,
+    "count_printed": 125,
+    "count_tokens": 0
+  },
+  "bfz": {
+    "code_symbol": "bfz",
+    "count_cards": 299,
+    "count_printed": 274,
+    "count_tokens": 0
+  },
+  "big": {
+    "code_parent": "otj",
+    "code_symbol": "big",
+    "count_cards": 95,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "blb": {
+    "code_symbol": "blb",
+    "count_cards": 398,
+    "count_printed": 281,
+    "count_tokens": 0
+  },
+  "blc": {
+    "code_parent": "blb",
+    "code_symbol": "blc",
+    "count_cards": 356,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "bng": {
+    "code_symbol": "bng",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "bok": {
+    "code_symbol": "bok",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "bot": {
+    "code_parent": "bro",
+    "code_symbol": "bot",
+    "count_cards": 29,
+    "count_printed": 58,
+    "count_tokens": 0
+  },
+  "brb": {
+    "code_symbol": "brb",
+    "count_cards": 136,
+    "count_printed": 136,
+    "count_tokens": 0
+  },
+  "brc": {
+    "code_parent": "bro",
+    "code_symbol": "brc",
+    "count_cards": 209,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "bro": {
+    "code_symbol": "bro",
+    "count_cards": 399,
+    "count_printed": 287,
+    "count_tokens": 0
+  },
+  "brr": {
+    "code_parent": "bro",
+    "code_symbol": "brr",
+    "count_cards": 189,
+    "count_printed": 63,
+    "count_tokens": 0
+  },
+  "btd": {
+    "code_symbol": "btd",
+    "count_cards": 90,
+    "count_printed": 90,
+    "count_tokens": 0
+  },
+  "c13": {
+    "code_symbol": "c13",
+    "count_cards": 356,
+    "count_printed": 356,
+    "count_tokens": 0
+  },
+  "c14": {
+    "code_symbol": "c14",
+    "count_cards": 337,
+    "count_printed": 337,
+    "count_tokens": 0
+  },
+  "c15": {
+    "code_symbol": "c15",
+    "count_cards": 342,
+    "count_printed": 342,
+    "count_tokens": 0
+  },
+  "c16": {
+    "code_symbol": "c16",
+    "count_cards": 351,
+    "count_printed": 351,
+    "count_tokens": 0
+  },
+  "c17": {
+    "code_symbol": "c17",
+    "count_cards": 309,
+    "count_printed": 309,
+    "count_tokens": 0
+  },
+  "c18": {
+    "code_symbol": "c18",
+    "count_cards": 307,
+    "count_printed": 307,
+    "count_tokens": 0
+  },
+  "c19": {
+    "code_symbol": "c19",
+    "count_cards": 302,
+    "count_printed": 302,
+    "count_tokens": 0
+  },
+  "c20": {
+    "code_symbol": "c20",
+    "count_cards": 322,
+    "count_printed": 322,
+    "count_tokens": 0
+  },
+  "c21": {
+    "code_symbol": "c21",
+    "count_cards": 409,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "cc1": {
+    "code_symbol": "cc1",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "cc2": {
+    "code_symbol": "cc2",
+    "count_cards": 9,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "ced": {
+    "code_symbol": "ced",
+    "count_cards": 302,
+    "count_printed": 302,
+    "count_tokens": 0
+  },
+  "cei": {
+    "code_symbol": "cei",
+    "count_cards": 302,
+    "count_printed": 302,
+    "count_tokens": 0
+  },
+  "chk": {
+    "code_symbol": "chk",
+    "count_cards": 307,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "chr": {
+    "code_symbol": "chr",
+    "count_cards": 125,
+    "count_printed": 125,
+    "count_tokens": 0
+  },
+  "clb": {
+    "code_symbol": "clb",
+    "count_cards": 936,
+    "count_printed": 361,
+    "count_tokens": 0
+  },
+  "clu": {
+    "code_parent": "mkm",
+    "code_symbol": "clu",
+    "count_cards": 284,
+    "count_printed": 289,
+    "count_tokens": 0
+  },
+  "cm1": {
+    "code_symbol": "cm1",
+    "count_cards": 18,
+    "count_printed": 18,
+    "count_tokens": 0
+  },
+  "cm2": {
+    "code_symbol": "cm2",
+    "count_cards": 312,
+    "count_printed": 312,
+    "count_tokens": 0
+  },
+  "cma": {
+    "code_symbol": "cma",
+    "count_cards": 320,
+    "count_printed": 320,
+    "count_tokens": 0
+  },
+  "cmb1": {
+    "code_symbol": "planeswalker",
+    "count_cards": 121,
+    "count_printed": 121,
+    "count_tokens": 0
+  },
+  "cmb2": {
+    "code_symbol": "planeswalker",
+    "count_cards": 121,
+    "count_printed": 121,
+    "count_tokens": 0
+  },
+  "cmd": {
+    "code_symbol": "cmd",
+    "count_cards": 318,
+    "count_printed": 318,
+    "count_tokens": 0
+  },
+  "cmm": {
+    "code_symbol": "cmm",
+    "count_cards": 1067,
+    "count_printed": 451,
+    "count_tokens": 0
+  },
+  "cmr": {
+    "code_symbol": "cmr",
+    "count_cards": 718,
+    "count_printed": 361,
+    "count_tokens": 0
+  },
+  "cn2": {
+    "code_symbol": "cn2",
+    "count_cards": 222,
+    "count_printed": 221,
+    "count_tokens": 0
+  },
+  "cns": {
+    "code_symbol": "cns",
+    "count_cards": 210,
+    "count_printed": 210,
+    "count_tokens": 0
+  },
+  "con": {
+    "code_symbol": "conf",
+    "count_cards": 145,
+    "count_printed": 145,
+    "count_tokens": 0
+  },
+  "cp1": {
+    "code_parent": "m15",
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "cp2": {
+    "code_parent": "frf",
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "cp3": {
+    "code_parent": "ori",
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "csp": {
+    "code_symbol": "csp",
+    "count_cards": 155,
+    "count_printed": 155,
+    "count_tokens": 0
+  },
+  "cst": {
+    "code_parent": "csp",
+    "code_symbol": "csp",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "dbl": {
+    "code_symbol": "star",
+    "count_cards": 535,
+    "count_printed": 534,
+    "count_tokens": 0
+  },
+  "dci": {
+    "code_symbol": "dci",
+    "count_cards": 80,
+    "count_printed": 79,
+    "count_tokens": 0
+  },
+  "dd1": {
+    "code_symbol": "dd1",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "dd2": {
+    "code_symbol": "dd2",
+    "count_cards": 64,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "ddc": {
+    "code_symbol": "ddc",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "ddd": {
+    "code_symbol": "ddd",
+    "count_cards": 63,
+    "count_printed": 63,
+    "count_tokens": 0
+  },
+  "dde": {
+    "code_symbol": "dde",
+    "count_cards": 71,
+    "count_printed": 71,
+    "count_tokens": 0
+  },
+  "ddf": {
+    "code_symbol": "ddf",
+    "count_cards": 79,
+    "count_printed": 79,
+    "count_tokens": 0
+  },
+  "ddg": {
+    "code_symbol": "ddg",
+    "count_cards": 81,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "ddh": {
+    "code_symbol": "ddh",
+    "count_cards": 80,
+    "count_printed": 80,
+    "count_tokens": 0
+  },
+  "ddi": {
+    "code_symbol": "ddi",
+    "count_cards": 77,
+    "count_printed": 77,
+    "count_tokens": 0
+  },
+  "ddj": {
+    "code_symbol": "ddj",
+    "count_cards": 90,
+    "count_printed": 90,
+    "count_tokens": 0
+  },
+  "ddk": {
+    "code_symbol": "ddk",
+    "count_cards": 80,
+    "count_printed": 80,
+    "count_tokens": 0
+  },
+  "ddl": {
+    "code_symbol": "ddl",
+    "count_cards": 81,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "ddm": {
+    "code_symbol": "ddm",
+    "count_cards": 88,
+    "count_printed": 88,
+    "count_tokens": 0
+  },
+  "ddn": {
+    "code_symbol": "ddn",
+    "count_cards": 82,
+    "count_printed": 82,
+    "count_tokens": 0
+  },
+  "ddo": {
+    "code_symbol": "ddo",
+    "count_cards": 67,
+    "count_printed": 67,
+    "count_tokens": 0
+  },
+  "ddp": {
+    "code_symbol": "ddp",
+    "count_cards": 80,
+    "count_printed": 80,
+    "count_tokens": 0
+  },
+  "ddq": {
+    "code_symbol": "ddq",
+    "count_cards": 80,
+    "count_printed": 80,
+    "count_tokens": 0
+  },
+  "ddr": {
+    "code_symbol": "ddr",
+    "count_cards": 76,
+    "count_printed": 76,
+    "count_tokens": 0
+  },
+  "dds": {
+    "code_symbol": "dds",
+    "count_cards": 65,
+    "count_printed": 65,
+    "count_tokens": 0
+  },
+  "ddt": {
+    "code_symbol": "ddt",
+    "count_cards": 63,
+    "count_printed": 63,
+    "count_tokens": 0
+  },
+  "ddu": {
+    "code_symbol": "ddu",
+    "count_cards": 76,
+    "count_printed": 76,
+    "count_tokens": 0
+  },
+  "dft": {
+    "code_symbol": "dft",
+    "count_cards": 553,
+    "count_printed": 291,
+    "count_tokens": 0
+  },
+  "dgm": {
+    "code_symbol": "dgm",
+    "count_cards": 156,
+    "count_printed": 156,
+    "count_tokens": 0
+  },
+  "dis": {
+    "code_symbol": "dis",
+    "count_cards": 180,
+    "count_printed": 180,
+    "count_tokens": 0
+  },
+  "dka": {
+    "code_symbol": "dka",
+    "count_cards": 158,
+    "count_printed": 158,
+    "count_tokens": 0
+  },
+  "dkm": {
+    "code_symbol": "dkm",
+    "count_cards": 58,
+    "count_printed": 50,
+    "count_tokens": 0
+  },
+  "dmc": {
+    "code_parent": "dmu",
+    "code_symbol": "dmc",
+    "count_cards": 240,
+    "count_printed": 50,
+    "count_tokens": 0
+  },
+  "dmr": {
+    "code_symbol": "dmr",
+    "count_cards": 457,
+    "count_printed": 261,
+    "count_tokens": 0
+  },
+  "dmu": {
+    "code_symbol": "dmu",
+    "count_cards": 453,
+    "count_printed": 281,
+    "count_tokens": 0
+  },
+  "dom": {
+    "code_symbol": "dom",
+    "count_cards": 280,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "dpa": {
+    "code_symbol": "dpa",
+    "count_cards": 113,
+    "count_printed": 113,
+    "count_tokens": 0
+  },
+  "drb": {
+    "code_symbol": "drb",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "drc": {
+    "code_parent": "dft",
+    "code_symbol": "dft",
+    "count_cards": 184,
+    "count_printed": 187,
+    "count_tokens": 0
+  },
+  "drk": {
+    "code_symbol": "drk",
+    "count_cards": 122,
+    "count_printed": 119,
+    "count_tokens": 0
+  },
+  "dsc": {
+    "code_parent": "dsk",
+    "code_symbol": "dsc",
+    "count_cards": 373,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "dsk": {
+    "code_symbol": "dsk",
+    "count_cards": 418,
+    "count_printed": 286,
+    "count_tokens": 0
+  },
+  "dst": {
+    "code_symbol": "dst",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "dtk": {
+    "code_symbol": "dtk",
+    "count_cards": 264,
+    "count_printed": 264,
+    "count_tokens": 0
+  },
+  "dvd": {
+    "code_symbol": "ddc",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "e01": {
+    "code_symbol": "e01",
+    "count_cards": 106,
+    "count_printed": 106,
+    "count_tokens": 0
+  },
+  "e02": {
+    "code_symbol": "e02",
+    "count_cards": 48,
+    "count_printed": 47,
+    "count_tokens": 0
+  },
+  "ea1": {
+    "code_symbol": "mtga",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "ea2": {
+    "code_symbol": "mtga",
+    "count_cards": 25,
+    "count_printed": 25,
+    "count_tokens": 0
+  },
+  "ea3": {
+    "code_symbol": "mtga",
+    "count_cards": 25,
+    "count_printed": 25,
+    "count_tokens": 0
+  },
+  "ecc": {
+    "code_parent": "ecl",
+    "code_symbol": "ecc",
+    "count_cards": 191,
+    "count_printed": 24,
+    "count_tokens": 0
+  },
+  "ecl": {
+    "code_symbol": "ecc",
+    "count_cards": 191,
+    "count_printed": 24,
+    "count_tokens": 0
+  },
+  "eld": {
+    "code_symbol": "eld",
+    "count_cards": 399,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "ema": {
+    "code_symbol": "ema",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "emn": {
+    "code_symbol": "emn",
+    "count_cards": 208,
+    "count_printed": 205,
+    "count_tokens": 0
+  },
+  "eoc": {
+    "code_parent": "eoe",
+    "code_symbol": "eoc",
+    "count_cards": 191,
+    "count_printed": 24,
+    "count_tokens": 0
+  },
+  "eoe": {
+    "code_symbol": "eoe",
+    "count_cards": 399,
+    "count_printed": 276,
+    "count_tokens": 0
+  },
+  "eos": {
+    "code_parent": "eoe",
+    "code_symbol": "eos",
+    "count_cards": 180,
+    "count_tokens": 0
+  },
+  "eve": {
+    "code_symbol": "eve",
+    "count_cards": 180,
+    "count_printed": 180,
+    "count_tokens": 0
+  },
+  "evg": {
+    "code_symbol": "dd1",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "exo": {
+    "code_symbol": "exo",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "exp": {
+    "code_parent": "bfz",
+    "code_symbol": "exp",
+    "count_cards": 45,
+    "count_printed": 45,
+    "count_tokens": 0
+  },
+  "f01": {
+    "code_symbol": "dci",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "f02": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f03": {
+    "code_symbol": "dci",
+    "count_cards": 13,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f04": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f05": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f06": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f07": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f08": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f09": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f10": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f11": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f12": {
+    "code_symbol": "star",
+    "count_cards": 13,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f13": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f14": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f15": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f16": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f17": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "f18": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "fbb": {
+    "code_parent": "3ed",
+    "code_symbol": "3ed",
+    "count_cards": 307,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "fbro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 5,
+    "count_tokens": 0
+  },
+  "fca": {
+    "code_parent": "fin",
+    "code_symbol": "fca",
+    "count_cards": 65,
+    "count_tokens": 0
+  },
+  "fclu": {
+    "code_parent": "clu",
+    "code_symbol": "clu",
+    "count_cards": 10,
+    "count_tokens": 0
+  },
+  "fdc": {
+    "code_parent": "fdn",
+    "code_symbol": "fdc",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "fdmu": {
+    "code_parent": "dmu",
+    "code_symbol": "dmu",
+    "count_cards": 10,
+    "count_tokens": 0
+  },
+  "fdn": {
+    "code_symbol": "fdn",
+    "count_cards": 730,
+    "count_printed": 291,
+    "count_tokens": 0
+  },
+  "fem": {
+    "code_symbol": "fem",
+    "count_cards": 187,
+    "count_printed": 187,
+    "count_tokens": 0
+  },
+  "ffdn": {
+    "code_parent": "fdn",
+    "code_symbol": "fdn",
+    "count_cards": 2,
+    "count_tokens": 0
+  },
+  "fic": {
+    "code_parent": "fin",
+    "code_symbol": "fic",
+    "count_cards": 444,
+    "count_printed": 100,
+    "count_tokens": 0
+  },
+  "fin": {
+    "code_symbol": "fin",
+    "count_cards": 586,
+    "count_printed": 309,
+    "count_tokens": 0
+  },
+  "fj22": {
+    "code_parent": "j22",
+    "code_symbol": "j22",
+    "count_cards": 46,
+    "count_tokens": 0
+  },
+  "fj25": {
+    "code_parent": "j25",
+    "code_symbol": "j25",
+    "count_cards": 46,
+    "count_tokens": 0
+  },
+  "fjmp": {
+    "code_parent": "jmp",
+    "code_symbol": "jmp",
+    "count_cards": 46,
+    "count_tokens": 0
+  },
+  "fltr": {
+    "code_parent": "ltr",
+    "code_symbol": "ltr",
+    "count_cards": 10,
+    "count_tokens": 0
+  },
+  "fmom": {
+    "code_parent": "mom",
+    "code_symbol": "mom",
+    "count_cards": 5,
+    "count_tokens": 0
+  },
+  "fnm": {
+    "code_symbol": "dci",
+    "count_cards": 11,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "fone": {
+    "code_parent": "one",
+    "code_symbol": "one",
+    "count_cards": 5,
+    "count_tokens": 0
+  },
+  "fra": {
+    "code_symbol": "fra",
+    "count_cards": 191,
+    "count_printed": 185,
+    "count_tokens": 0
+  },
+  "frf": {
+    "code_symbol": "frf",
+    "count_cards": 191,
+    "count_printed": 185,
+    "count_tokens": 0
+  },
+  "fut": {
+    "code_symbol": "fut",
+    "count_cards": 180,
+    "count_printed": 180,
+    "count_tokens": 0
+  },
+  "g00": {
+    "code_symbol": "dci",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "g01": {
+    "code_symbol": "dci",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "g02": {
+    "code_symbol": "dci",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "g03": {
+    "code_symbol": "dci",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "g04": {
+    "code_symbol": "dci",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "g05": {
+    "code_symbol": "dci",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "g06": {
+    "code_symbol": "dci",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "g07": {
+    "code_symbol": "dci",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "g08": {
+    "code_symbol": "dci",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "g09": {
+    "code_symbol": "dci",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "g10": {
+    "code_symbol": "dci",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "g11": {
+    "code_symbol": "dci",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "g17": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "g18": {
+    "code_parent": "m19",
+    "code_symbol": "m19",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "g99": {
+    "code_symbol": "6ed",
+    "count_cards": 1,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "gdy": {
+    "code_symbol": "star",
+    "count_cards": 9,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "gk1": {
+    "code_symbol": "grn",
+    "count_cards": 127,
+    "count_printed": 127,
+    "count_tokens": 0
+  },
+  "gk2": {
+    "code_symbol": "rna",
+    "count_cards": 133,
+    "count_printed": 133,
+    "count_tokens": 0
+  },
+  "gn2": {
+    "code_symbol": "gn2",
+    "count_cards": 64,
+    "count_printed": 64,
+    "count_tokens": 0
+  },
+  "gn3": {
+    "code_symbol": "gn3",
+    "count_cards": 135,
+    "count_printed": 135,
+    "count_tokens": 0
+  },
+  "gnt": {
+    "code_symbol": "gnt",
+    "count_cards": 68,
+    "count_printed": 68,
+    "count_tokens": 0
+  },
+  "gpt": {
+    "code_symbol": "gpt",
+    "count_cards": 167,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "grn": {
+    "code_symbol": "grn",
+    "count_cards": 273,
+    "count_printed": 259,
+    "count_tokens": 0
+  },
+  "gs1": {
+    "code_symbol": "gs1",
+    "count_cards": 41,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "gtc": {
+    "code_symbol": "gtc",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "gvl": {
+    "code_symbol": "ddd",
+    "count_cards": 63,
+    "count_printed": 63,
+    "count_tokens": 0
+  },
+  "h09": {
+    "code_symbol": "h09",
+    "count_cards": 41,
+    "count_printed": 41,
+    "count_tokens": 0
+  },
+  "h17": {
+    "code_symbol": "h17",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "h1r": {
+    "code_parent": "mh2",
+    "code_symbol": "mh1",
+    "count_cards": 40,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "h2r": {
+    "code_parent": "mh3",
+    "code_symbol": "mh2",
+    "count_cards": 16,
+    "count_tokens": 0
+  },
+  "ha1": {
+    "code_symbol": "ha1",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "ha2": {
+    "code_symbol": "ha1",
+    "count_cards": 25,
+    "count_printed": 25,
+    "count_tokens": 0
+  },
+  "ha3": {
+    "code_symbol": "ha1",
+    "count_cards": 27,
+    "count_printed": 27,
+    "count_tokens": 0
+  },
+  "ha4": {
+    "code_symbol": "ha1",
+    "count_cards": 25,
+    "count_printed": 25,
+    "count_tokens": 0
+  },
+  "ha5": {
+    "code_symbol": "ha1",
+    "count_cards": 25,
+    "count_printed": 25,
+    "count_tokens": 0
+  },
+  "ha6": {
+    "code_symbol": "ha1",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "ha7": {
+    "code_symbol": "ha1",
+    "count_cards": 25,
+    "count_printed": 25,
+    "count_tokens": 0
+  },
+  "hbg": {
+    "code_symbol": "hbg",
+    "count_cards": 436,
+    "count_printed": 456,
+    "count_tokens": 0
+  },
+  "hho": {
+    "code_symbol": "star",
+    "count_cards": 22,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "hml": {
+    "code_symbol": "hml",
+    "count_cards": 140,
+    "count_printed": 140,
+    "count_tokens": 0
+  },
+  "hob": {
+    "code_symbol": "hob",
+    "count_cards": 169,
+    "count_printed": 169,
+    "count_tokens": 0
+  },
+  "hoc": {
+    "code_parent": "hob",
+    "code_symbol": "hoc",
+    "count_cards": 169,
+    "count_printed": 169,
+    "count_tokens": 0
+  },
+  "hop": {
+    "code_symbol": "hop",
+    "count_cards": 169,
+    "count_printed": 169,
+    "count_tokens": 0
+  },
+  "hou": {
+    "code_symbol": "hou",
+    "count_cards": 209,
+    "count_printed": 199,
+    "count_tokens": 0
+  },
+  "ice": {
+    "code_symbol": "ice",
+    "count_cards": 383,
+    "count_printed": 383,
+    "count_tokens": 0
+  },
+  "iko": {
+    "code_symbol": "iko",
+    "count_cards": 390,
+    "count_printed": 274,
+    "count_tokens": 0
+  },
+  "ima": {
+    "code_symbol": "ima",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "inr": {
+    "code_symbol": "inr",
+    "count_cards": 495,
+    "count_printed": 287,
+    "count_tokens": 0
+  },
+  "inv": {
+    "code_symbol": "inv",
+    "count_cards": 354,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "isd": {
+    "code_symbol": "isd",
+    "count_cards": 264,
+    "count_printed": 264,
+    "count_tokens": 0
+  },
+  "itp": {
+    "code_symbol": "x2ps",
+    "count_cards": 67,
+    "count_printed": 67,
+    "count_tokens": 0
+  },
+  "j12": {
+    "code_symbol": "star",
+    "count_cards": 9,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j13": {
+    "code_symbol": "star",
+    "count_cards": 9,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j14": {
+    "code_symbol": "star",
+    "count_cards": 14,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "j15": {
+    "code_symbol": "star",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j16": {
+    "code_symbol": "star",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j17": {
+    "code_symbol": "star",
+    "count_cards": 9,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j18": {
+    "code_symbol": "star",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j19": {
+    "code_symbol": "star",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "j20": {
+    "code_symbol": "archie",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "j21": {
+    "code_symbol": "j21",
+    "count_cards": 389,
+    "count_printed": 388,
+    "count_tokens": 0
+  },
+  "j22": {
+    "code_symbol": "j22",
+    "count_cards": 835,
+    "count_printed": 51,
+    "count_tokens": 0
+  },
+  "j25": {
+    "code_parent": "fdn",
+    "code_symbol": "j25",
+    "count_cards": 779,
+    "count_printed": 779,
+    "count_tokens": 0
+  },
+  "jgp": {
+    "code_symbol": "usg",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "jmp": {
+    "code_symbol": "jmp",
+    "count_cards": 497,
+    "count_printed": 78,
+    "count_tokens": 0
+  },
+  "jou": {
+    "code_symbol": "jou",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "jp1": {
+    "code_symbol": "default",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "jud": {
+    "code_symbol": "jud",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "jvc": {
+    "code_symbol": "dd2",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "khc": {
+    "code_parent": "khm",
+    "code_symbol": "khc",
+    "count_cards": 119,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "khm": {
+    "code_symbol": "khm",
+    "count_cards": 426,
+    "count_printed": 285,
+    "count_tokens": 0
+  },
+  "kld": {
+    "code_symbol": "kld",
+    "count_cards": 278,
+    "count_printed": 264,
+    "count_tokens": 0
+  },
+  "klr": {
+    "code_symbol": "klr",
+    "count_cards": 302,
+    "count_printed": 301,
+    "count_tokens": 0
+  },
+  "ktk": {
+    "code_symbol": "ktk",
+    "count_cards": 293,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "l12": {
+    "code_symbol": "default",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 2
+  },
+  "l13": {
+    "code_symbol": "default",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 4
+  },
+  "l14": {
+    "code_symbol": "default",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 4
+  },
+  "l15": {
+    "code_symbol": "default",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 1
+  },
+  "l16": {
+    "code_symbol": "default",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 1
+  },
+  "l17": {
+    "code_symbol": "default",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 1
+  },
+  "lcc": {
+    "code_parent": "lci",
+    "code_symbol": "lcc",
+    "count_cards": 370,
+    "count_printed": 16,
+    "count_tokens": 0
+  },
+  "lci": {
+    "code_symbol": "lci",
+    "count_cards": 416,
+    "count_printed": 291,
+    "count_tokens": 0
+  },
+  "lea": {
+    "code_symbol": "lea",
+    "count_cards": 295,
+    "count_printed": 295,
+    "count_tokens": 0
+  },
+  "leb": {
+    "code_symbol": "leb",
+    "count_cards": 302,
+    "count_printed": 302,
+    "count_tokens": 0
+  },
+  "leg": {
+    "code_symbol": "leg",
+    "count_cards": 310,
+    "count_printed": 310,
+    "count_tokens": 0
+  },
+  "lgn": {
+    "code_symbol": "lgn",
+    "count_cards": 145,
+    "count_printed": 145,
+    "count_tokens": 0
+  },
+  "lrw": {
+    "code_symbol": "lrw",
+    "count_cards": 301,
+    "count_printed": 301,
+    "count_tokens": 0
+  },
+  "ltc": {
+    "code_parent": "ltr",
+    "code_symbol": "ltc",
+    "count_cards": 591,
+    "count_printed": 84,
+    "count_tokens": 0
+  },
+  "ltr": {
+    "code_symbol": "ltr",
+    "count_cards": 856,
+    "count_printed": 281,
+    "count_tokens": 0
+  },
+  "m10": {
+    "code_symbol": "m10",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "m11": {
+    "code_symbol": "m11",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "m12": {
+    "code_symbol": "m12",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "m13": {
+    "code_symbol": "m13",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "m14": {
+    "code_symbol": "m14",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "m15": {
+    "code_symbol": "m15",
+    "count_cards": 284,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "m19": {
+    "code_symbol": "m19",
+    "count_cards": 314,
+    "count_printed": 280,
+    "count_tokens": 0
+  },
+  "m20": {
+    "code_symbol": "m20",
+    "count_cards": 345,
+    "count_printed": 280,
+    "count_tokens": 0
+  },
+  "m21": {
+    "code_symbol": "m21",
+    "count_cards": 397,
+    "count_printed": 274,
+    "count_tokens": 0
+  },
+  "m3c": {
+    "code_parent": "mh3",
+    "code_symbol": "m3c",
+    "count_cards": 398,
+    "count_printed": 16,
+    "count_tokens": 0
+  },
+  "macr": {
+    "code_parent": "acr",
+    "code_symbol": "acr",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "mafr": {
+    "code_parent": "afr",
+    "code_symbol": "afr",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "mar": {
+    "code_symbol": "default",
+    "count_cards": 0,
+    "count_tokens": 0
+  },
+  "mat": {
+    "code_symbol": "mat",
+    "count_cards": 230,
+    "count_printed": 50,
+    "count_tokens": 0
+  },
+  "mb2": {
+    "code_symbol": "mb2",
+    "count_cards": 385,
+    "count_printed": 390,
+    "count_tokens": 0
+  },
+  "mbro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "mbs": {
+    "code_symbol": "mbs",
+    "count_cards": 155,
+    "count_printed": 155,
+    "count_tokens": 0
+  },
+  "mclb": {
+    "code_parent": "clb",
+    "code_symbol": "clb",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "md1": {
+    "code_symbol": "md1",
+    "count_cards": 26,
+    "count_printed": 26,
+    "count_tokens": 0
+  },
+  "mdmu": {
+    "code_parent": "dmu",
+    "code_symbol": "dmu",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "me1": {
+    "code_symbol": "me1",
+    "count_cards": 195,
+    "count_printed": 195,
+    "count_tokens": 0
+  },
+  "me2": {
+    "code_symbol": "me2",
+    "count_cards": 245,
+    "count_printed": 245,
+    "count_tokens": 0
+  },
+  "me3": {
+    "code_symbol": "me3",
+    "count_cards": 230,
+    "count_printed": 230,
+    "count_tokens": 0
+  },
+  "me4": {
+    "code_symbol": "me4",
+    "count_cards": 269,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "med": {
+    "code_symbol": "med",
+    "count_cards": 24,
+    "count_printed": 24,
+    "count_tokens": 0
+  },
+  "mgb": {
+    "code_parent": "vis",
+    "code_symbol": "vis",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "mh1": {
+    "code_symbol": "mh1",
+    "count_cards": 255,
+    "count_printed": 254,
+    "count_tokens": 0
+  },
+  "mh2": {
+    "code_symbol": "mh2",
+    "count_cards": 494,
+    "count_printed": 303,
+    "count_tokens": 0
+  },
+  "mh3": {
+    "code_symbol": "mh3",
+    "count_cards": 528,
+    "count_printed": 303,
+    "count_tokens": 0
+  },
+  "mic": {
+    "code_parent": "mid",
+    "code_symbol": "mic",
+    "count_cards": 187,
+    "count_printed": 38,
+    "count_tokens": 0
+  },
+  "mid": {
+    "code_symbol": "mid",
+    "count_cards": 400,
+    "count_printed": 277,
+    "count_tokens": 0
+  },
+  "mir": {
+    "code_symbol": "mir",
+    "count_cards": 353,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "mkc": {
+    "code_parent": "mkm",
+    "code_symbol": "mkc",
+    "count_cards": 358,
+    "count_printed": 361,
+    "count_tokens": 0
+  },
+  "mkhm": {
+    "code_parent": "khm",
+    "code_symbol": "khm",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "mkm": {
+    "code_symbol": "mkm",
+    "count_cards": 451,
+    "count_printed": 286,
+    "count_tokens": 0
+  },
+  "mltr": {
+    "code_parent": "ltr",
+    "code_symbol": "ltr",
+    "count_cards": 1,
+    "count_tokens": 0
+  },
+  "mm2": {
+    "code_symbol": "mm2",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "mm3": {
+    "code_symbol": "mm3",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "mma": {
+    "code_symbol": "mma",
+    "count_cards": 229,
+    "count_printed": 229,
+    "count_tokens": 0
+  },
+  "mmh2": {
+    "code_parent": "mh2",
+    "code_symbol": "mh2",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "mmid": {
+    "code_parent": "mid",
+    "code_symbol": "mid",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "mmq": {
+    "code_symbol": "mmq",
+    "count_cards": 350,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "mneo": {
+    "code_parent": "neo",
+    "code_symbol": "neo",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "moc": {
+    "code_parent": "mom",
+    "code_symbol": "moc",
+    "count_cards": 450,
+    "count_printed": 79,
+    "count_tokens": 0
+  },
+  "mom": {
+    "code_symbol": "mom",
+    "count_cards": 387,
+    "count_printed": 291,
+    "count_tokens": 0
+  },
+  "mone": {
+    "code_parent": "one",
+    "code_symbol": "one",
+    "count_cards": 5,
+    "count_tokens": 0
+  },
+  "mor": {
+    "code_symbol": "mor",
+    "count_cards": 150,
+    "count_printed": 150,
+    "count_tokens": 0
+  },
+  "mp2": {
+    "code_parent": "akh",
+    "code_symbol": "mp2",
+    "count_cards": 54,
+    "count_printed": 54,
+    "count_tokens": 0
+  },
+  "mpr": {
+    "code_symbol": "dci",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "mps": {
+    "code_parent": "kld",
+    "code_symbol": "mps",
+    "count_cards": 54,
+    "count_printed": 54,
+    "count_tokens": 0
+  },
+  "mrd": {
+    "code_symbol": "mrd",
+    "count_cards": 306,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "msc": {
+    "code_parent": "msh",
+    "code_symbol": "msc",
+    "count_cards": 306,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "msh": {
+    "code_symbol": "msh",
+    "count_cards": 306,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "msnc": {
+    "code_parent": "snc",
+    "code_symbol": "snc",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "mstx": {
+    "code_parent": "stx",
+    "code_symbol": "stx",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "mul": {
+    "code_parent": "mom",
+    "code_symbol": "mul",
+    "count_cards": 261,
+    "count_printed": 261,
+    "count_tokens": 0
+  },
+  "mvow": {
+    "code_parent": "vow",
+    "code_symbol": "vow",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "mznr": {
+    "code_parent": "znr",
+    "code_symbol": "znr",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "ncc": {
+    "code_parent": "snc",
+    "code_symbol": "ncc",
+    "count_cards": 447,
+    "count_printed": 93,
+    "count_tokens": 0
+  },
+  "nec": {
+    "code_parent": "neo",
+    "code_symbol": "nec",
+    "count_cards": 179,
+    "count_printed": 38,
+    "count_tokens": 0
+  },
+  "nem": {
+    "code_symbol": "nem",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "neo": {
+    "code_symbol": "neo",
+    "count_cards": 531,
+    "count_printed": 302,
+    "count_tokens": 0
+  },
+  "nph": {
+    "code_symbol": "nph",
+    "count_cards": 175,
+    "count_printed": 175,
+    "count_tokens": 0
+  },
+  "o90p": {
+    "code_symbol": "star",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "oafc": {
+    "code_parent": "afc",
+    "code_symbol": "afc",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "oafr": {
+    "code_parent": "afr",
+    "code_symbol": "afr",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "oana": {
+    "code_parent": "ana",
+    "code_symbol": "mtga",
+    "count_cards": 14,
+    "count_printed": 14,
+    "count_tokens": 0
+  },
+  "oarc": {
+    "code_parent": "arc",
+    "code_symbol": "arc",
+    "count_cards": 45,
+    "count_printed": 45,
+    "count_tokens": 0
+  },
+  "oc13": {
+    "code_parent": "c13",
+    "code_symbol": "c13",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "oc14": {
+    "code_parent": "c14",
+    "code_symbol": "c14",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "oc15": {
+    "code_parent": "c15",
+    "code_symbol": "c15",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "oc16": {
+    "code_parent": "c16",
+    "code_symbol": "c16",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "oc17": {
+    "code_parent": "c17",
+    "code_symbol": "c17",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "oc18": {
+    "code_parent": "c18",
+    "code_symbol": "c18",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "oc19": {
+    "code_parent": "c19",
+    "code_symbol": "c19",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "oc20": {
+    "code_parent": "c20",
+    "code_symbol": "c20",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "oc21": {
+    "code_parent": "c21",
+    "code_symbol": "c21",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "oclb": {
+    "code_parent": "clb",
+    "code_symbol": "clb",
+    "count_cards": 1,
+    "count_tokens": 0
+  },
+  "ocm1": {
+    "code_parent": "cm1",
+    "code_symbol": "cm1",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "ocmd": {
+    "code_parent": "cmd",
+    "code_symbol": "cmd",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "ody": {
+    "code_symbol": "ody",
+    "count_cards": 353,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "oe01": {
+    "code_parent": "e01",
+    "code_symbol": "e01",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "ogw": {
+    "code_symbol": "ogw",
+    "count_cards": 187,
+    "count_printed": 184,
+    "count_tokens": 0
+  },
+  "ohop": {
+    "code_parent": "hop",
+    "code_symbol": "hop",
+    "count_cards": 40,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "olep": {
+    "code_symbol": "star",
+    "count_cards": 83,
+    "count_printed": 83,
+    "count_tokens": 0
+  },
+  "olgc": {
+    "code_symbol": "star",
+    "count_cards": 27,
+    "count_printed": 27,
+    "count_tokens": 0
+  },
+  "om1": {
+    "code_parent": "spm",
+    "code_symbol": "om1",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "omb": {
+    "code_parent": "omb",
+    "code_symbol": "omb",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "omic": {
+    "code_parent": "mic",
+    "code_symbol": "mic",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "onc": {
+    "code_parent": "one",
+    "code_symbol": "onc",
+    "count_cards": 174,
+    "count_printed": 28,
+    "count_tokens": 0
+  },
+  "one": {
+    "code_symbol": "one",
+    "count_cards": 479,
+    "count_printed": 271,
+    "count_tokens": 0
+  },
+  "ons": {
+    "code_symbol": "ons",
+    "count_cards": 351,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "opc2": {
+    "code_parent": "pc2",
+    "code_symbol": "pc2",
+    "count_cards": 40,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "opca": {
+    "code_parent": "pca",
+    "code_symbol": "pca",
+    "count_cards": 86,
+    "count_printed": 86,
+    "count_tokens": 0
+  },
+  "ori": {
+    "code_symbol": "ori",
+    "count_cards": 288,
+    "count_printed": 272,
+    "count_tokens": 0
+  },
+  "otc": {
+    "code_parent": "otj",
+    "code_symbol": "otc",
+    "count_cards": 342,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "otj": {
+    "code_symbol": "otj",
+    "count_cards": 374,
+    "count_printed": 286,
+    "count_tokens": 0
+  },
+  "otp": {
+    "code_parent": "otj",
+    "code_symbol": "otp",
+    "count_cards": 80,
+    "count_tokens": 0
+  },
+  "ovnt": {
+    "code_symbol": "star",
+    "count_cards": 35,
+    "count_printed": 35,
+    "count_tokens": 0
+  },
+  "ovoc": {
+    "code_parent": "voc",
+    "code_symbol": "voc",
+    "count_cards": 2,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "p02": {
+    "code_symbol": "p02",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "p03": {
+    "code_symbol": "dci",
+    "count_cards": 7,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "p04": {
+    "code_symbol": "dci",
+    "count_cards": 6,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "p05": {
+    "code_symbol": "dci",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "p06": {
+    "code_symbol": "dci",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "p07": {
+    "code_symbol": "default",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "p08": {
+    "code_symbol": "default",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "p09": {
+    "code_symbol": "default",
+    "count_cards": 13,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "p10": {
+    "code_symbol": "default",
+    "count_cards": 13,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "p10e": {
+    "code_parent": "10e",
+    "code_symbol": "10e",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "p11": {
+    "code_symbol": "default",
+    "count_cards": 7,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "p15a": {
+    "code_symbol": "dci",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "p22": {
+    "code_symbol": "archie",
+    "count_cards": 10,
+    "count_printed": 11,
+    "count_tokens": 0
+  },
+  "p23": {
+    "code_symbol": "archie",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "p2hg": {
+    "code_symbol": "dci",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "p30a": {
+    "code_parent": "30a",
+    "code_symbol": "star",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "p30h": {
+    "code_parent": "30a",
+    "code_symbol": "star",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "p30m": {
+    "code_parent": "30a",
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "p30t": {
+    "code_parent": "30a",
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "p5dn": {
+    "code_parent": "5dn",
+    "code_symbol": "5dn",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "p8ed": {
+    "code_parent": "8ed",
+    "code_symbol": "8ed",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "p9ed": {
+    "code_parent": "9ed",
+    "code_symbol": "9ed",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pa1": {
+    "code_symbol": "mtga",
+    "count_cards": 11,
+    "count_printed": 11,
+    "count_tokens": 0
+  },
+  "paer": {
+    "code_parent": "aer",
+    "code_symbol": "aer",
+    "count_cards": 65,
+    "count_printed": 65,
+    "count_tokens": 0
+  },
+  "pafr": {
+    "code_parent": "afr",
+    "code_symbol": "afr",
+    "count_cards": 241,
+    "count_printed": 241,
+    "count_tokens": 0
+  },
+  "pakh": {
+    "code_parent": "akh",
+    "code_symbol": "akh",
+    "count_cards": 77,
+    "count_printed": 77,
+    "count_tokens": 0
+  },
+  "pal00": {
+    "code_symbol": "parl2",
+    "count_cards": 11,
+    "count_printed": 11,
+    "count_tokens": 0
+  },
+  "pal01": {
+    "code_symbol": "parl2",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "pal02": {
+    "code_symbol": "dci",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pal03": {
+    "code_symbol": "dci",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pal04": {
+    "code_symbol": "dci",
+    "count_cards": 14,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pal05": {
+    "code_symbol": "dci",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pal06": {
+    "code_symbol": "dci",
+    "count_cards": 9,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pal99": {
+    "code_symbol": "usg",
+    "count_cards": 10,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "pala": {
+    "code_parent": "ala",
+    "code_symbol": "ala",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "palp": {
+    "code_symbol": "papac",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "pana": {
+    "code_symbol": "mtga",
+    "count_cards": 78,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "papc": {
+    "code_parent": "apc",
+    "code_symbol": "apc",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "parb": {
+    "code_parent": "arb",
+    "code_symbol": "arb",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "parl": {
+    "code_symbol": "default",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "past": {
+    "code_symbol": "past",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "pavr": {
+    "code_parent": "avr",
+    "code_symbol": "avr",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pbbd": {
+    "code_parent": "bbd",
+    "code_symbol": "bbd",
+    "count_cards": 22,
+    "count_printed": 22,
+    "count_tokens": 0
+  },
+  "pbfz": {
+    "code_parent": "bfz",
+    "code_symbol": "bfz",
+    "count_cards": 90,
+    "count_printed": 90,
+    "count_tokens": 0
+  },
+  "pblb": {
+    "code_parent": "blb",
+    "code_symbol": "blb",
+    "count_cards": 160,
+    "count_printed": 160,
+    "count_tokens": 0
+  },
+  "pbng": {
+    "code_parent": "bng",
+    "code_symbol": "bng",
+    "count_cards": 9,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "pbok": {
+    "code_parent": "bok",
+    "code_symbol": "bok",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pbro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 171,
+    "count_printed": 169,
+    "count_tokens": 0
+  },
+  "pc2": {
+    "code_symbol": "pc2",
+    "count_cards": 156,
+    "count_printed": 156,
+    "count_tokens": 0
+  },
+  "pca": {
+    "code_symbol": "pca",
+    "count_cards": 156,
+    "count_printed": 156,
+    "count_tokens": 0
+  },
+  "pcbb": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pcel": {
+    "code_symbol": "star",
+    "count_cards": 9,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "pchk": {
+    "code_parent": "chk",
+    "code_symbol": "chk",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pclb": {
+    "code_parent": "clb",
+    "code_symbol": "clb",
+    "count_cards": 104,
+    "count_printed": 108,
+    "count_tokens": 0
+  },
+  "pcmd": {
+    "code_parent": "cmd",
+    "code_symbol": "cmd",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pcmp": {
+    "code_symbol": "default",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "pcmr": {
+    "code_parent": "cmr",
+    "code_symbol": "cmr",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pcns": {
+    "code_parent": "cns",
+    "code_symbol": "cns",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pcon": {
+    "code_parent": "con",
+    "code_symbol": "conf",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pcsp": {
+    "code_parent": "csp",
+    "code_symbol": "csp",
+    "count_cards": 2,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pcy": {
+    "code_symbol": "pcy",
+    "count_cards": 144,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "pd2": {
+    "code_symbol": "pd2",
+    "count_cards": 34,
+    "count_printed": 34,
+    "count_tokens": 0
+  },
+  "pd3": {
+    "code_symbol": "pd3",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "pdft": {
+    "code_parent": "dft",
+    "code_symbol": "dft",
+    "count_cards": 160,
+    "count_printed": 160,
+    "count_tokens": 0
+  },
+  "pdgm": {
+    "code_parent": "dgm",
+    "code_symbol": "dgm",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pdis": {
+    "code_parent": "dis",
+    "code_symbol": "dis",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pdka": {
+    "code_parent": "dka",
+    "code_symbol": "dka",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pdmu": {
+    "code_parent": "dmu",
+    "code_symbol": "dmu",
+    "count_cards": 161,
+    "count_printed": 161,
+    "count_tokens": 0
+  },
+  "pdom": {
+    "code_parent": "dom",
+    "code_symbol": "dom",
+    "count_cards": 118,
+    "count_printed": 118,
+    "count_tokens": 0
+  },
+  "pdp10": {
+    "code_symbol": "dpa",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pdp12": {
+    "code_symbol": "dpa",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pdp13": {
+    "code_symbol": "m13",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pdp14": {
+    "code_symbol": "m14",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pdp15": {
+    "code_symbol": "m15",
+    "count_cards": 2,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "pdrc": {
+    "code_symbol": "pdrc",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pdsk": {
+    "code_parent": "dsk",
+    "code_symbol": "dsk",
+    "count_cards": 160,
+    "count_printed": 180,
+    "count_tokens": 0
+  },
+  "pdst": {
+    "code_parent": "dst",
+    "code_symbol": "dst",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pdtk": {
+    "code_parent": "dtk",
+    "code_symbol": "dtk",
+    "count_cards": 51,
+    "count_printed": 51,
+    "count_tokens": 0
+  },
+  "pdtp": {
+    "code_symbol": "pxbox",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "peld": {
+    "code_parent": "eld",
+    "code_symbol": "eld",
+    "count_cards": 138,
+    "count_printed": 152,
+    "count_tokens": 0
+  },
+  "pelp": {
+    "code_symbol": "peuro",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "pemn": {
+    "code_parent": "emn",
+    "code_symbol": "emn",
+    "count_cards": 77,
+    "count_printed": 77,
+    "count_tokens": 0
+  },
+  "peoe": {
+    "code_parent": "eoe",
+    "code_symbol": "eoe",
+    "count_cards": 160,
+    "count_printed": 160,
+    "count_tokens": 0
+  },
+  "peve": {
+    "code_parent": "eve",
+    "code_symbol": "eve",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pewk": {
+    "code_symbol": "star",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pexo": {
+    "code_parent": "exo",
+    "code_symbol": "exo",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pf19": {
+    "code_symbol": "star",
+    "count_cards": 7,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pf20": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pf23": {
+    "code_symbol": "star",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pf24": {
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pf25": {
+    "code_symbol": "star",
+    "count_cards": 13,
+    "count_printed": 13,
+    "count_tokens": 0
+  },
+  "pfdn": {
+    "code_parent": "fdn",
+    "code_symbol": "fdn",
+    "count_cards": 87,
+    "count_printed": 87,
+    "count_tokens": 0
+  },
+  "pfin": {
+    "code_parent": "fin",
+    "code_symbol": "fin",
+    "count_cards": 94,
+    "count_printed": 116,
+    "count_tokens": 0
+  },
+  "pfrf": {
+    "code_parent": "frf",
+    "code_symbol": "frf",
+    "count_cards": 43,
+    "count_printed": 43,
+    "count_tokens": 0
+  },
+  "pfut": {
+    "code_parent": "fut",
+    "code_symbol": "fut",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pgpt": {
+    "code_parent": "gpt",
+    "code_symbol": "gpt",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pgpx": {
+    "code_symbol": "star",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "pgrn": {
+    "code_parent": "grn",
+    "code_symbol": "grn",
+    "count_cards": 84,
+    "count_printed": 84,
+    "count_tokens": 0
+  },
+  "pgru": {
+    "code_symbol": "pgru",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pgtc": {
+    "code_parent": "gtc",
+    "code_symbol": "gtc",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "ph17": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "ph18": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "ph19": {
+    "code_symbol": "star",
+    "count_cards": 7,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "ph20": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "ph21": {
+    "code_symbol": "star",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "ph22": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "ph23": {
+    "code_symbol": "star",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "phel": {
+    "code_parent": "avr",
+    "code_symbol": "avr",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "phop": {
+    "code_parent": "hop",
+    "code_symbol": "dci",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "phou": {
+    "code_parent": "hou",
+    "code_symbol": "hou",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "phpr": {
+    "code_symbol": "pbook",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "phtr": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "phuk": {
+    "code_symbol": "phuk",
+    "count_cards": 60,
+    "count_printed": 60,
+    "count_tokens": 0
+  },
+  "pidw": {
+    "code_symbol": "pidw",
+    "count_cards": 17,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "piko": {
+    "code_parent": "iko",
+    "code_symbol": "iko",
+    "count_cards": 137,
+    "count_printed": 137,
+    "count_tokens": 0
+  },
+  "pinv": {
+    "code_parent": "inv",
+    "code_symbol": "inv",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pio": {
+    "code_symbol": "pio",
+    "count_cards": 398,
+    "count_printed": 278,
+    "count_tokens": 0
+  },
+  "pip": {
+    "code_symbol": "pip",
+    "count_cards": 1068,
+    "count_printed": 1076,
+    "count_tokens": 0
+  },
+  "pisd": {
+    "code_parent": "isd",
+    "code_symbol": "isd",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pj21": {
+    "code_symbol": "archie",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "pjas": {
+    "code_symbol": "dci",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pjjt": {
+    "code_symbol": "dci",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 0
+  },
+  "pjou": {
+    "code_parent": "jou",
+    "code_symbol": "jou",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "pjsc": {
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pjse": {
+    "code_symbol": "dci",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pjud": {
+    "code_parent": "jud",
+    "code_symbol": "jud",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pkhm": {
+    "code_parent": "khm",
+    "code_symbol": "khm",
+    "count_cards": 158,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pkld": {
+    "code_parent": "kld",
+    "code_symbol": "kld",
+    "count_cards": 83,
+    "count_printed": 83,
+    "count_tokens": 0
+  },
+  "pktk": {
+    "code_parent": "ktk",
+    "code_symbol": "ktk",
+    "count_cards": 56,
+    "count_printed": 56,
+    "count_tokens": 0
+  },
+  "pl21": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pl22": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pl23": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pl24": {
+    "code_symbol": "star",
+    "count_cards": 7,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pl25": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "plc": {
+    "code_symbol": "plc",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "plci": {
+    "code_parent": "lci",
+    "code_symbol": "lci",
+    "count_cards": 136,
+    "count_printed": 138,
+    "count_tokens": 0
+  },
+  "plg20": {
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "plg21": {
+    "code_symbol": "star",
+    "count_cards": 11,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "plg22": {
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "plg24": {
+    "code_symbol": "star",
+    "count_cards": 7,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "plg25": {
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "plgm": {
+    "code_symbol": "default",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "plgn": {
+    "code_parent": "lgn",
+    "code_symbol": "lgn",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "plny": {
+    "code_symbol": "star",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "plrw": {
+    "code_parent": "lrw",
+    "code_symbol": "lrw",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pls": {
+    "code_symbol": "pls",
+    "count_cards": 146,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "plst": {
+    "code_symbol": "planeswalker",
+    "count_cards": 5049,
+    "count_printed": 5074,
+    "count_tokens": 0
+  },
+  "pltc": {
+    "code_parent": "ltr",
+    "code_symbol": "star",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pltr": {
+    "code_parent": "ltr",
+    "code_symbol": "ltr",
+    "count_cards": 86,
+    "count_printed": 86,
+    "count_tokens": 0
+  },
+  "pm10": {
+    "code_parent": "m10",
+    "code_symbol": "m10",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pm11": {
+    "code_parent": "m11",
+    "code_symbol": "m11",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pm12": {
+    "code_parent": "m12",
+    "code_symbol": "m12",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pm13": {
+    "code_parent": "m13",
+    "code_symbol": "m13",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pm14": {
+    "code_parent": "m14",
+    "code_symbol": "m14",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pm15": {
+    "code_parent": "m15",
+    "code_symbol": "m15",
+    "count_cards": 14,
+    "count_printed": 14,
+    "count_tokens": 0
+  },
+  "pm19": {
+    "code_parent": "m19",
+    "code_symbol": "m19",
+    "count_cards": 95,
+    "count_printed": 95,
+    "count_tokens": 0
+  },
+  "pm20": {
+    "code_parent": "m20",
+    "code_symbol": "m20",
+    "count_cards": 144,
+    "count_printed": 144,
+    "count_tokens": 0
+  },
+  "pm21": {
+    "code_parent": "m21",
+    "code_symbol": "m21",
+    "count_cards": 137,
+    "count_printed": 137,
+    "count_tokens": 0
+  },
+  "pmat": {
+    "code_parent": "mat",
+    "code_symbol": "mat",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "pmbs": {
+    "code_parent": "mbs",
+    "code_symbol": "mbs",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pmda": {
+    "code_symbol": "star",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pmei": {
+    "code_symbol": "star",
+    "count_cards": 77,
+    "count_printed": 77,
+    "count_tokens": 0
+  },
+  "pmh1": {
+    "code_parent": "mh1",
+    "code_symbol": "mh1",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pmh2": {
+    "code_parent": "mh2",
+    "code_symbol": "mh2",
+    "count_cards": 86,
+    "count_printed": 86,
+    "count_tokens": 0
+  },
+  "pmh3": {
+    "code_parent": "mh3",
+    "code_symbol": "mh3",
+    "count_cards": 80,
+    "count_printed": 85,
+    "count_tokens": 0
+  },
+  "pmic": {
+    "code_parent": "past",
+    "code_symbol": "past",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pmid": {
+    "code_parent": "mid",
+    "code_symbol": "mid",
+    "count_cards": 155,
+    "count_printed": 171,
+    "count_tokens": 0
+  },
+  "pmkm": {
+    "code_parent": "mkm",
+    "code_symbol": "mkm",
+    "count_cards": 180,
+    "count_printed": 182,
+    "count_tokens": 0
+  },
+  "pmmq": {
+    "code_parent": "mmq",
+    "code_symbol": "mmq",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pmoa": {
+    "code_symbol": "mtgo",
+    "count_cards": 85,
+    "count_printed": 85,
+    "count_tokens": 0
+  },
+  "pmom": {
+    "code_parent": "mom",
+    "code_symbol": "mom",
+    "count_cards": 134,
+    "count_printed": 160,
+    "count_tokens": 0
+  },
+  "pmor": {
+    "code_parent": "mor",
+    "code_symbol": "mor",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pmps": {
+    "code_symbol": "rav",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "pmps06": {
+    "code_symbol": "default",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pmps07": {
+    "code_symbol": "pmps",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pmps08": {
+    "code_symbol": "pmps",
+    "count_cards": 6,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pmps09": {
+    "code_symbol": "pmps",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pmps10": {
+    "code_symbol": "pmps",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pmps11": {
+    "code_symbol": "pmps",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pmrd": {
+    "code_parent": "mrd",
+    "code_symbol": "mrd",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pnat": {
+    "code_symbol": "star",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pncc": {
+    "code_parent": "ncc",
+    "code_symbol": "ncc",
+    "count_cards": 75,
+    "count_printed": 76,
+    "count_tokens": 0
+  },
+  "pnem": {
+    "code_parent": "nem",
+    "code_symbol": "nem",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pneo": {
+    "code_parent": "neo",
+    "code_symbol": "neo",
+    "count_cards": 148,
+    "count_printed": 157,
+    "count_tokens": 0
+  },
+  "pnph": {
+    "code_parent": "nph",
+    "code_symbol": "nph",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pody": {
+    "code_parent": "ody",
+    "code_symbol": "ody",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pogw": {
+    "code_parent": "ogw",
+    "code_symbol": "ogw",
+    "count_cards": 65,
+    "count_printed": 65,
+    "count_tokens": 0
+  },
+  "pone": {
+    "code_parent": "one",
+    "code_symbol": "one",
+    "count_cards": 160,
+    "count_printed": 160,
+    "count_tokens": 0
+  },
+  "pons": {
+    "code_parent": "ons",
+    "code_symbol": "ons",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "por": {
+    "code_symbol": "por",
+    "count_cards": 257,
+    "count_printed": 243,
+    "count_tokens": 0
+  },
+  "pori": {
+    "code_parent": "ori",
+    "code_symbol": "ori",
+    "count_cards": 54,
+    "count_printed": 54,
+    "count_tokens": 0
+  },
+  "potj": {
+    "code_parent": "otj",
+    "code_symbol": "otj",
+    "count_cards": 160,
+    "count_printed": 160,
+    "count_tokens": 0
+  },
+  "ppc1": {
+    "code_parent": "m15",
+    "code_symbol": "m15",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "ppcy": {
+    "code_parent": "pcy",
+    "code_symbol": "pcy",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pplc": {
+    "code_parent": "plc",
+    "code_symbol": "plc",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "ppls": {
+    "code_parent": "pls",
+    "code_symbol": "pls",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "ppp1": {
+    "code_parent": "m20",
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "ppro": {
+    "code_symbol": "star",
+    "count_cards": 17,
+    "count_printed": 17,
+    "count_tokens": 0
+  },
+  "pptk": {
+    "code_parent": "ptk",
+    "code_symbol": "ptk",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "pr2": {
+    "code_symbol": "dci",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pr23": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "prav": {
+    "code_parent": "rav",
+    "code_symbol": "rav",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "prcq": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_tokens": 0
+  },
+  "pred": {
+    "code_symbol": "default",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "prix": {
+    "code_parent": "rix",
+    "code_symbol": "rix",
+    "count_cards": 98,
+    "count_printed": 98,
+    "count_tokens": 0
+  },
+  "prm": {
+    "code_symbol": "mtgo",
+    "count_cards": 3110,
+    "count_printed": 3110,
+    "count_tokens": 0
+  },
+  "prna": {
+    "code_parent": "rna",
+    "code_symbol": "rna",
+    "count_cards": 81,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "proe": {
+    "code_parent": "roe",
+    "code_symbol": "roe",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "prtr": {
+    "code_parent": "rtr",
+    "code_symbol": "rtr",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "prw2": {
+    "code_parent": "rna",
+    "code_symbol": "rna",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "prwk": {
+    "code_parent": "grn",
+    "code_symbol": "grn",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "ps11": {
+    "code_symbol": "psal",
+    "count_cards": 224,
+    "count_printed": 224,
+    "count_tokens": 0
+  },
+  "ps14": {
+    "code_symbol": "m15",
+    "count_cards": 6,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "ps15": {
+    "code_symbol": "ori",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "ps16": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "ps17": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "ps18": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "ps19": {
+    "code_symbol": "war",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "psal": {
+    "code_symbol": "phuk",
+    "count_cards": 720,
+    "count_printed": 720,
+    "count_tokens": 0
+  },
+  "pscg": {
+    "code_parent": "scg",
+    "code_symbol": "scg",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "psdc": {
+    "code_symbol": "m14",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "psdg": {
+    "code_symbol": "psdg",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "pshm": {
+    "code_parent": "shm",
+    "code_symbol": "shm",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "psnc": {
+    "code_parent": "snc",
+    "code_symbol": "snc",
+    "count_cards": 161,
+    "count_printed": 161,
+    "count_tokens": 0
+  },
+  "psoi": {
+    "code_parent": "soi",
+    "code_symbol": "soi",
+    "count_cards": 90,
+    "count_printed": 89,
+    "count_tokens": 0
+  },
+  "psok": {
+    "code_parent": "sok",
+    "code_symbol": "sok",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "psom": {
+    "code_parent": "som",
+    "code_symbol": "som",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "pspl": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pspm": {
+    "code_parent": "spm",
+    "code_symbol": "spm",
+    "count_cards": 2,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pss1": {
+    "code_parent": "bfz",
+    "code_symbol": "bfz",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pss2": {
+    "code_parent": "xln",
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pss3": {
+    "code_parent": "m19",
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pss4": {
+    "code_parent": "mkm",
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pss5": {
+    "code_parent": "fin",
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pssc": {
+    "code_parent": "sld",
+    "code_symbol": "default",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "psth": {
+    "code_parent": "sth",
+    "code_symbol": "sth",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pstx": {
+    "code_parent": "stx",
+    "code_symbol": "stx",
+    "count_cards": 164,
+    "count_printed": 180,
+    "count_tokens": 0
+  },
+  "psus": {
+    "code_symbol": "dci",
+    "count_cards": 18,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "psvc": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "ptbro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "ptc": {
+    "code_symbol": "default",
+    "count_cards": 308,
+    "count_printed": 308,
+    "count_tokens": 0
+  },
+  "ptdm": {
+    "code_parent": "tdm",
+    "code_symbol": "tdm",
+    "count_cards": 160,
+    "count_printed": 166,
+    "count_tokens": 0
+  },
+  "ptdmu": {
+    "code_parent": "dmu",
+    "code_symbol": "dmu",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "ptg": {
+    "code_symbol": "ptg",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pthb": {
+    "code_parent": "thb",
+    "code_symbol": "thb",
+    "count_cards": 137,
+    "count_printed": 137,
+    "count_tokens": 0
+  },
+  "pths": {
+    "code_parent": "ths",
+    "code_symbol": "ths",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "ptk": {
+    "code_symbol": "ptk",
+    "count_cards": 180,
+    "count_printed": 180,
+    "count_tokens": 0
+  },
+  "ptkdf": {
+    "code_parent": "dtk",
+    "code_symbol": "dtk",
+    "count_cards": 4,
+    "count_printed": 4,
+    "count_tokens": 0
+  },
+  "ptmp": {
+    "code_parent": "tmp",
+    "code_symbol": "tmp",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "ptor": {
+    "code_parent": "tor",
+    "code_symbol": "tor",
+    "count_cards": 3,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "ptsnc": {
+    "code_parent": "psnc",
+    "code_symbol": "snc",
+    "count_cards": 6,
+    "count_tokens": 0
+  },
+  "ptsp": {
+    "code_parent": "tsp",
+    "code_symbol": "tsp",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "ptsr": {
+    "code_parent": "tsr",
+    "code_symbol": "tsr",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "puds": {
+    "code_parent": "uds",
+    "code_symbol": "uds",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pulg": {
+    "code_parent": "ulg",
+    "code_symbol": "ulg",
+    "count_cards": 2,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "puma": {
+    "code_parent": "uma",
+    "code_symbol": "uma",
+    "count_cards": 40,
+    "count_printed": 40,
+    "count_tokens": 0
+  },
+  "punh": {
+    "code_parent": "unh",
+    "code_symbol": "unh",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "purl": {
+    "code_symbol": "star",
+    "count_cards": 12,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "pusg": {
+    "code_parent": "usg",
+    "code_symbol": "usg",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pust": {
+    "code_parent": "ust",
+    "code_symbol": "ust",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pvan": {
+    "code_symbol": "van",
+    "count_cards": 32,
+    "count_printed": 32,
+    "count_tokens": 0
+  },
+  "pvow": {
+    "code_parent": "vow",
+    "code_symbol": "vow",
+    "count_cards": 116,
+    "count_printed": 132,
+    "count_tokens": 0
+  },
+  "pw11": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pw12": {
+    "code_symbol": "star",
+    "count_cards": 3,
+    "count_printed": 3,
+    "count_tokens": 0
+  },
+  "pw21": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pw22": {
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pw23": {
+    "code_symbol": "star",
+    "count_cards": 11,
+    "count_printed": 11,
+    "count_tokens": 0
+  },
+  "pw24": {
+    "code_symbol": "star",
+    "count_cards": 18,
+    "count_printed": 14,
+    "count_tokens": 0
+  },
+  "pw25": {
+    "code_symbol": "star",
+    "count_cards": 10,
+    "count_tokens": 0
+  },
+  "pwar": {
+    "code_parent": "war",
+    "code_symbol": "war",
+    "count_cards": 176,
+    "count_printed": 176,
+    "count_tokens": 0
+  },
+  "pwcs": {
+    "code_symbol": "star",
+    "count_cards": 38,
+    "count_printed": 38,
+    "count_tokens": 0
+  },
+  "pwoe": {
+    "code_parent": "woe",
+    "code_symbol": "woe",
+    "count_cards": 160,
+    "count_printed": 200,
+    "count_tokens": 0
+  },
+  "pwor": {
+    "code_symbol": "star",
+    "count_cards": 2,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "pwos": {
+    "code_symbol": "default",
+    "count_cards": 1,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "pwwk": {
+    "code_parent": "wwk",
+    "code_symbol": "wwk",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 0
+  },
+  "pxln": {
+    "code_parent": "xln",
+    "code_symbol": "xln",
+    "count_cards": 120,
+    "count_printed": 120,
+    "count_tokens": 0
+  },
+  "pxtc": {
+    "code_parent": "xln",
+    "code_symbol": "xln",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "pz1": {
+    "code_symbol": "pz1",
+    "count_cards": 149,
+    "count_printed": 149,
+    "count_tokens": 0
+  },
+  "pz2": {
+    "code_symbol": "pz2",
+    "count_cards": 282,
+    "count_printed": 73,
+    "count_tokens": 0
+  },
+  "pza": {
+    "code_parent": "tmt",
+    "code_symbol": "pza",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pzen": {
+    "code_parent": "zen",
+    "code_symbol": "zen",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "pznr": {
+    "code_parent": "znr",
+    "code_symbol": "znr",
+    "count_cards": 153,
+    "count_printed": 169,
+    "count_tokens": 0
+  },
+  "q06": {
+    "code_symbol": "star",
+    "count_cards": 10,
+    "count_printed": 10,
+    "count_tokens": 0
+  },
+  "q07": {
+    "code_symbol": "star",
+    "count_cards": 1,
+    "count_tokens": 0
+  },
+  "rav": {
+    "code_symbol": "rav",
+    "count_cards": 306,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "ren": {
+    "code_symbol": "ren",
+    "count_cards": 122,
+    "count_printed": 122,
+    "count_tokens": 0
+  },
+  "rex": {
+    "code_parent": "lci",
+    "code_symbol": "rex",
+    "count_cards": 45,
+    "count_tokens": 0
+  },
+  "rfin": {
+    "code_parent": "fin",
+    "code_symbol": "fin",
+    "count_cards": 2,
+    "count_printed": 2,
+    "count_tokens": 0
+  },
+  "rin": {
+    "code_symbol": "rin",
+    "count_cards": 69,
+    "count_printed": 69,
+    "count_tokens": 0
+  },
+  "rix": {
+    "code_symbol": "rix",
+    "count_cards": 205,
+    "count_printed": 196,
+    "count_tokens": 0
+  },
+  "rna": {
+    "code_symbol": "rna",
+    "count_cards": 273,
+    "count_printed": 259,
+    "count_tokens": 0
+  },
+  "roe": {
+    "code_symbol": "roe",
+    "count_cards": 248,
+    "count_printed": 248,
+    "count_tokens": 0
+  },
+  "rqs": {
+    "code_symbol": "default",
+    "count_cards": 65,
+    "count_printed": 65,
+    "count_tokens": 0
+  },
+  "rtr": {
+    "code_symbol": "rtr",
+    "count_cards": 274,
+    "count_printed": 274,
+    "count_tokens": 0
+  },
+  "rvr": {
+    "code_symbol": "rvr",
+    "count_cards": 531,
+    "count_printed": 291,
+    "count_tokens": 0
+  },
+  "s00": {
+    "code_symbol": "s00",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "s99": {
+    "code_symbol": "s99",
+    "count_cards": 173,
+    "count_printed": 173,
+    "count_tokens": 0
+  },
+  "sbro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "scd": {
+    "code_symbol": "scd",
+    "count_cards": 352,
+    "count_printed": 352,
+    "count_tokens": 0
+  },
+  "scg": {
+    "code_symbol": "scg",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "sch": {
+    "code_symbol": "star",
+    "count_cards": 44,
+    "count_printed": 46,
+    "count_tokens": 0
+  },
+  "sds": {
+    "code_parent": "trk",
+    "code_symbol": "trk",
+    "count_cards": 1,
+    "count_tokens": 0
+  },
+  "shm": {
+    "code_symbol": "shm",
+    "count_cards": 302,
+    "count_printed": 301,
+    "count_tokens": 0
+  },
+  "sir": {
+    "code_symbol": "sir",
+    "count_cards": 294,
+    "count_printed": 320,
+    "count_tokens": 0
+  },
+  "sis": {
+    "code_parent": "sir",
+    "code_symbol": "sis",
+    "count_cards": 76,
+    "count_printed": 81,
+    "count_tokens": 0
+  },
+  "skhm": {
+    "code_parent": "khm",
+    "code_symbol": "khm",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "slc": {
+    "code_parent": "sld",
+    "code_symbol": "star",
+    "count_cards": 31,
+    "count_printed": 2002,
+    "count_tokens": 0
+  },
+  "slci": {
+    "code_parent": "lci",
+    "code_symbol": "lci",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "sld": {
+    "code_symbol": "star",
+    "count_cards": 2049,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "slp": {
+    "code_parent": "sld",
+    "code_symbol": "star",
+    "count_cards": 43,
+    "count_printed": 44,
+    "count_tokens": 0
+  },
+  "slu": {
+    "code_parent": "sld",
+    "code_symbol": "star",
+    "count_cards": 16,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "slx": {
+    "code_parent": "sld",
+    "code_symbol": "star",
+    "count_cards": 30,
+    "count_printed": 32,
+    "count_tokens": 0
+  },
+  "smh3": {
+    "code_parent": "mh3",
+    "code_symbol": "mh3",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "smid": {
+    "code_parent": "mid",
+    "code_symbol": "mid",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "smom": {
+    "code_parent": "mom",
+    "code_symbol": "mom",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "snc": {
+    "code_symbol": "snc",
+    "count_cards": 513,
+    "count_printed": 281,
+    "count_tokens": 0
+  },
+  "sneo": {
+    "code_parent": "neo",
+    "code_symbol": "neo",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+    "soa": {
+    "code_parent": "sos",
+    "code_symbol": "soa",
+    "count_cards": 302,
+    "count_printed": 297,
+    "count_tokens": 0
+  },
+    "soc": {
+    "code_parent": "sos",
+    "code_symbol": "soc",
+    "count_cards": 302,
+    "count_printed": 297,
+    "count_tokens": 0
+  },
+  "soi": {
+    "code_symbol": "soi",
+    "count_cards": 302,
+    "count_printed": 297,
+    "count_tokens": 0
+  },
+  "sok": {
+    "code_symbol": "sok",
+    "count_cards": 165,
+    "count_printed": 165,
+    "count_tokens": 0
+  },
+  "som": {
+    "code_symbol": "som",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+    "sos": {
+    "code_symbol": "sos",
+    "count_cards": 302,
+    "count_printed": 297,
+    "count_tokens": 0
+  },
+  "spe": {
+    "code_parent": "spm",
+    "code_symbol": "spe",
+    "count_cards": 26,
+    "count_printed": 26,
+    "count_tokens": 0
+  },
+  "spg": {
+    "code_symbol": "spg",
+    "count_cards": 134,
+    "count_tokens": 0
+  },
+  "spm": {
+    "code_symbol": "spm",
+    "count_cards": 99,
+    "count_printed": 199,
+    "count_tokens": 0
+  },
+  "ss1": {
+    "code_symbol": "ss1",
+    "count_cards": 8,
+    "count_printed": 9,
+    "count_tokens": 0
+  },
+  "ss2": {
+    "code_symbol": "ss2",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "ss3": {
+    "code_symbol": "ss3",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "sstx": {
+    "code_parent": "stx",
+    "code_symbol": "stx",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "sta": {
+    "code_parent": "stx",
+    "code_symbol": "sta",
+    "count_cards": 126,
+    "count_printed": 63,
+    "count_tokens": 0
+  },
+  "sth": {
+    "code_symbol": "sth",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "stx": {
+    "code_symbol": "stx",
+    "count_cards": 393,
+    "count_printed": 275,
+    "count_tokens": 0
+  },
+  "sum": {
+    "code_symbol": "psum",
+    "count_cards": 306,
+    "count_printed": 306,
+    "count_tokens": 0
+  },
+  "sunf": {
+    "code_parent": "unf",
+    "code_symbol": "unf",
+    "count_cards": 48,
+    "count_printed": 48,
+    "count_tokens": 0
+  },
+  "svow": {
+    "code_parent": "vow",
+    "code_symbol": "vow",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "sznr": {
+    "code_parent": "znr",
+    "code_symbol": "znr",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "t10e": {
+    "code_parent": "10e",
+    "code_symbol": "10e",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "t2x2": {
+    "code_parent": "2x2",
+    "code_symbol": "2x2",
+    "count_cards": 24,
+    "count_printed": 24,
+    "count_tokens": 24
+  },
+  "t2xm": {
+    "code_parent": "2xm",
+    "code_symbol": "2xm",
+    "count_cards": 31,
+    "count_tokens": 31
+  },
+  "t30a": {
+    "code_parent": "30a",
+    "code_symbol": "30a",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "t40k": {
+    "code_parent": "40k",
+    "code_symbol": "40k",
+    "count_cards": 31,
+    "count_printed": 23,
+    "count_tokens": 31
+  },
+  "ta25": {
+    "code_parent": "a25",
+    "code_symbol": "a25",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tacr": {
+    "code_parent": "acr",
+    "code_symbol": "acr",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "taer": {
+    "code_parent": "aer",
+    "code_symbol": "aer",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tafc": {
+    "code_parent": "afc",
+    "code_symbol": "afc",
+    "count_cards": 13,
+    "count_printed": 13,
+    "count_tokens": 13
+  },
+  "tafr": {
+    "code_parent": "afr",
+    "code_symbol": "afr",
+    "count_cards": 22,
+    "count_printed": 19,
+    "count_tokens": 22
+  },
+  "takh": {
+    "code_parent": "akh",
+    "code_symbol": "akh",
+    "count_cards": 26,
+    "count_tokens": 26
+  },
+  "tala": {
+    "code_parent": "ala",
+    "code_symbol": "ala",
+    "count_cards": 10,
+    "count_tokens": 10
+  },
+  "tarb": {
+    "code_parent": "arb",
+    "code_symbol": "arb",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tavr": {
+    "code_parent": "avr",
+    "code_symbol": "avr",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tbbd": {
+    "code_parent": "bbd",
+    "code_symbol": "bbd",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tbfz": {
+    "code_parent": "bfz",
+    "code_symbol": "bfz",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tbig": {
+    "code_parent": "big",
+    "code_symbol": "big",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "tblb": {
+    "code_parent": "blb",
+    "code_symbol": "blb",
+    "count_cards": 30,
+    "count_tokens": 30
+  },
+  "tblc": {
+    "code_parent": "blc",
+    "code_symbol": "blc",
+    "count_cards": 41,
+    "count_tokens": 41
+  },
+  "tbng": {
+    "code_parent": "bng",
+    "code_symbol": "bng",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tbot": {
+    "code_parent": "bot",
+    "code_symbol": "bot",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "tbrc": {
+    "code_parent": "brc",
+    "code_symbol": "brc",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tbro": {
+    "code_parent": "bro",
+    "code_symbol": "bro",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "tbth": {
+    "code_parent": "bng",
+    "code_symbol": "bng",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "tc14": {
+    "code_parent": "c14",
+    "code_symbol": "c14",
+    "count_cards": 36,
+    "count_tokens": 36
+  },
+  "tc15": {
+    "code_parent": "c15",
+    "code_symbol": "c15",
+    "count_cards": 25,
+    "count_tokens": 25
+  },
+  "tc16": {
+    "code_parent": "c16",
+    "code_symbol": "c16",
+    "count_cards": 21,
+    "count_tokens": 21
+  },
+  "tc17": {
+    "code_parent": "c17",
+    "code_symbol": "c17",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tc18": {
+    "code_parent": "c18",
+    "code_symbol": "c18",
+    "count_cards": 26,
+    "count_tokens": 26
+  },
+  "tc19": {
+    "code_parent": "c19",
+    "code_symbol": "c19",
+    "count_cards": 29,
+    "count_tokens": 29
+  },
+  "tc20": {
+    "code_parent": "c20",
+    "code_symbol": "c20",
+    "count_cards": 20,
+    "count_tokens": 20
+  },
+  "tc21": {
+    "code_parent": "c21",
+    "code_symbol": "c21",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 30
+  },
+  "tclb": {
+    "code_parent": "clb",
+    "code_symbol": "clb",
+    "count_cards": 51,
+    "count_printed": 20,
+    "count_tokens": 51
+  },
+  "tcm2": {
+    "code_parent": "cm2",
+    "code_symbol": "cm2",
+    "count_cards": 19,
+    "count_tokens": 19
+  },
+  "tcma": {
+    "code_parent": "cma",
+    "code_symbol": "cma",
+    "count_cards": 20,
+    "count_tokens": 20
+  },
+  "tcmm": {
+    "code_parent": "cmm",
+    "code_symbol": "cmm",
+    "count_cards": 81,
+    "count_tokens": 81
+  },
+  "tcmr": {
+    "code_parent": "cmr",
+    "code_symbol": "cmr",
+    "count_cards": 23,
+    "count_tokens": 23
+  },
+  "tcn2": {
+    "code_parent": "cn2",
+    "code_symbol": "cn2",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "tcns": {
+    "code_parent": "cns",
+    "code_symbol": "cns",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "tcon": {
+    "code_parent": "con",
+    "code_symbol": "conf",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "td0": {
+    "code_symbol": "td0",
+    "count_cards": 197,
+    "count_printed": 197,
+    "count_tokens": 0
+  },
+  "td2": {
+    "code_symbol": "td2",
+    "count_cards": 88,
+    "count_printed": 88,
+    "count_tokens": 0
+  },
+  "tdag": {
+    "code_parent": "jou",
+    "code_symbol": "jou",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "tdc": {
+    "code_parent": "tdm",
+    "code_symbol": "tdc",
+    "count_cards": 413,
+    "count_printed": 50,
+    "count_tokens": 0
+  },
+  "tdd1": {
+    "code_parent": "dd1",
+    "code_symbol": "dd1",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tdd2": {
+    "code_parent": "dd2",
+    "code_symbol": "dd2",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tddc": {
+    "code_parent": "ddc",
+    "code_symbol": "ddc",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tddd": {
+    "code_parent": "ddd",
+    "code_symbol": "ddd",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tdde": {
+    "code_parent": "dde",
+    "code_symbol": "dde",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tddf": {
+    "code_parent": "ddf",
+    "code_symbol": "ddf",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tddg": {
+    "code_parent": "ddg",
+    "code_symbol": "ddg",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tddh": {
+    "code_parent": "ddh",
+    "code_symbol": "ddh",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "tddi": {
+    "code_parent": "ddi",
+    "code_symbol": "ddi",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "tddj": {
+    "code_parent": "ddj",
+    "code_symbol": "ddj",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tddk": {
+    "code_parent": "ddk",
+    "code_symbol": "ddk",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tddl": {
+    "code_parent": "ddl",
+    "code_symbol": "ddl",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "tddm": {
+    "code_parent": "ddm",
+    "code_symbol": "ddm",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tdds": {
+    "code_parent": "dds",
+    "code_symbol": "dds",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "tddt": {
+    "code_parent": "ddt",
+    "code_symbol": "ddt",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tddu": {
+    "code_parent": "ddu",
+    "code_symbol": "ddu",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tdft": {
+    "code_parent": "dft",
+    "code_symbol": "dft",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tdgm": {
+    "code_parent": "dgm",
+    "code_symbol": "dgm",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tdka": {
+    "code_parent": "dka",
+    "code_symbol": "dka",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tdm": {
+    "code_symbol": "tdm",
+    "count_cards": 426,
+    "count_printed": 291,
+    "count_tokens": 0
+  },
+  "tdmc": {
+    "code_parent": "dmc",
+    "code_symbol": "dmc",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "tdmr": {
+    "code_parent": "dmr",
+    "code_symbol": "dmr",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tdmu": {
+    "code_parent": "dmu",
+    "code_symbol": "dmu",
+    "count_cards": 26,
+    "count_tokens": 26
+  },
+  "tdom": {
+    "code_parent": "dom",
+    "code_symbol": "dom",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tdrc": {
+    "code_parent": "drc",
+    "code_symbol": "drc",
+    "count_cards": 17,
+    "count_tokens": 17
+  },
+  "tdsc": {
+    "code_parent": "dsc",
+    "code_symbol": "dsc",
+    "count_cards": 23,
+    "count_tokens": 23
+  },
+  "tdsk": {
+    "code_parent": "dsk",
+    "code_symbol": "dsk",
+    "count_cards": 19,
+    "count_tokens": 19
+  },
+  "tdtk": {
+    "code_parent": "dtk",
+    "code_symbol": "dtk",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tdvd": {
+    "code_parent": "dvd",
+    "code_symbol": "ddc",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "te01": {
+    "code_parent": "e01",
+    "code_symbol": "e01",
+    "count_cards": 5,
+    "count_tokens": 5
+  },
+  "teld": {
+    "code_parent": "eld",
+    "code_symbol": "eld",
+    "count_cards": 20,
+    "count_tokens": 20
+  },
+  "tema": {
+    "code_parent": "ema",
+    "code_symbol": "ema",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "temn": {
+    "code_parent": "emn",
+    "code_symbol": "emn",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "teoc": {
+    "code_parent": "eoe",
+    "code_symbol": "eoc",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "teoe": {
+    "code_parent": "eoe",
+    "code_symbol": "eoe",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "teve": {
+    "code_parent": "eve",
+    "code_symbol": "eve",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "tevg": {
+    "code_parent": "evg",
+    "code_symbol": "dd1",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tfdn": {
+    "code_parent": "fdn",
+    "code_symbol": "fdn",
+    "count_cards": 33,
+    "count_tokens": 33
+  },
+  "tfic": {
+    "code_parent": "fin",
+    "code_symbol": "fic",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tfin": {
+    "code_parent": "fin",
+    "code_symbol": "fin",
+    "count_cards": 37,
+    "count_tokens": 37
+  },
+  "tfrf": {
+    "code_parent": "frf",
+    "code_symbol": "frf",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tfth": {
+    "code_parent": "ths",
+    "code_symbol": "ths",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "tgk1": {
+    "code_parent": "gk1",
+    "code_symbol": "grn",
+    "count_cards": 10,
+    "count_tokens": 10
+  },
+  "tgk2": {
+    "code_parent": "gk2",
+    "code_symbol": "rna",
+    "count_cards": 9,
+    "count_tokens": 9
+  },
+  "tgn2": {
+    "code_parent": "gn2",
+    "code_symbol": "gn2",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tgn3": {
+    "code_parent": "gn3",
+    "code_symbol": "gn3",
+    "count_cards": 10,
+    "count_tokens": 10
+  },
+  "tgrn": {
+    "code_parent": "grn",
+    "code_symbol": "grn",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tgtc": {
+    "code_parent": "gtc",
+    "code_symbol": "gtc",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tgvl": {
+    "code_parent": "gvl",
+    "code_symbol": "ddd",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "thb": {
+    "code_symbol": "thb",
+    "count_cards": 358,
+    "count_printed": 254,
+    "count_tokens": 0
+  },
+  "thou": {
+    "code_parent": "hou",
+    "code_symbol": "hou",
+    "count_cards": 13,
+    "count_tokens": 13
+  },
+  "thp1": {
+    "code_parent": "ths",
+    "code_symbol": "ths",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "thp2": {
+    "code_parent": "bng",
+    "code_symbol": "bng",
+    "count_cards": 7,
+    "count_printed": 7,
+    "count_tokens": 0
+  },
+  "thp3": {
+    "code_parent": "jou",
+    "code_symbol": "jou",
+    "count_cards": 8,
+    "count_printed": 8,
+    "count_tokens": 0
+  },
+  "ths": {
+    "code_symbol": "ths",
+    "count_cards": 249,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "tiko": {
+    "code_parent": "iko",
+    "code_symbol": "iko",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tima": {
+    "code_parent": "ima",
+    "code_symbol": "ima",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "tinr": {
+    "code_parent": "inr",
+    "code_symbol": "inr",
+    "count_cards": 27,
+    "count_tokens": 27
+  },
+  "tisd": {
+    "code_parent": "isd",
+    "code_symbol": "isd",
+    "count_cards": 13,
+    "count_tokens": 13
+  },
+  "tjou": {
+    "code_parent": "jou",
+    "code_symbol": "jou",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "tjvc": {
+    "code_parent": "jvc",
+    "code_symbol": "dd2",
+    "count_cards": 1,
+    "count_tokens": 1
+  },
+  "tkhc": {
+    "code_parent": "khc",
+    "code_symbol": "khc",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tkhm": {
+    "code_parent": "khm",
+    "code_symbol": "khm",
+    "count_cards": 23,
+    "count_tokens": 23
+  },
+  "tkld": {
+    "code_parent": "kld",
+    "code_symbol": "kld",
+    "count_cards": 13,
+    "count_tokens": 13
+  },
+  "tktk": {
+    "code_parent": "ktk",
+    "code_symbol": "ktk",
+    "count_cards": 13,
+    "count_tokens": 13
+  },
+  "tla": {
+    "code_symbol": "tla",
+    "count_cards": 2,
+    "count_printed": 337,
+    "count_tokens": 0
+  },
+  "tlcc": {
+    "code_parent": "lcc",
+    "code_symbol": "lcc",
+    "count_cards": 18,
+    "count_tokens": 18
+  },
+  "tlci": {
+    "code_parent": "lci",
+    "code_symbol": "lci",
+    "count_cards": 19,
+    "count_tokens": 19
+  },
+  "tle": {
+    "code_parent": "tla",
+    "code_symbol": "tle",
+    "count_cards": 4,
+    "count_tokens": 0
+  },
+  "tlrw": {
+    "code_parent": "lrw",
+    "code_symbol": "lrw",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tltc": {
+    "code_parent": "ltc",
+    "code_symbol": "ltc",
+    "count_cards": 15,
+    "count_tokens": 15
+  },
+  "tltr": {
+    "code_parent": "ltr",
+    "code_symbol": "ltr",
+    "count_cards": 25,
+    "count_tokens": 25
+  },
+  "tm10": {
+    "code_parent": "m10",
+    "code_symbol": "m10",
+    "count_cards": 8,
+    "count_tokens": 8
+  },
+  "tm11": {
+    "code_parent": "m11",
+    "code_symbol": "m11",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "tm12": {
+    "code_parent": "m12",
+    "code_symbol": "m12",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "tm13": {
+    "code_parent": "m13",
+    "code_symbol": "m13",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tm14": {
+    "code_parent": "m14",
+    "code_symbol": "m14",
+    "count_cards": 13,
+    "count_tokens": 13
+  },
+  "tm15": {
+    "code_parent": "m15",
+    "code_symbol": "m15",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tm19": {
+    "code_parent": "m19",
+    "code_symbol": "m19",
+    "count_cards": 18,
+    "count_tokens": 18
+  },
+  "tm20": {
+    "code_parent": "m20",
+    "code_symbol": "m20",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "tm21": {
+    "code_parent": "m21",
+    "code_symbol": "m21",
+    "count_cards": 20,
+    "count_printed": 18,
+    "count_tokens": 20
+  },
+  "tm3c": {
+    "code_parent": "m3c",
+    "code_symbol": "m3c",
+    "count_cards": 28,
+    "count_tokens": 28
+  },
+  "tmbs": {
+    "code_parent": "mbs",
+    "code_symbol": "mbs",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "tmc": {
+    "code_parent": "tmt",
+    "code_symbol": "tmc",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tmd1": {
+    "code_parent": "md1",
+    "code_symbol": "md1",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tmed": {
+    "code_parent": "med",
+    "code_symbol": "med",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tmh1": {
+    "code_parent": "mh1",
+    "code_symbol": "mh1",
+    "count_cards": 21,
+    "count_tokens": 21
+  },
+  "tmh2": {
+    "code_parent": "mh2",
+    "code_symbol": "mh2",
+    "count_cards": 21,
+    "count_printed": 21,
+    "count_tokens": 21
+  },
+  "tmh3": {
+    "code_parent": "mh3",
+    "code_symbol": "mh3",
+    "count_cards": 43,
+    "count_tokens": 43
+  },
+  "tmic": {
+    "code_parent": "mic",
+    "code_symbol": "mic",
+    "count_cards": 11,
+    "count_printed": 11,
+    "count_tokens": 11
+  },
+  "tmid": {
+    "code_parent": "mid",
+    "code_symbol": "mid",
+    "count_cards": 19,
+    "count_printed": 19,
+    "count_tokens": 19
+  },
+  "tmkc": {
+    "code_parent": "mkc",
+    "code_symbol": "mkc",
+    "count_cards": 31,
+    "count_tokens": 31
+  },
+  "tmkm": {
+    "code_parent": "mkm",
+    "code_symbol": "mkm",
+    "count_cards": 21,
+    "count_tokens": 21
+  },
+  "tmm2": {
+    "code_parent": "mm2",
+    "code_symbol": "mm2",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tmm3": {
+    "code_parent": "mm3",
+    "code_symbol": "mm3",
+    "count_cards": 21,
+    "count_tokens": 21
+  },
+  "tmma": {
+    "code_parent": "mma",
+    "code_symbol": "mma",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tmoc": {
+    "code_parent": "moc",
+    "code_symbol": "moc",
+    "count_cards": 46,
+    "count_tokens": 46
+  },
+  "tmom": {
+    "code_parent": "mom",
+    "code_symbol": "mom",
+    "count_cards": 23,
+    "count_tokens": 23
+  },
+  "tmor": {
+    "code_parent": "mor",
+    "code_symbol": "mor",
+    "count_cards": 3,
+    "count_tokens": 3
+  },
+  "tmp": {
+    "code_symbol": "tmp",
+    "count_cards": 350,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "tmt": {
+    "code_symbol": "tmt",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "tmul": {
+    "code_parent": "mul",
+    "code_symbol": "mul",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "tncc": {
+    "code_parent": "ncc",
+    "code_symbol": "ncc",
+    "count_cards": 36,
+    "count_printed": 36,
+    "count_tokens": 36
+  },
+  "tnec": {
+    "code_parent": "nec",
+    "code_symbol": "nec",
+    "count_cards": 12,
+    "count_printed": 12,
+    "count_tokens": 12
+  },
+  "tneo": {
+    "code_parent": "neo",
+    "code_symbol": "neo",
+    "count_cards": 19,
+    "count_printed": 19,
+    "count_tokens": 19
+  },
+  "tnph": {
+    "code_parent": "nph",
+    "code_symbol": "nph",
+    "count_cards": 5,
+    "count_tokens": 5
+  },
+  "togw": {
+    "code_parent": "ogw",
+    "code_symbol": "ogw",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tonc": {
+    "code_parent": "onc",
+    "code_symbol": "onc",
+    "count_cards": 23,
+    "count_tokens": 23
+  },
+  "tone": {
+    "code_parent": "one",
+    "code_symbol": "one",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tor": {
+    "code_symbol": "tor",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "tori": {
+    "code_parent": "ori",
+    "code_symbol": "ori",
+    "count_cards": 15,
+    "count_tokens": 15
+  },
+  "totc": {
+    "code_parent": "otc",
+    "code_symbol": "otc",
+    "count_cards": 41,
+    "count_tokens": 41
+  },
+  "totj": {
+    "code_parent": "otj",
+    "code_symbol": "otj",
+    "count_cards": 19,
+    "count_tokens": 19
+  },
+  "totp": {
+    "code_parent": "otp",
+    "code_symbol": "otp",
+    "count_cards": 5,
+    "count_tokens": 5
+  },
+  "tpca": {
+    "code_parent": "pca",
+    "code_symbol": "pca",
+    "count_cards": 19,
+    "count_tokens": 19
+  },
+  "tpip": {
+    "code_parent": "pip",
+    "code_symbol": "pip",
+    "count_cards": 22,
+    "count_tokens": 22
+  },
+  "tpr": {
+    "code_symbol": "tpr",
+    "count_cards": 269,
+    "count_printed": 269,
+    "count_tokens": 0
+  },
+  "trc": {
+    "code_parent": "trk",
+    "code_symbol": "trk",
+    "count_cards": 11,
+    "count_tokens": 0
+  },
+  "trk": {
+    "code_symbol": "trk",
+    "count_cards": 61,
+    "count_tokens": 0
+  },
+  "trex": {
+    "code_parent": "rex",
+    "code_symbol": "rex",
+    "count_cards": 2,
+    "count_tokens": 2
+  },
+  "trix": {
+    "code_parent": "rix",
+    "code_symbol": "rix",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "trna": {
+    "code_parent": "rna",
+    "code_symbol": "rna",
+    "count_cards": 13,
+    "count_tokens": 13
+  },
+  "troe": {
+    "code_parent": "roe",
+    "code_symbol": "roe",
+    "count_cards": 7,
+    "count_tokens": 7
+  },
+  "trtr": {
+    "code_parent": "rtr",
+    "code_symbol": "rtr",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "trvr": {
+    "code_parent": "rvr",
+    "code_symbol": "rvr",
+    "count_cards": 20,
+    "count_tokens": 20
+  },
+  "tsb": {
+    "code_parent": "tsp",
+    "code_symbol": "tsp",
+    "count_cards": 121,
+    "count_printed": 121,
+    "count_tokens": 0
+  },
+  "tscd": {
+    "code_parent": "scd",
+    "code_symbol": "scd",
+    "count_cards": 27,
+    "count_tokens": 27
+  },
+  "tshm": {
+    "code_parent": "shm",
+    "code_symbol": "shm",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "tsnc": {
+    "code_parent": "snc",
+    "code_symbol": "snc",
+    "count_cards": 17,
+    "count_printed": 17,
+    "count_tokens": 17
+  },
+  "tsoi": {
+    "code_parent": "soi",
+    "code_symbol": "soi",
+    "count_cards": 20,
+    "count_tokens": 20
+  },
+  "tsom": {
+    "code_parent": "som",
+    "code_symbol": "som",
+    "count_cards": 10,
+    "count_tokens": 10
+  },
+  "tsp": {
+    "code_symbol": "tsp",
+    "count_cards": 301,
+    "count_printed": 301,
+    "count_tokens": 0
+  },
+  "tspm": {
+    "code_parent": "spm",
+    "code_symbol": "spm",
+    "count_cards": 0,
+    "count_tokens": 0
+  },
+  "tsr": {
+    "code_symbol": "tsr",
+    "count_cards": 411,
+    "count_printed": 289,
+    "count_tokens": 0
+  },
+  "tstx": {
+    "code_parent": "stx",
+    "code_symbol": "stx",
+    "count_cards": 9,
+    "count_printed": 9,
+    "count_tokens": 9
+  },
+  "ttdc": {
+    "code_parent": "tdc",
+    "code_symbol": "tdc",
+    "count_cards": 34,
+    "count_tokens": 34
+  },
+  "ttdm": {
+    "code_parent": "tdm",
+    "code_symbol": "tdm",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tthb": {
+    "code_parent": "thb",
+    "code_symbol": "thb",
+    "count_cards": 14,
+    "count_tokens": 14
+  },
+  "tths": {
+    "code_parent": "ths",
+    "code_symbol": "ths",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "ttsr": {
+    "code_parent": "tsr",
+    "code_symbol": "tsr",
+    "count_cards": 15,
+    "count_tokens": 15
+  },
+  "tugl": {
+    "code_parent": "ugl",
+    "code_symbol": "default",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "tuma": {
+    "code_parent": "uma",
+    "code_symbol": "uma",
+    "count_cards": 16,
+    "count_tokens": 16
+  },
+  "tund": {
+    "code_parent": "und",
+    "code_symbol": "und",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "tunf": {
+    "code_parent": "unf",
+    "code_symbol": "unf",
+    "count_cards": 14,
+    "count_printed": 244,
+    "count_tokens": 14
+  },
+  "tust": {
+    "code_parent": "ust",
+    "code_symbol": "ust",
+    "count_cards": 20,
+    "count_tokens": 20
+  },
+  "tvoc": {
+    "code_parent": "voc",
+    "code_symbol": "voc",
+    "count_cards": 6,
+    "count_printed": 6,
+    "count_tokens": 6
+  },
+  "tvow": {
+    "code_parent": "vow",
+    "code_symbol": "vow",
+    "count_cards": 21,
+    "count_printed": 21,
+    "count_tokens": 21
+  },
+  "twar": {
+    "code_parent": "war",
+    "code_symbol": "war",
+    "count_cards": 19,
+    "count_tokens": 19
+  },
+  "twho": {
+    "code_parent": "who",
+    "code_symbol": "who",
+    "count_cards": 64,
+    "count_tokens": 64
+  },
+  "twoc": {
+    "code_parent": "woc",
+    "code_symbol": "woc",
+    "count_cards": 10,
+    "count_tokens": 10
+  },
+  "twoe": {
+    "code_parent": "woe",
+    "code_symbol": "woe",
+    "count_cards": 18,
+    "count_tokens": 18
+  },
+  "twwk": {
+    "code_parent": "wwk",
+    "code_symbol": "wwk",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "txln": {
+    "code_parent": "xln",
+    "code_symbol": "xln",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tzen": {
+    "code_parent": "zen",
+    "code_symbol": "zen",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tznc": {
+    "code_parent": "znc",
+    "code_symbol": "znc",
+    "count_cards": 11,
+    "count_tokens": 11
+  },
+  "tznr": {
+    "code_parent": "znr",
+    "code_symbol": "znr",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "uds": {
+    "code_symbol": "uds",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "ugin": {
+    "code_parent": "frf",
+    "code_symbol": "frf",
+    "count_cards": 26,
+    "count_printed": 185,
+    "count_tokens": 0
+  },
+  "ugl": {
+    "code_symbol": "ugl",
+    "count_cards": 88,
+    "count_printed": 88,
+    "count_tokens": 0
+  },
+  "ulg": {
+    "code_symbol": "ulg",
+    "count_cards": 143,
+    "count_printed": 143,
+    "count_tokens": 0
+  },
+  "ulst": {
+    "code_parent": "plst",
+    "code_symbol": "planeswalker",
+    "count_cards": 62,
+    "count_printed": 62,
+    "count_tokens": 0
+  },
+  "uma": {
+    "code_symbol": "uma",
+    "count_cards": 254,
+    "count_printed": 254,
+    "count_tokens": 0
+  },
+  "und": {
+    "code_symbol": "und",
+    "count_cards": 96,
+    "count_printed": 96,
+    "count_tokens": 0
+  },
+  "unf": {
+    "code_symbol": "unf",
+    "count_cards": 639,
+    "count_printed": 244,
+    "count_tokens": 0
+  },
+  "unh": {
+    "code_symbol": "unh",
+    "count_cards": 168,
+    "count_printed": 141,
+    "count_tokens": 0
+  },
+  "unk": {
+    "code_symbol": "planeswalker",
+    "count_cards": 492,
+    "count_printed": 498,
+    "count_tokens": 0
+  },
+  "usg": {
+    "code_symbol": "usg",
+    "count_cards": 357,
+    "count_printed": 350,
+    "count_tokens": 0
+  },
+  "ust": {
+    "code_symbol": "ust",
+    "count_cards": 268,
+    "count_printed": 268,
+    "count_tokens": 0
+  },
+  "v09": {
+    "code_symbol": "v09",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v10": {
+    "code_symbol": "v10",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v11": {
+    "code_symbol": "v11",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v12": {
+    "code_symbol": "v12",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v13": {
+    "code_symbol": "v13",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "v14": {
+    "code_symbol": "v14",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v15": {
+    "code_symbol": "v15",
+    "count_cards": 15,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v16": {
+    "code_symbol": "v16",
+    "count_cards": 16,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "v17": {
+    "code_symbol": "v17",
+    "count_cards": 16,
+    "count_printed": 15,
+    "count_tokens": 0
+  },
+  "vis": {
+    "code_symbol": "vis",
+    "count_cards": 167,
+    "count_printed": 167,
+    "count_tokens": 0
+  },
+  "vma": {
+    "code_symbol": "vma",
+    "count_cards": 325,
+    "count_printed": 325,
+    "count_tokens": 0
+  },
+  "voc": {
+    "code_parent": "vow",
+    "code_symbol": "voc",
+    "count_cards": 188,
+    "count_printed": 38,
+    "count_tokens": 0
+  },
+  "vow": {
+    "code_symbol": "vow",
+    "count_cards": 423,
+    "count_printed": 277,
+    "count_tokens": 0
+  },
+  "w16": {
+    "code_symbol": "w16",
+    "count_cards": 16,
+    "count_printed": 16,
+    "count_tokens": 0
+  },
+  "w17": {
+    "code_symbol": "w17",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "war": {
+    "code_symbol": "war",
+    "count_cards": 312,
+    "count_printed": 264,
+    "count_tokens": 0
+  },
+  "wc00": {
+    "code_symbol": "default",
+    "count_cards": 117,
+    "count_printed": 117,
+    "count_tokens": 0
+  },
+  "wc01": {
+    "code_symbol": "default",
+    "count_cards": 138,
+    "count_printed": 138,
+    "count_tokens": 0
+  },
+  "wc02": {
+    "code_symbol": "default",
+    "count_cards": 153,
+    "count_printed": 153,
+    "count_tokens": 0
+  },
+  "wc03": {
+    "code_symbol": "default",
+    "count_cards": 142,
+    "count_printed": 142,
+    "count_tokens": 0
+  },
+  "wc04": {
+    "code_symbol": "default",
+    "count_cards": 103,
+    "count_printed": 103,
+    "count_tokens": 0
+  },
+  "wc97": {
+    "code_symbol": "default",
+    "count_cards": 131,
+    "count_printed": 131,
+    "count_tokens": 0
+  },
+  "wc98": {
+    "code_symbol": "default",
+    "count_cards": 117,
+    "count_printed": 117,
+    "count_tokens": 0
+  },
+  "wc99": {
+    "code_symbol": "default",
+    "count_cards": 111,
+    "count_printed": 111,
+    "count_tokens": 0
+  },
+  "wdmu": {
+    "code_parent": "dmu",
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_tokens": 5
+  },
+  "who": {
+    "code_symbol": "who",
+    "count_cards": 1178,
+    "count_printed": 331,
+    "count_tokens": 0
+  },
+  "wmc": {
+    "code_symbol": "star",
+    "count_cards": 5,
+    "count_printed": 5,
+    "count_tokens": 0
+  },
+  "wmkm": {
+    "code_parent": "mkm",
+    "code_symbol": "star",
+    "count_cards": 4,
+    "count_tokens": 4
+  },
+  "wmom": {
+    "code_parent": "mom",
+    "code_symbol": "mom",
+    "count_cards": 12,
+    "count_tokens": 12
+  },
+  "woc": {
+    "code_parent": "woe",
+    "code_symbol": "woc",
+    "count_cards": 173,
+    "count_printed": 28,
+    "count_tokens": 0
+  },
+  "woe": {
+    "code_symbol": "woe",
+    "count_cards": 381,
+    "count_printed": 276,
+    "count_tokens": 0
+  },
+  "wone": {
+    "code_parent": "one",
+    "code_symbol": "one",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "wot": {
+    "code_parent": "woe",
+    "code_symbol": "wot",
+    "count_cards": 103,
+    "count_tokens": 0
+  },
+  "wth": {
+    "code_symbol": "wth",
+    "count_cards": 167,
+    "count_printed": 167,
+    "count_tokens": 0
+  },
+  "wwk": {
+    "code_symbol": "wwk",
+    "count_cards": 145,
+    "count_printed": 145,
+    "count_tokens": 0
+  },
+  "wwoe": {
+    "code_parent": "woe",
+    "code_symbol": "star",
+    "count_cards": 6,
+    "count_tokens": 6
+  },
+  "xana": {
+    "code_parent": "ana",
+    "code_symbol": "mtga",
+    "count_cards": 20,
+    "count_printed": 20,
+    "count_tokens": 0
+  },
+  "xln": {
+    "code_symbol": "xln",
+    "count_cards": 289,
+    "count_printed": 279,
+    "count_tokens": 0
+  },
+  "yblb": {
+    "code_parent": "blb",
+    "code_symbol": "blb",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "ybro": {
+    "code_parent": "bro",
+    "code_symbol": "y23",
+    "count_cards": 31,
+    "count_printed": 31,
+    "count_tokens": 0
+  },
+  "ydft": {
+    "code_parent": "dft",
+    "code_symbol": "dft",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "ydmu": {
+    "code_parent": "dmu",
+    "code_symbol": "y23",
+    "count_cards": 39,
+    "count_printed": 39,
+    "count_tokens": 0
+  },
+  "ydsk": {
+    "code_parent": "dsk",
+    "code_symbol": "dsk",
+    "count_cards": 30,
+    "count_printed": 32,
+    "count_tokens": 0
+  },
+  "ylci": {
+    "code_parent": "lci",
+    "code_symbol": "y24",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "ymid": {
+    "code_symbol": "y22",
+    "count_cards": 63,
+    "count_printed": 64,
+    "count_tokens": 0
+  },
+  "ymkm": {
+    "code_parent": "mkm",
+    "code_symbol": "y24",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "yneo": {
+    "code_parent": "neo",
+    "code_symbol": "y22",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "yone": {
+    "code_parent": "one",
+    "code_symbol": "y23",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "yotj": {
+    "code_parent": "otj",
+    "code_symbol": "y24",
+    "count_cards": 30,
+    "count_printed": 31,
+    "count_tokens": 0
+  },
+  "ysnc": {
+    "code_parent": "snc",
+    "code_symbol": "y22",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "ytdm": {
+    "code_parent": "tdm",
+    "code_symbol": "tdm",
+    "count_cards": 30,
+    "count_printed": 33,
+    "count_tokens": 0
+  },
+  "ywoe": {
+    "code_parent": "woe",
+    "code_symbol": "y24",
+    "count_cards": 30,
+    "count_printed": 34,
+    "count_tokens": 0
+  },
+  "zen": {
+    "code_symbol": "zen",
+    "count_cards": 269,
+    "count_printed": 249,
+    "count_tokens": 0
+  },
+  "znc": {
+    "code_parent": "znr",
+    "code_symbol": "znc",
+    "count_cards": 142,
+    "count_printed": 1,
+    "count_tokens": 0
+  },
+  "zne": {
+    "code_parent": "znr",
+    "code_symbol": "zne",
+    "count_cards": 30,
+    "count_printed": 30,
+    "count_tokens": 0
+  },
+  "znr": {
+    "code_symbol": "znr",
+    "count_cards": 408,
+    "count_printed": 280,
+    "count_tokens": 0
+  }
+}
