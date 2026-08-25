@@ -1,6 +1,7 @@
 # Missing Set Symbols
 | Symbol Code | Links |
 | ----------- | ----- |
+| BLANK | [SVG](https://svgs.scryfall.io/sets/blank.svg), [Cards](https://scryfall.com/sets/slz) |
 | FRC | [SVG](https://svgs.scryfall.io/sets/frc.svg), [Cards](https://scryfall.com/sets/frc) |
 | MAR | [SVG](https://svgs.scryfall.io/sets/mar.svg), [Cards](https://scryfall.com/sets/mar) |
 | MBC | [SVG](https://svgs.scryfall.io/sets/mbc.svg), [Cards](https://scryfall.com/sets/mbc) |
