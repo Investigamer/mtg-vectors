@@ -8,7 +8,7 @@
 | MDD | [SVG](https://svgs.scryfall.io/sets/mdd.svg), [Cards](https://scryfall.com/sets/mdd) |
 | SDS | [SVG](https://svgs.scryfall.io/sets/sds.svg), [Cards](https://scryfall.com/sets/sds) |
 | SLZ | [SVG](https://svgs.scryfall.io/sets/slz.svg), [Cards](https://scryfall.com/sets/slz) |
-| TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/atrc) |
+| TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/ttrc) |
 | TRK | [SVG](https://svgs.scryfall.io/sets/trk.svg), [Cards](https://scryfall.com/sets/atrk) |
 | Y26 | [SVG](https://svgs.scryfall.io/sets/y26.svg), [Cards](https://scryfall.com/sets/yecl) |
 
@@ -21,4 +21,4 @@
 | ----------- | ---------------- | ----- |
 | PGRU | M, R, T, U, WM | [SVG](https://svgs.scryfall.io/sets/pgru.svg), [Cards](https://scryfall.com/sets/pgru) |
 | PDRC | M, R, T, U | [SVG](https://svgs.scryfall.io/sets/pdrc.svg), [Cards](https://scryfall.com/sets/pdrc) |
-| J25 | T | [SVG](https://svgs.scryfall.io/sets/j25.svg), [Cards](https://scryfall.com/sets/j25) |
+| J25 | T | [SVG](https://svgs.scryfall.io/sets/j25.svg), [Cards](https://scryfall.com/sets/fj25) |
