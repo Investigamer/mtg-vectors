@@ -8,8 +8,8 @@
 | MDD | [SVG](https://svgs.scryfall.io/sets/mdd.svg), [Cards](https://scryfall.com/sets/mdd) |
 | SDS | [SVG](https://svgs.scryfall.io/sets/sds.svg), [Cards](https://scryfall.com/sets/sds) |
 | SLZ | [SVG](https://svgs.scryfall.io/sets/slz.svg), [Cards](https://scryfall.com/sets/slz) |
-| TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/ttrc) |
-| TRK | [SVG](https://svgs.scryfall.io/sets/trk.svg), [Cards](https://scryfall.com/sets/atrk) |
+| TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/trc) |
+| TRK | [SVG](https://svgs.scryfall.io/sets/trk.svg), [Cards](https://scryfall.com/sets/trk) |
 | Y26 | [SVG](https://svgs.scryfall.io/sets/y26.svg), [Cards](https://scryfall.com/sets/yecl) |
 
 # Missing Watermarks
