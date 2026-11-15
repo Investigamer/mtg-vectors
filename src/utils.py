@@ -71,6 +71,21 @@ def gather_svg_jobs(src: Path) -> list[Path]:
     return svg_jobs
 
 
+def gather_new_svgs(src: Path, dst: Path) -> list[Path]:
+    """Find SVG files in a source directory which don't yet have an optimized counterpart.
+
+    Args:
+        src: Path to the directory containing source SVGs.
+        dst: Path to the directory containing optimized SVGs.
+
+    Returns:
+        A list of SVG paths, relative to `src`, which are missing from `dst`.
+    """
+    return sorted(
+        n.relative_to(src) for n in gather_svg_jobs(src)
+        if not (dst / n.relative_to(src)).is_file())
+
+
 def run_svgo_batch(
     src: Path,
     dst: Path,
