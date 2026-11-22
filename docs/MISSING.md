@@ -5,13 +5,13 @@
 | MAR | [SVG](https://svgs.scryfall.io/sets/mar.svg), [Cards](https://scryfall.com/sets/mar) |
 | MBC | [SVG](https://svgs.scryfall.io/sets/mbc.svg), [Cards](https://scryfall.com/sets/mbc) |
 | MDC | [SVG](https://svgs.scryfall.io/sets/mdc.svg), [Cards](https://scryfall.com/sets/mdc) |
-| MDD | [SVG](https://svgs.scryfall.io/sets/mdd.svg), [Cards](https://scryfall.com/sets/mdd) |
+| MDD | [SVG](https://svgs.scryfall.io/sets/mdd.svg), [Cards](https://scryfall.com/sets/tmdd) |
 | NAC | [SVG](https://svgs.scryfall.io/sets/nac.svg), [Cards](https://scryfall.com/sets/nac) |
 | NAU | [SVG](https://svgs.scryfall.io/sets/nau.svg), [Cards](https://scryfall.com/sets/tnau) |
 | SDS | [SVG](https://svgs.scryfall.io/sets/sds.svg), [Cards](https://scryfall.com/sets/sds) |
 | SLZ | [SVG](https://svgs.scryfall.io/sets/slz.svg), [Cards](https://scryfall.com/sets/slz) |
-| TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/atrc) |
-| TRK | [SVG](https://svgs.scryfall.io/sets/trk.svg), [Cards](https://scryfall.com/sets/atrk) |
+| TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/trc) |
+| TRK | [SVG](https://svgs.scryfall.io/sets/trk.svg), [Cards](https://scryfall.com/sets/ttrk) |
 | Y26 | [SVG](https://svgs.scryfall.io/sets/y26.svg), [Cards](https://scryfall.com/sets/yecl) |
 
 # Missing Watermarks
