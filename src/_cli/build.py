@@ -3,7 +3,9 @@
 """
 # Standard Library Imports
 import os
+import shutil
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from time import perf_counter
 
 # Third Party Imports
@@ -18,7 +20,8 @@ from src.constants import Constants, Paths, SetData, URI
 from src.icons import get_missing_icons, get_missing_rarities
 from src.watermarks import get_missing_watermarks, get_local_watermarks
 from src.schema import Manifest, ManifestMeta, ManifestWatermark, ManifestSet
-from src.utils import create_zip, run_inkscape_batch, gather_svg_jobs, get_npm_command, run_svgo_batch
+from src.utils import (
+    create_zip, run_inkscape_batch, gather_svg_jobs, gather_new_svgs, get_npm_command, run_svgo_batch)
 
 # Typer group
 app = typer.Typer(
@@ -134,6 +137,10 @@ def build_manifest() -> None:
 def build_optimized(
     npm_command: str | None = typer.Argument(
         None, help="The npm command to run for optimization."
+    ),
+    new_only: bool = typer.Option(
+        False, "--new-only", "-n",
+        help="Only optimize SVGs which don't already have an optimized version."
     )
 ) -> None:
     """Generate optimized SVG directories."""
@@ -146,6 +153,50 @@ def build_optimized(
         (Paths.SET, Paths.SET_OPTIMIZED),
         (Paths.WATERMARK, Paths.WATERMARK_OPTIMIZED)
     ]
+
+    # Optimize the entire catalog
+    if not new_only:
+        _optimize_dirs(dirs, _command)
+        return
+
+    # Find SVGs which haven't been optimized yet
+    jobs = [(src, dst, gather_new_svgs(src, dst)) for src, dst in dirs]
+    total = sum(len(files) for _, _, files in jobs)
+    if not total:
+        logger.success("No new SVGs to optimize!")
+        return
+    logger.info(f"Found {total} new SVG(s) to optimize:")
+    for src, _, files in jobs:
+        for f in files:
+            logger.info(f"  {src.name}/{f.as_posix()}")
+
+    # Stage new SVGs in a temporary directory, optimize them, then copy results over
+    with TemporaryDirectory() as tmp:
+        staged: list[tuple[Path, Path]] = []
+        for src, dst, files in jobs:
+            stage_src, stage_dst = Path(tmp, 'src', src.name), Path(tmp, 'dst', src.name)
+            for f in files:
+                (stage_src / f).parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src / f, stage_src / f)
+            if files:
+                stage_dst.mkdir(parents=True, exist_ok=True)
+                staged.append((stage_src, stage_dst))
+        _optimize_dirs(staged, _command)
+
+        # Copy optimized results into the catalog
+        for src, dst, files in jobs:
+            stage_dst = Path(tmp, 'dst', src.name)
+            for f in files:
+                if not (stage_dst / f).is_file():
+                    logger.error(f"Optimization failed for: {src.name}/{f.as_posix()}")
+                    continue
+                (dst / f).parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(stage_dst / f, dst / f)
+
+
+def _optimize_dirs(dirs: list[tuple[Path, Path]], npm_command: str) -> None:
+    """Run the full optimization pipeline on a list of (source, destination) directory pairs."""
+    _command = npm_command
 
     # Pre-process SVGs with SVGO
     logger.info("Processing: SVGO Normalization ...")
@@ -175,6 +226,6 @@ def build_optimized(
 )
 def build_all(ctx: typer.Context) -> None:
     """Generate all resources used by the repository."""
-    ctx.invoke(build_optimized, None)
+    ctx.invoke(build_optimized, None, False)
     ctx.invoke(build_manifest)
     ctx.invoke(build_docs)

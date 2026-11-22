@@ -53,7 +53,8 @@ This project supports an optimization workflow which is executed anytime a new p
 distribution. To use this optimization workflow locally, you'll need both Inkscape and SVGO. You can install
 Inkscape on any operating system by visiting their website. You can install SVGO to this project locally using 
 `npm install`, or you can install SVGO to your global node installation with `npm install --global svgo`. To run 
-the optimization workflow, use `vectors build optimized` within the virtual environment.
+the optimization workflow, use `vectors build optimized` within the virtual environment. To only optimize symbols
+which don't already have an optimized version (e.g. ones you just added), use `vectors build optimized --new-only`.
 
 # Design Standards
 1. Try to create symbols from scratch in a software like Adobe Illustrator, using a WoTC official rasterized asset as a 
