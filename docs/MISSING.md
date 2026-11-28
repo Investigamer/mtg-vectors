@@ -7,7 +7,7 @@
 | MDC | [SVG](https://svgs.scryfall.io/sets/mdc.svg), [Cards](https://scryfall.com/sets/mdc) |
 | MDD | [SVG](https://svgs.scryfall.io/sets/mdd.svg), [Cards](https://scryfall.com/sets/tmdd) |
 | NAC | [SVG](https://svgs.scryfall.io/sets/nac.svg), [Cards](https://scryfall.com/sets/nac) |
-| NAU | [SVG](https://svgs.scryfall.io/sets/nau.svg), [Cards](https://scryfall.com/sets/tnau) |
+| NAU | [SVG](https://svgs.scryfall.io/sets/nau.svg), [Cards](https://scryfall.com/sets/nau) |
 | SDS | [SVG](https://svgs.scryfall.io/sets/sds.svg), [Cards](https://scryfall.com/sets/sds) |
 | SLZ | [SVG](https://svgs.scryfall.io/sets/slz.svg), [Cards](https://scryfall.com/sets/slz) |
 | TRC | [SVG](https://svgs.scryfall.io/sets/trc.svg), [Cards](https://scryfall.com/sets/trc) |
